@@ -1,0 +1,2072 @@
+{
+  "task": "cifar",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "primary_tolerance": 0.01,
+  "budgets": [
+    1.0,
+    0.95,
+    0.9,
+    0.85,
+    0.8
+  ],
+  "coverage_counts": {
+    "multiple": 11,
+    "empty": 11,
+    "singleton": 3
+  },
+  "residual_stability": {
+    "ts_nll": 0.05357142857142856,
+    "ts_brier": -0.0982142857142857,
+    "mix_0.5": 0.00357142857142857,
+    "ece": 0.2625
+  },
+  "policy_summary": {
+    "raw_nll": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "ts_nll": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "ts_brier": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "ece": {
+      "cases": 14,
+      "changed": 11,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.002960999999999998,
+          "ci95": [
+            -0.0044399999999999995,
+            -0.001280999999999983
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.004249999999999976,
+            "43": -0.0040000000000000036,
+            "44": -0.0014800000000000147,
+            "45": -0.00022499999999997522,
+            "46": -0.004850000000000021
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 1.4313548710957486e-05,
+          "ci95": [
+            -0.0021147615002524945,
+            0.0032521444473715072
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.002247473416481055,
+            "43": 0.006087514785478223,
+            "44": -0.0019493891763922373,
+            "45": 0.00024565129690392023,
+            "46": -0.002064735745954063
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.010387536023477799,
+          "ci95": [
+            0.005120357663379442,
+            0.01521725159614339
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.01157924901442614,
+            "43": 0.014546849860513578,
+            "44": 0.0066299207015343645,
+            "45": 0.00147500591828309,
+            "46": 0.017706654622631823
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0044570087535523925,
+          "ci95": [
+            0.0021594381813624377,
+            0.0064328043691388335
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.005922784222637395,
+            "43": 0.005094258497278736,
+            "44": 0.003046652052325871,
+            "45": 0.0006092515439496404,
+            "46": 0.007612097451570321
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_0.5": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "additive_task": {
+      "cases": 14,
+      "changed": 7,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.00015199999999999323,
+          "ci95": [
+            -0.0010199999999999931,
+            0.0007740000000000125
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.0010499999999999954,
+            "43": 0.0,
+            "44": 0.0016400000000000193,
+            "45": -0.00134999999999999,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": -0.00036133135163062235,
+          "ci95": [
+            -0.0007853021593837384,
+            -4.607334211559422e-05
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.0011751103746717754,
+            "43": 0.0,
+            "44": -0.00040117967290336507,
+            "45": -0.0002303667105779711,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0009435117077281164,
+          "ci95": [
+            -0.0010423754379338312,
+            0.0032123324314717594
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.002954414621533341,
+            "43": 0.0,
+            "44": -0.002605938594834578,
+            "45": 0.004369082511941819,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.00041847058690928804,
+          "ci95": [
+            -0.0006499564857919727,
+            0.0016113500559619548
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0014643409606830138,
+            "43": 0.0,
+            "44": -0.0015713744632142924,
+            "45": 0.002199386437077719,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "pair_task": {
+      "cases": 14,
+      "changed": 2,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.00018000000000000237,
+          "ci95": [
+            0.0,
+            0.0005400000000000072
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0009000000000000119,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00012317504565488528,
+          "ci95": [
+            0.0,
+            0.0003695251369646558
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0006158752282744264,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0003974911885574195,
+          "ci95": [
+            -0.0011924735656722585,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": -0.0019874559427870975,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.00013008206045997395,
+          "ci95": [
+            -0.00039024618137992184,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": -0.0006504103022998697,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "pair_cal": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "published_control": {
+      "cases": 14,
+      "changed": 7,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.000581000000000006,
+          "ci95": [
+            -0.0019550000000000123,
+            0.0007479999999999887
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.0021499999999999853,
+            "43": 0.0,
+            "44": 0.0016199999999999993,
+            "45": -0.002625000000000016,
+            "46": 0.00024999999999997247
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": -0.0004053480104973438,
+          "ci95": [
+            -0.0007159804642499496,
+            -7.711165802434371e-05
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.00010274733286249563,
+            "43": 0.0,
+            "44": -0.0006790724494486801,
+            "45": -0.0007566146471913288,
+            "46": -0.0006938002887092055
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0026825007877291297,
+          "ci95": [
+            5.9294473943376507e-05,
+            0.005407859429259032
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.005670419771359458,
+            "43": 0.0,
+            "44": 0.000941777714898362,
+            "45": 0.007122959124978567,
+            "46": -0.0003226526725907397
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0011827881460840651,
+          "ci95": [
+            -0.00024169379359196609,
+            0.002607270085760096
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0029941023012713675,
+            "43": 0.0,
+            "44": 0.0003959533964451145,
+            "45": 0.0033260962149063156,
+            "46": -0.0008022111822024725
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "ece_cap": {
+      "cases": 11,
+      "changed": 6,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0007200000000000021,
+          "ci95": [
+            -0.00017999999999998017,
+            0.0023399999999999866
+          ],
+          "seed_count": 5,
+          "cases": 11,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0038999999999999777,
+            "45": -0.00029999999999996696,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": -0.0004919270457043467,
+          "ci95": [
+            -0.0016723021746361763,
+            0.0001965210375231362
+          ],
+          "seed_count": 5,
+          "cases": 11,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0027871702910602938,
+            "45": 0.0003275350625385603,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 4.7445324684754686e-05,
+          "ci95": [
+            -0.001037668760572208,
+            0.001180004734626472
+          ],
+          "seed_count": 5,
+          "cases": 11,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0017294479342870133,
+            "45": 0.0019666745577107867,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -7.020402986026204e-05,
+          "ci95": [
+            -0.0006980133247404985,
+            0.00048740123515971233
+          ],
+          "seed_count": 5,
+          "cases": 11,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.001163355541234164,
+            "45": 0.0008123353919328539,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_0": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_0.1": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_1": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_2": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "mix_scaled": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "stability_gate": {
+      "cases": 14,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    },
+    "random_expectation": {
+      "cases": 14,
+      "changed": null,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.002562870418470444,
+          "ci95": [
+            -0.0032935737373737625,
+            -0.001860601731601752
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.0016742424242424114,
+            "43": -0.0017000000000000348,
+            "44": -0.003941141414141436,
+            "45": -0.0025545238095238676,
+            "46": -0.0029444444444444717
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00024840781994521456,
+          "ci95": [
+            -0.0007466095215092625,
+            0.0019515400746963403
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": -0.00047939115920346814,
+            "43": 0.0035721608972962126,
+            "44": -0.0009843944373178388,
+            "45": -0.0005658630646595054,
+            "46": -0.00030047313638932767
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.009061448372990066,
+          "ci95": [
+            0.006878498573230007,
+            0.011244398172750126
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.010795522712550243,
+            "43": 0.006317334464041924,
+            "44": 0.01260315165380499,
+            "45": 0.006166590903513014,
+            "46": 0.009424642131040162
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.003963942445137421,
+          "ci95": [
+            0.002842641986693051,
+            0.005137041350867974
+          ],
+          "seed_count": 5,
+          "cases": 14,
+          "per_seed": {
+            "42": 0.004530740834101654,
+            "43": 0.002194637582706105,
+            "44": 0.006018636522997644,
+            "45": 0.003098556351245285,
+            "46": 0.003977140934636414
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95
+        ],
+        "43": [
+          1.0
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85
+        ],
+        "46": [
+          1.0,
+          0.95
+        ]
+      }
+    }
+  },
+  "source_hashes": {
+    "results\\round2\\baselines\\allocation_scores.json": "a29654ed94037eac56351a3ac5337b0141009a809b75dce76ffbd2a795eb9c46",
+    "results\\review_revision\\cifar_static\\seed42\\candidates.json": "bd8c0c06bf3a72d3f71ac3c7295b68dd4f56c8ca6c3dbf1c19240591ac2d2990",
+    "results\\review_revision\\cifar_static\\seed42\\mask0_logits.npz": "45baa3b500eacf7563128b0ecb36af4dd670351d784ca857abcca9ef1beeaa5c",
+    "results\\review_revision\\cifar_static\\seed42\\mask1_logits.npz": "b137cccd1ede86cbb094a744212c3ec32d9b1478fa12926f369fd5c6825d322f",
+    "results\\review_revision\\cifar_static\\seed42\\mask2_logits.npz": "20a66c401ca93d607708f6ca0c0ce84dea3d82365c16c0de91737de336f987d7",
+    "results\\review_revision\\cifar_static\\seed42\\mask3_logits.npz": "bc1f764b213911f0ccce8ff2ea375444f4852fed70f91357ba3343f21c5366b8",
+    "results\\review_revision\\cifar_static\\seed42\\mask4_logits.npz": "e91d41fd45a0e3c113d8e4ee926c091a7b34ca1474ab74dc740ab43ba962eaa0",
+    "results\\review_revision\\cifar_static\\seed42\\mask5_logits.npz": "3ccf961d894adca58ab78f77c875ba44d7dbdd1f20fb2347d263fcf2d152d25b",
+    "results\\review_revision\\cifar_static\\seed42\\mask6_logits.npz": "e5edc8dc3ad1edac573987dbaedaf5a7084853b8d2cb2c76a1c26dfc7c2519e5",
+    "results\\review_revision\\cifar_static\\seed42\\mask7_logits.npz": "c4528918eacb853ae34dfe604410a139af0a4884f0fb58d755b018c199807b7d",
+    "results\\review_revision\\cifar_static\\seed42\\mask8_logits.npz": "8144f8d6e12a85ff95b8380165b1450eed40e906886e31b5d7ae81e50a024135",
+    "results\\review_revision\\cifar_static\\seed42\\mask9_logits.npz": "882c0fb1d63d54f838a50b933570e97ec62351e3aa1789a99841633663f4d8f8",
+    "results\\review_revision\\cifar_static\\seed42\\mask10_logits.npz": "b000bd640ae699e284a614e15f01240aa14cce641aa78d865a709164b3f069f4",
+    "results\\review_revision\\cifar_static\\seed42\\mask11_logits.npz": "f8037e6733695887ce90d3f89ebb807d11af33c4e395415a47c973b1c301647f",
+    "results\\review_revision\\cifar_static\\seed42\\mask12_logits.npz": "1c78f390af409557e7e7800c8fc00afe4dc3e5b21d58eceb18500b816701b1cc",
+    "results\\review_revision\\cifar_static\\seed42\\mask13_logits.npz": "31228c6674a1e94caa2613a140354866a790a8e2a524f393eadc154de3ea17e5",
+    "results\\review_revision\\cifar_static\\seed42\\mask14_logits.npz": "86c570af593c794eab6c80d09eb09f923eafdcc6022460cfdb033741fdaa2d1f",
+    "results\\review_revision\\cifar_static\\seed42\\mask15_logits.npz": "d8422e23220a55612c591709f620f802f8a39816068544d9a83fa626e040e32e",
+    "results\\review_revision\\cifar_static\\seed42\\mask16_logits.npz": "987dfe597f096020e2bc7981e5a524422a614f4bd4a2ee646821df00edbecbf4",
+    "results\\review_revision\\cifar_static\\seed42\\mask17_logits.npz": "956ef5bca668b58d81faa113b2881abe3a81aaaffee0595bf2dee2c49380de8b",
+    "results\\review_revision\\cifar_static\\seed42\\mask18_logits.npz": "611abd50addf8d6ca46f364287d1b116d037c8f5c4d5ce7661a0023377c8defd",
+    "results\\review_revision\\cifar_static\\seed42\\mask19_logits.npz": "c9a8a06eb626add79e43e1fb0d2eb0610c645aec87d9373073c7429f06720052",
+    "results\\review_revision\\cifar_static\\seed42\\mask20_logits.npz": "8f4c036323a1823c855f4e5d0928bd9effebd93839312caa45853e3d0fe43b25",
+    "results\\review_revision\\cifar_static\\seed42\\mask21_logits.npz": "af37564e1f444cfa7a9c5e4119d1742b71f6517eec2656fc0da011d560116a9c",
+    "results\\review_revision\\cifar_static\\seed42\\mask22_logits.npz": "c3bf7e48bb14a7b09013460e2838ba49530cd8d4114618627ecc31252e7896f6",
+    "results\\review_revision\\cifar_static\\seed42\\mask23_logits.npz": "3d9e9daa0e8743f334960f88e93f170fd459bc497131a0b2034a260134d9d14e",
+    "results\\review_revision\\cifar_static\\seed42\\mask24_logits.npz": "75d15bc3656c6caa4cf9178e0bb1e5d5b03f58f66ed8b194aea3e54f6176ee09",
+    "results\\review_revision\\cifar_static\\seed42\\mask25_logits.npz": "ce306035478fd86ef4b42f455a83a810b4b85a068af19d119a475a2d2af6c9cf",
+    "results\\review_revision\\cifar_static\\seed42\\mask26_logits.npz": "5b97306ceea1ffc9ad9552dd590d76261e10b91093c369829f8611febe5a85e6",
+    "results\\review_revision\\cifar_static\\seed42\\mask27_logits.npz": "57ebbb90521e11f56021d8eab731a3eba4dba759313e9b37036b45709e7b69db",
+    "results\\review_revision\\cifar_static\\seed42\\mask28_logits.npz": "703bffc28b85ec0be1aaa472480a4d5dd40be8e2ee29ff7e3919430640bbc3af",
+    "results\\review_revision\\cifar_static\\seed42\\mask29_logits.npz": "66c618c2c7ff00ca2db130ceee386d390b357ab6f6b70505006cc0ef62ccfd44",
+    "results\\review_revision\\cifar_static\\seed42\\mask30_logits.npz": "d2263d2c844440dbfa4a6c498be044baaddcdd2e5bf349c104ff2dbbf08faa79",
+    "results\\review_revision\\cifar_static\\seed42\\mask31_logits.npz": "792b7cecaa46a43a78597e78fd7826b9b3341e9312f5215eec42c81c8f4584cd",
+    "results\\review_revision\\cifar_static\\seed42\\mask32_logits.npz": "2528beb1314bb8cd7bc7fcd2260aee0d320e627572a1f8b5eb101e12a3794e1b",
+    "results\\review_revision\\cifar_static\\seed42\\mask33_logits.npz": "c704a4b06f13ba84fe1024f8214017a8f8fa4f256d454411e36c5398f949a0cf",
+    "results\\review_revision\\cifar_static\\seed42\\mask34_logits.npz": "176981766a1a2d90f48df35bb029e4c35d25d2f05d1dd2721edc9fa6c35ccb76",
+    "results\\review_revision\\cifar_static\\seed42\\mask35_logits.npz": "3dac079b0fc2cbb177f5a2c5da130fd19d4e0e6e5598cd9a1221473854df37af",
+    "results\\review_revision\\cifar_static\\seed42\\mask36_logits.npz": "c63f6e2eb6b2a4ddcf3f8402728102d8cced69287aa1a4f374ac400f0a3052fd",
+    "results\\review_revision\\cifar_static\\seed42\\mask37_logits.npz": "6a412fc7cfd2ac5b483316bbcaf02014edb8e146b32120ef11673fdbb12ad14c",
+    "results\\review_revision\\cifar_static\\seed42\\mask38_logits.npz": "2aa905d810b99d97d48e2e0e0b9aea16fa1996202ffaae22be38c6b279a28143",
+    "results\\review_revision\\cifar_static\\seed42\\mask39_logits.npz": "5b243d90cfa1ee1f88558b975b2d67e2dfca860b2059ea01a944533f501f6e4f",
+    "results\\review_revision\\cifar_static\\seed42\\mask40_logits.npz": "f8f74fde834770b4e1a080f5000d98cefe0392c99cd5710f36cdda9a41828e99",
+    "results\\review_revision\\cifar_static\\seed42\\mask41_logits.npz": "a3fb549a55b79caca2f330a51d9d8b6bf422f15ae803876e8754d5f84f196edb",
+    "results\\review_revision\\cifar_static\\seed42\\mask42_logits.npz": "55298f534b368b19363f3e83f062af06d927d9815b63fc2a82467160265b9df0",
+    "results\\review_revision\\cifar_static\\seed42\\mask43_logits.npz": "65a74f7c60ea636596b66ac275d9326bcb305f746965c2043b7feff9da9ba38f",
+    "results\\review_revision\\cifar_static\\seed42\\mask44_logits.npz": "9f121df59a4416ae58c041ba92117a54ed71ca0d5526d633fcf3e6c2104f9169",
+    "results\\review_revision\\cifar_static\\seed42\\mask45_logits.npz": "15a1a1cc4ff4fd5918f16317d864be425b3ddaf309ec10a5f507a43945e615de",
+    "results\\review_revision\\cifar_static\\seed42\\mask46_logits.npz": "3357f56e302cbede9a5bd2145d3a0c1d022040fb23583e61620cea348e48cffc",
+    "results\\review_revision\\cifar_static\\seed42\\mask47_logits.npz": "3a81f5a591f4c8b43335b74f5b92c340129de909fbab67014f17bfe4ae673643",
+    "results\\review_revision\\cifar_static\\seed42\\mask48_logits.npz": "7352511cc6d7555e24acdc508951882596a43ce10fe08e3961177f72f6aab823",
+    "results\\review_revision\\cifar_static\\seed42\\mask49_logits.npz": "9da5d4392a41f603ae9c06ab4cfc968e010e2222e5e2b759bcb5ca780923c21b",
+    "results\\review_revision\\cifar_static\\seed42\\mask50_logits.npz": "2de6b87074d3853399491ecc64d0d39705ba7825c99b3dddc7e3bacfaf01f193",
+    "results\\review_revision\\cifar_static\\seed42\\mask51_logits.npz": "56e5ebab25b938459f9714c5e2892cef8933e07dd38ae9ecd106b29d9c360ee8",
+    "results\\review_revision\\cifar_static\\seed42\\mask52_logits.npz": "589f31a62dcb1f13b9297989549c195bdadf0b9ed0d93b7207fb98f45390dffa",
+    "results\\review_revision\\cifar_static\\seed42\\mask53_logits.npz": "adabedac86bb69adf6f6dd9e6f89b82bd5a8c4c13f07379c08336de5c6472f58",
+    "results\\review_revision\\cifar_static\\seed42\\mask54_logits.npz": "bcb75405ccb3fdada248d6e015a94d2a647f678bfcc68c7ffd51a58de124d6fc",
+    "results\\review_revision\\cifar_static\\seed42\\mask55_logits.npz": "8bb0540388a47bc86d27d420cf2c29cee673283b38807113b60dc6b36ed40c3c",
+    "results\\review_revision\\cifar_static\\seed42\\mask56_logits.npz": "51a199e485838cabe8e7a27f5262554405ff47e3747896a6d73ee967416c5774",
+    "results\\review_revision\\cifar_static\\seed42\\mask57_logits.npz": "790ddb7e6d6cc026e1bec4da1997bc06f1e895952b461a8089626244ce59f494",
+    "results\\review_revision\\cifar_static\\seed42\\mask58_logits.npz": "1ce0ede53b84492e6250138c3591f514b3078123ef45cd9f8a3995ff39070607",
+    "results\\review_revision\\cifar_static\\seed42\\mask59_logits.npz": "3320f15f51377022e412d39867c4c0fd14cbcb5a1a8364446412ae792b72b8cb",
+    "results\\review_revision\\cifar_static\\seed42\\mask60_logits.npz": "36d1289fa4aa6dbabb434d01d25fe7e50724feeafc3ed4001b632b6b5f1537e1",
+    "results\\review_revision\\cifar_static\\seed42\\mask61_logits.npz": "644292224340657d4b266f7a4a940c9d5ccc543664ac6a071be0b287cedd515d",
+    "results\\review_revision\\cifar_static\\seed42\\mask62_logits.npz": "fd2cffc572c5413d66ccad5adea5f02509981155a3b30002938a4cb2a6cdc9f5",
+    "results\\review_revision\\cifar_static\\seed42\\mask63_logits.npz": "445a4807a516143c00296c34bc0cea89e0eaac4ab0d2a237b5d49cb2c4ba42d7",
+    "results\\review_revision\\cifar_static\\seed43\\candidates.json": "1a91768f0746ef8d436d28169edc42e9848108cabde9ceadbea8e6f55e031741",
+    "results\\review_revision\\cifar_static\\seed43\\mask0_logits.npz": "5bdf58017f0273b5c54b90ed6db504d2f00f3cac2aa2132f1cec22277c657f32",
+    "results\\review_revision\\cifar_static\\seed43\\mask1_logits.npz": "0b068223fec6f8ae86be34a41ec2a3e1593bc5ca348acbe654a2376d7807f2d0",
+    "results\\review_revision\\cifar_static\\seed43\\mask2_logits.npz": "fbf9aeaf6e1d497498ee705dcb3d591a778a5bac5dd49a56de0310aaca57aaf2",
+    "results\\review_revision\\cifar_static\\seed43\\mask3_logits.npz": "111c5fb2802c64933d8028017a05bad8b1e60eb8ac796807f3076dd242fa1f4c",
+    "results\\review_revision\\cifar_static\\seed43\\mask4_logits.npz": "acf5d78e628f70fb45689253cb403be70e5b1dc9e9317efd049ec576a6de0384",
+    "results\\review_revision\\cifar_static\\seed43\\mask5_logits.npz": "05c3402d2f9704f586f427b97d54b2befe62af33aba86efe73cb446678310817",
+    "results\\review_revision\\cifar_static\\seed43\\mask6_logits.npz": "b07f4aa3d4ca558cce7e41010da870160d35d24922f7b227844ca06916a5bc86",
+    "results\\review_revision\\cifar_static\\seed43\\mask7_logits.npz": "55366df3bfe67bf708ebc525adae1f91a240cbb9aeba35f6d698f663dade96eb",
+    "results\\review_revision\\cifar_static\\seed43\\mask8_logits.npz": "651d8293ef1f70756f7a21da0257d54e7e2ec4d5bff415f96b701503c9806b9e",
+    "results\\review_revision\\cifar_static\\seed43\\mask9_logits.npz": "0b4adbb92c9d5db02c0bfc241fb06d60dae1492f75bcf76ea3af9394211bedbf",
+    "results\\review_revision\\cifar_static\\seed43\\mask10_logits.npz": "890978ba35191b2aab3f31ed9a1dec70d79a91cf43e7c87a81dabc2bde6798a6",
+    "results\\review_revision\\cifar_static\\seed43\\mask11_logits.npz": "987d6678519a7e9120562373cd2382dbb9c6ff1a9a3e9096a02b725c41f4abec",
+    "results\\review_revision\\cifar_static\\seed43\\mask12_logits.npz": "227f1669441aba17e1b87b433ef658b0d8e3d8e5f2aa5df5037896f697ba63ca",
+    "results\\review_revision\\cifar_static\\seed43\\mask13_logits.npz": "e3d48850d02d88622497face7f333ea72003410032b65e70b25b3411feff1f55",
+    "results\\review_revision\\cifar_static\\seed43\\mask14_logits.npz": "e05ea9c7927252635938e05f7a1d872bee245a8696207655dd5aeb75fa1b98a7",
+    "results\\review_revision\\cifar_static\\seed43\\mask15_logits.npz": "6ae2726a2e6684d0b5346fd41bc837b81eeb8b322831145a59008e63ea9e8671",
+    "results\\review_revision\\cifar_static\\seed43\\mask16_logits.npz": "85ce6b9f2d7865f11ee996770f7efeb27e02c349aa215bec6120297d4c674a61",
+    "results\\review_revision\\cifar_static\\seed43\\mask17_logits.npz": "c42019f12a480ad748d2b921dd5eede6efe7b81ede791089e39c8b1773728228",
+    "results\\review_revision\\cifar_static\\seed43\\mask18_logits.npz": "5fb9746ac29288b7008be7ed1ce9244f1670d0b405c3aebc95a1ff3f72d64336",
+    "results\\review_revision\\cifar_static\\seed43\\mask19_logits.npz": "10d3c56281f38bf436f31136eb0fddcfe02ed483e59b124a76d5d58a0acb5013",
+    "results\\review_revision\\cifar_static\\seed43\\mask20_logits.npz": "5fb8cc5f872f68ab8061f2ccdbe805bb8873d3fc9314c51489a97748170cf3af",
+    "results\\review_revision\\cifar_static\\seed43\\mask21_logits.npz": "c65920fa7c326ff5dbfcc13073f9c694c2d263f40a776162730f29f67a8a9b46",
+    "results\\review_revision\\cifar_static\\seed43\\mask22_logits.npz": "f220f1bb3410a2be06aa050821ca9ca6670a63521966006553be05dbdcea64cc",
+    "results\\review_revision\\cifar_static\\seed43\\mask23_logits.npz": "be02937893fa636d5af7f3b55cb2d7f4876fce134fcd1b1c809be36b6f51f7e8",
+    "results\\review_revision\\cifar_static\\seed43\\mask24_logits.npz": "7c3027882e17654d1813540a1595f32fc7de46e0fcabc576f271d90f2c107fc0",
+    "results\\review_revision\\cifar_static\\seed43\\mask25_logits.npz": "54f9a4b237df4ce4964bcae68a68e2d8adfb43dae4242ee1a62f2049a2d4494f",
+    "results\\review_revision\\cifar_static\\seed43\\mask26_logits.npz": "789b4cf747e54e9d03b4c3ca6b1fda1f3e438ca9468c49a543b54934ea0efa43",
+    "results\\review_revision\\cifar_static\\seed43\\mask27_logits.npz": "738483f83c55bec1d8013ed010373da170e09795244bf96e40a64f3c1a8e2312",
+    "results\\review_revision\\cifar_static\\seed43\\mask28_logits.npz": "3282e73e1a01b5eb2119db464f8c70e4d9982ea452e9825527cca250d4e6e906",
+    "results\\review_revision\\cifar_static\\seed43\\mask29_logits.npz": "54306b6ae7cb031a8155c582a47912bebcc4b27956bbd4fbf13cc5428a6776f7",
+    "results\\review_revision\\cifar_static\\seed43\\mask30_logits.npz": "a5ff9be9d692691eb07ac1cbf7d78f04b7339a21ee5ab04a5f5ded3e5c092720",
+    "results\\review_revision\\cifar_static\\seed43\\mask31_logits.npz": "742721866e50e89cc6274d64330ef5ab2b71da357a66ce5821f2e35fd9e422a0",
+    "results\\review_revision\\cifar_static\\seed43\\mask32_logits.npz": "8f3c9a04d9d82d027176cf61aa3d0baa513f5a982c817e1427a9bb81f8b7820b",
+    "results\\review_revision\\cifar_static\\seed43\\mask33_logits.npz": "c3e5f8b90408c243c65275d3930e745291642c958ed78d21a919a885ced48d2c",
+    "results\\review_revision\\cifar_static\\seed43\\mask34_logits.npz": "f07dc9fd7272ddc74601a23cff11e736f4644fae6c32474b7068856a1df47798",
+    "results\\review_revision\\cifar_static\\seed43\\mask35_logits.npz": "07b3120dfc15efcc6c855b417ce8dc687a9b0bfca85c2ae69aa1d86e33470ab7",
+    "results\\review_revision\\cifar_static\\seed43\\mask36_logits.npz": "a1562b23d72b768d05c62583330707854ba29ee1058852bb6daaa8949e201564",
+    "results\\review_revision\\cifar_static\\seed43\\mask37_logits.npz": "41c28a598c9d6eeb48bf0f0a6ac9710e4803c8f852d100548aab2f511f9065a3",
+    "results\\review_revision\\cifar_static\\seed43\\mask38_logits.npz": "2ddc21a32dda5a97514f9fd1d7f518272e76787f4601f928d4ddf7e26661dac3",
+    "results\\review_revision\\cifar_static\\seed43\\mask39_logits.npz": "be8fc061db7c23601487ac7785dd2a1b5e801f44ebcd099ed2bc38929e39d880",
+    "results\\review_revision\\cifar_static\\seed43\\mask40_logits.npz": "75f82e859ad8f707282f322fd02779ae305dcace928a4d813b096204574badb9",
+    "results\\review_revision\\cifar_static\\seed43\\mask41_logits.npz": "abbaca0c7be38ea4ed79c57b39418d2623eb7697c6135b7afe190957bae1cf70",
+    "results\\review_revision\\cifar_static\\seed43\\mask42_logits.npz": "532416c8a1ec267831d080095b1ad40bc0514fa3892ec490b52e79786c5826ec",
+    "results\\review_revision\\cifar_static\\seed43\\mask43_logits.npz": "0b4024cf62c89c98b5958259dcd4c72d72ab7e81f0e9ba4f4b8d171ed7aa747c",
+    "results\\review_revision\\cifar_static\\seed43\\mask44_logits.npz": "dfe971c5bc154c46df5dd2b95b0d9ceb1a4004ac4a484e5ef0aa3391de674066",
+    "results\\review_revision\\cifar_static\\seed43\\mask45_logits.npz": "9d5c3f68cefd5d4ab91595b731eef298a8f59cf1bd9f40e1a88ab3ad3e355b77",
+    "results\\review_revision\\cifar_static\\seed43\\mask46_logits.npz": "154d00dcd022a8c2306db4196bda6dea44be88df97e15d925fded08ee9e1b0fa",
+    "results\\review_revision\\cifar_static\\seed43\\mask47_logits.npz": "884361d88ce3c534ba1925c13ef05a545fda8c4995dbeee6dba827acb57f0348",
+    "results\\review_revision\\cifar_static\\seed43\\mask48_logits.npz": "5e3861bbd9a476a00f9fb9a4f7e3c262a52aa0fd906671f0b9f9e1beb7aeb07c",
+    "results\\review_revision\\cifar_static\\seed43\\mask49_logits.npz": "2ab6a657cc859e186279ff192c164de8964703a3f415cddb728051bce0b72610",
+    "results\\review_revision\\cifar_static\\seed43\\mask50_logits.npz": "6bb0023c0e6b7047a648ae93061ac5e122701638d96a323b412cc0688796d015",
+    "results\\review_revision\\cifar_static\\seed43\\mask51_logits.npz": "21992f0b86b7e2f201f3818d1f38dd9de3b425a4af8de8abc9d96d186ec91039",
+    "results\\review_revision\\cifar_static\\seed43\\mask52_logits.npz": "de5db0034a53a42b5a19ae86244a993e3ee14c4515522a9c63ab31e72fc9858e",
+    "results\\review_revision\\cifar_static\\seed43\\mask53_logits.npz": "9bedcc44e04addc722c616ea7c4c255242360ca44b6431be3d006fefd39c76ca",
+    "results\\review_revision\\cifar_static\\seed43\\mask54_logits.npz": "2ba529446ecbe10e313932cbadb496aaf53090c15ecd19f48db054b997b77dc3",
+    "results\\review_revision\\cifar_static\\seed43\\mask55_logits.npz": "d872b9480a8fd50b645c8d4e773dc15e67b1db53c772478e1f930d84fa2469b0",
+    "results\\review_revision\\cifar_static\\seed43\\mask56_logits.npz": "17b1c79260e93ba34ec63798e3c84be536fbec3b7982865ed4cccc55a7c31841",
+    "results\\review_revision\\cifar_static\\seed43\\mask57_logits.npz": "e94a86fd9c9a860b443b784717315f1610fe10bbb079672f4db627970150b4f6",
+    "results\\review_revision\\cifar_static\\seed43\\mask58_logits.npz": "2330ac711533135134e6bcf669d5d7ee98c9dce1ef2821cdca88c6435f70e6de",
+    "results\\review_revision\\cifar_static\\seed43\\mask59_logits.npz": "b9ee1043674c9092bca556bdee04e08ded4a4e28a9957f00650f48253d6eef08",
+    "results\\review_revision\\cifar_static\\seed43\\mask60_logits.npz": "148a9b9bebf34bec148b5bddf8270a52920a01b5a4d5fb0b649502ebcf82ce60",
+    "results\\review_revision\\cifar_static\\seed43\\mask61_logits.npz": "09edbf9a4206ce59c1563137c4382ea9cb203b033ea4611b1765e6c05ed1c1da",
+    "results\\review_revision\\cifar_static\\seed43\\mask62_logits.npz": "077f4f61d662f32fcad4ef1b8fa375083c01fe306c52b581abf61f9b09f70774",
+    "results\\review_revision\\cifar_static\\seed43\\mask63_logits.npz": "68cad18cc5d44b2f58a4b666627a235de0909def599c99c7731b74818fd50c0c",
+    "results\\review_revision\\cifar_static\\seed44\\candidates.json": "e87efc8c488b5e6ba77e591965eb0b2f4f94601347b470202df117da3f0221cf",
+    "results\\review_revision\\cifar_static\\seed44\\mask0_logits.npz": "b36bcad6f0cd54832ede3d490d71ee1ab5c9b51d106e75fb7c93da60137b5783",
+    "results\\review_revision\\cifar_static\\seed44\\mask1_logits.npz": "25635ec5024018899afe565f29ac00e50170abd78600f417ed52f59cd0b448b0",
+    "results\\review_revision\\cifar_static\\seed44\\mask2_logits.npz": "a653977d4bd102f0746098680d27fb4503f87f3d86bc7edf470c777187007b87",
+    "results\\review_revision\\cifar_static\\seed44\\mask3_logits.npz": "84fa756ce223e319dd953d1e34248f9dacbe41bcaa9f61c19fe3e7aeae20f86b",
+    "results\\review_revision\\cifar_static\\seed44\\mask4_logits.npz": "8bcc3057df80dcd025512139ffec9401e9e6adb7bbabc606b3cadf05cbbd67af",
+    "results\\review_revision\\cifar_static\\seed44\\mask5_logits.npz": "4ca0b8fec7a8f4dfe1413a65396f4234e1a7a5361efb866b7c81963284f44cda",
+    "results\\review_revision\\cifar_static\\seed44\\mask6_logits.npz": "73f2a7689ec627bdad088f8bd5009a7cb93a93b0fb4ad24c388b7abfe3da374e",
+    "results\\review_revision\\cifar_static\\seed44\\mask7_logits.npz": "04a52018cd571569b4da584aef910bd9687c5a224b32d56fbc3946bd3546b03b",
+    "results\\review_revision\\cifar_static\\seed44\\mask8_logits.npz": "e37ee403a11546804f7d557a8e018e8fef584dbe54acac2c629060e1ef4dcd67",
+    "results\\review_revision\\cifar_static\\seed44\\mask9_logits.npz": "11d92a996e8b476b833ff87cf50194359b986f4aa5cd5e3199bdfb178170cb3b",
+    "results\\review_revision\\cifar_static\\seed44\\mask10_logits.npz": "55f9585380c6e65fb0578b7b035f266020f3312cf849650b102fe9b2e494d767",
+    "results\\review_revision\\cifar_static\\seed44\\mask11_logits.npz": "78a19f28a51e0912692d03b87aea5a0270901d025d177cb1dbaf83f6134951e0",
+    "results\\review_revision\\cifar_static\\seed44\\mask12_logits.npz": "6a91fff516b72520be1f0197fabd43260481bbbf072b664e7ea78cbd87160c44",
+    "results\\review_revision\\cifar_static\\seed44\\mask13_logits.npz": "5bb700d1ef0018efe4dd68687f7b00e474ae9ad3b5f2621f70ad5ab7b4900f44",
+    "results\\review_revision\\cifar_static\\seed44\\mask14_logits.npz": "83858fc83afb6949f05c7d14f7a347792d13d9ecb64bbda558e330b47089015e",
+    "results\\review_revision\\cifar_static\\seed44\\mask15_logits.npz": "e623f08b913302b24099e0b9870c56fdfac8962ce149920e8802a3c40a2dbef7",
+    "results\\review_revision\\cifar_static\\seed44\\mask16_logits.npz": "fecc1341c4e7437322bb04c2b80810033d12b40449d7b23a0f3b7e40a798ca9e",
+    "results\\review_revision\\cifar_static\\seed44\\mask17_logits.npz": "0a630d37ae994a2285f935255555f38dbb350e224f1314dacd8a4fcf497b8d57",
+    "results\\review_revision\\cifar_static\\seed44\\mask18_logits.npz": "bd8e62e069fc14f42ca9426146b70e1da41f2a3660ec0b0206fdc007c6c8413e",
+    "results\\review_revision\\cifar_static\\seed44\\mask19_logits.npz": "1440deeb7fcfa0f238e99dbf8d44340084e2dd90fc2ed76729d145818b477fd3",
+    "results\\review_revision\\cifar_static\\seed44\\mask20_logits.npz": "ef4f1b859f3a5b9e2a29111b871ffb483a7fa164e942c192a5a1be2d16d6510d",
+    "results\\review_revision\\cifar_static\\seed44\\mask21_logits.npz": "184faffafc8309e2096226bfb67dd4619b396f42ebeb3579f8c82463c9725193",
+    "results\\review_revision\\cifar_static\\seed44\\mask22_logits.npz": "073ee95c7a6ee4073b135ac6f54fe915b132d0d7547300e0eafcd9e1baeadb0c",
+    "results\\review_revision\\cifar_static\\seed44\\mask23_logits.npz": "ca7f5487b8a19fd4e28c401b84d2097a6d2cc38987b764e08a029281e4e24227",
+    "results\\review_revision\\cifar_static\\seed44\\mask24_logits.npz": "463d3f7adfb3ddd8290e5c39011ddd940b437c5c97e7eaa943d7d55996a4121d",
+    "results\\review_revision\\cifar_static\\seed44\\mask25_logits.npz": "5b6eedfe4e4e6efb7bd38e1730e09336e81b565e0b165b29f88a27b547ba451d",
+    "results\\review_revision\\cifar_static\\seed44\\mask26_logits.npz": "39efd4961af819ae170c693da2efb2fe206ea9cc4089a608d1b0d2c1f5ec1f99",
+    "results\\review_revision\\cifar_static\\seed44\\mask27_logits.npz": "b3c0a045f2f812b6ebaf1d95cc3ea55c811a872ea93acf8b89b0cae7f7c4c669",
+    "results\\review_revision\\cifar_static\\seed44\\mask28_logits.npz": "aa539e07814e3c32212c89227d052c6b0bac8cab6b247c9f71260c771f336b2a",
+    "results\\review_revision\\cifar_static\\seed44\\mask29_logits.npz": "27b7cd4924dfc13f1d0743f5ac9d60e2d492488a06b766dc32a2ba2c3d2759c8",
+    "results\\review_revision\\cifar_static\\seed44\\mask30_logits.npz": "f998f22e2e39c5d1aed8859f31fce3012a24ea29a95abbb5a773e679da7a276a",
+    "results\\review_revision\\cifar_static\\seed44\\mask31_logits.npz": "e3dfa8dafa76e07333cdc04a650496fdc0c3e52ee091bd986f61f7b7eb485e9f",
+    "results\\review_revision\\cifar_static\\seed44\\mask32_logits.npz": "2de8ad6bbc0bb149ab92717925b05bbb09c2411a4f2b90f038c67d36d6433009",
+    "results\\review_revision\\cifar_static\\seed44\\mask33_logits.npz": "44c9ea91a00a394bd7d46b109c5f761c468116cee89d7da7d9c7c0d382ef64f7",
+    "results\\review_revision\\cifar_static\\seed44\\mask34_logits.npz": "9d99cbbc5c48db97d6d1f033470e5e3e64f9787bbd227054085bf006ddb9593e",
+    "results\\review_revision\\cifar_static\\seed44\\mask35_logits.npz": "619acc6d1b2bd550bc6699078f803f298cc0f7de9d7be98931716db38c6e7d66",
+    "results\\review_revision\\cifar_static\\seed44\\mask36_logits.npz": "de82913e272bbb5c433ccc45ee5b5cae6f82c135d2188dcde471448b2af82778",
+    "results\\review_revision\\cifar_static\\seed44\\mask37_logits.npz": "6cde6143a0d89eaa535b8764933383b975f080c55161f11381a775f57d383be3",
+    "results\\review_revision\\cifar_static\\seed44\\mask38_logits.npz": "65ff3bef0ce25610b4853d8a3615b95ae82d4ac86b89a46b8c03d7dbb8135a82",
+    "results\\review_revision\\cifar_static\\seed44\\mask39_logits.npz": "e502e9f82f582628b7661e6b2a6c572457a6005fc1b5a9d4bd6a818bf0c9630a",
+    "results\\review_revision\\cifar_static\\seed44\\mask40_logits.npz": "373eaf398350035e5cd54d9fe0018c537ffd335e84f8b9d2cd9e7386d1952306",
+    "results\\review_revision\\cifar_static\\seed44\\mask41_logits.npz": "a1c5b17b610255cefda3816f4d23021f8f9e770acb8ce142399efe0fd20395b8",
+    "results\\review_revision\\cifar_static\\seed44\\mask42_logits.npz": "44a9d2d7258a0fa2c7cfb903f9c37177d205b93c8494c7608554a3a1bdf86e11",
+    "results\\review_revision\\cifar_static\\seed44\\mask43_logits.npz": "c007ffcd9f6a06856a8c121f0af7099ffa1486a1ab0edbc0ee2e6296ea186bde",
+    "results\\review_revision\\cifar_static\\seed44\\mask44_logits.npz": "3de429b21f5cdf76aca0c8c23d073b0c241d60ed827403688556de7b60169dfe",
+    "results\\review_revision\\cifar_static\\seed44\\mask45_logits.npz": "7f5bc595fce2e10bebe82204155a7d4249ea52bb9e9445c47a065823aa038000",
+    "results\\review_revision\\cifar_static\\seed44\\mask46_logits.npz": "c6473543834e08f853a7da312a38b0d9a38164bd8e729f4d713d85f1010031ab",
+    "results\\review_revision\\cifar_static\\seed44\\mask47_logits.npz": "c35833ecd6c3e89572f27062a712b73cac66088156042af54f4f44fb7b3d1344",
+    "results\\review_revision\\cifar_static\\seed44\\mask48_logits.npz": "e3f9748f12b04ab8e844707455bebf01b20c4b2bd943866d56e2949a7eebf20a",
+    "results\\review_revision\\cifar_static\\seed44\\mask49_logits.npz": "0060dc6a02f3b3fa3b28376f667c1bbeace04c6387cfd4394bac9b6af6e8cba9",
+    "results\\review_revision\\cifar_static\\seed44\\mask50_logits.npz": "5c31b4aeef3f7f98569bc8f17297296352bbac8804d85c68355e71b66f5d080c",
+    "results\\review_revision\\cifar_static\\seed44\\mask51_logits.npz": "b651d477d9b656ab19f5f5b7191d7c1f44292588b0600f173e2a118a94bb375c",
+    "results\\review_revision\\cifar_static\\seed44\\mask52_logits.npz": "f79339d5887f677e2274526c04b61c3c5e2b2558eea2d65df78e30c3b4112dae",
+    "results\\review_revision\\cifar_static\\seed44\\mask53_logits.npz": "cf71e6667da7f714c184f7353c03c5b9833675616a5de057ee4ade645717274d",
+    "results\\review_revision\\cifar_static\\seed44\\mask54_logits.npz": "b599170e3d97cade4fe91e903be2069fa29e591177b97a984f0fe3a75a9cf063",
+    "results\\review_revision\\cifar_static\\seed44\\mask55_logits.npz": "397dda3c1f06a571b1ace8cdf777c7df11b1343b7c578468aa47ed51187a343e",
+    "results\\review_revision\\cifar_static\\seed44\\mask56_logits.npz": "14ce28e6f48e5226ff382a7ffd9d56ad50a81a97404172077d7e4f2e66d0eaf7",
+    "results\\review_revision\\cifar_static\\seed44\\mask57_logits.npz": "70fb3e321767dbf63ed351758001067dbd9775592db1ccbe7f82f3dfee072dc7",
+    "results\\review_revision\\cifar_static\\seed44\\mask58_logits.npz": "b092bb133f0e8f7903a770522f6698179fd0f5695fcd5b38932461a1fa6bb48b",
+    "results\\review_revision\\cifar_static\\seed44\\mask59_logits.npz": "72c8b1e902f65d44c15c7ca16e65c85a5e4a9310bc6487cc9fc6677c011545be",
+    "results\\review_revision\\cifar_static\\seed44\\mask60_logits.npz": "864b26f861401ef04e64040f78d06effaf58d8567ea81efef6a7fa03a9b2d5fa",
+    "results\\review_revision\\cifar_static\\seed44\\mask61_logits.npz": "0065273e220e2c1bc5c3e75d993af0051340005db7bb15b3feabbbe19beb02ef",
+    "results\\review_revision\\cifar_static\\seed44\\mask62_logits.npz": "71dea06c53d270b0dec8190ac46bc43d4185c0ad66fd6209f871aa80224f3016",
+    "results\\review_revision\\cifar_static\\seed44\\mask63_logits.npz": "f8e4f2f66b9293cd7931754eb20b6b1c3e4d50fbc3913f85a0a325db4d1b7755",
+    "results\\review_revision\\cifar_static\\seed45\\candidates.json": "63dccd22bdd5fd9af5220dd58d8ffab53bbbd34e6f803077eb49d3635b499714",
+    "results\\review_revision\\cifar_static\\seed45\\mask0_logits.npz": "b9af868a80f0a300d2f60b24ec1905f5c0f2337893ff30638d2b10428e26d8ee",
+    "results\\review_revision\\cifar_static\\seed45\\mask1_logits.npz": "dde9f19e47f96607c74c0bf9888ef2cb791ac20d821b16e3c98bec8c2230d33a",
+    "results\\review_revision\\cifar_static\\seed45\\mask2_logits.npz": "b4872194e4af3edf61f3151391e4d8b0649dce206b1b4f8891bd58691e005b7b",
+    "results\\review_revision\\cifar_static\\seed45\\mask3_logits.npz": "620d55c5f767f9d9378e7f7506a9ccd97415b94d0f7a5a1bf3da1fc101c387c1",
+    "results\\review_revision\\cifar_static\\seed45\\mask4_logits.npz": "db324bd00d3f6d90142ca79930d1eb896013505f5a4aa156e2043cb3370b6d1d",
+    "results\\review_revision\\cifar_static\\seed45\\mask5_logits.npz": "d2bd8a5523aa6b36d2fe5dc6060815681eeb00bba95fe83c0c9126dff6ff852c",
+    "results\\review_revision\\cifar_static\\seed45\\mask6_logits.npz": "354e3d1c0329542e7de88ffa07c90cdd9f6f9a74f48c539ca17a986311d2131c",
+    "results\\review_revision\\cifar_static\\seed45\\mask7_logits.npz": "cebcf65bb7b97323a8fe6816570358acf78c44638d4192590b8502cb89d359bc",
+    "results\\review_revision\\cifar_static\\seed45\\mask8_logits.npz": "01cefc31fdb8c6a78067417f1893fdedda2d0c76204ae8c51feed75b97fcac3a",
+    "results\\review_revision\\cifar_static\\seed45\\mask9_logits.npz": "17233240d2d2289367b5bf03ec9979259645da8a40fca6829641d17105349a82",
+    "results\\review_revision\\cifar_static\\seed45\\mask10_logits.npz": "985baa111bb375fd4897107b121abfc69c2a8f1adf4c1edc2eb2cb04043644a7",
+    "results\\review_revision\\cifar_static\\seed45\\mask11_logits.npz": "68c6da6004e346a249770fc321ef789fb2ba8451d8be03e8c4f1bbc7c23596af",
+    "results\\review_revision\\cifar_static\\seed45\\mask12_logits.npz": "c08efa6c7783172decef5544c0c79889791bc7f1e5ad2f49b577ccfd8c293b1d",
+    "results\\review_revision\\cifar_static\\seed45\\mask13_logits.npz": "e5696574c4cb2b0e416fbd4bf3a32c6fff7d4d3872cccacbb9c381757755b64c",
+    "results\\review_revision\\cifar_static\\seed45\\mask14_logits.npz": "150c001a0ca1de94cfd5b42bd0c04d7b4cedaac0991d93e8aa971a6402962543",
+    "results\\review_revision\\cifar_static\\seed45\\mask15_logits.npz": "50120b25fc584ea3429bfb844ccc25df7e39802bba3e650e336269a811692ad4",
+    "results\\review_revision\\cifar_static\\seed45\\mask16_logits.npz": "7c16b14618692c67c7bcd9b0db030a826357bb768c2aa3ab84d51db3b30c3000",
+    "results\\review_revision\\cifar_static\\seed45\\mask17_logits.npz": "68ea20c55bfae178bd6ceb09c09ee07ef483b7804b892ae98c8831060153f5f8",
+    "results\\review_revision\\cifar_static\\seed45\\mask18_logits.npz": "6131c728424e62cdf3c96f2a05285907cd0aaee840e5ba19d2b22385f2cdcf09",
+    "results\\review_revision\\cifar_static\\seed45\\mask19_logits.npz": "97c4fa000cf9b5e2d3c4a8b5dcf9b97471e39024a6927cba7f50dac7c3344d1d",
+    "results\\review_revision\\cifar_static\\seed45\\mask20_logits.npz": "de63f0f8b959657780237362e54ae4e3df84cc3e39e935ecc37d73212a35eab3",
+    "results\\review_revision\\cifar_static\\seed45\\mask21_logits.npz": "40773963c4f4ffac14207c7cce807027d85953dea2e5c785a4836fafb7f942d5",
+    "results\\review_revision\\cifar_static\\seed45\\mask22_logits.npz": "216ba0c9f47ccbb989bced19a4cbdc87009360c4a2962f715df140ba4dd5a19e",
+    "results\\review_revision\\cifar_static\\seed45\\mask23_logits.npz": "8db525f7b3481d6c070049c49f9935b205282b5706a79e5b4429dfe94c66e240",
+    "results\\review_revision\\cifar_static\\seed45\\mask24_logits.npz": "5b076a34cc4d2cd9cc6f63e9ea7b65e1349b9a21a2761edc3445c64070d4a646",
+    "results\\review_revision\\cifar_static\\seed45\\mask25_logits.npz": "f5986ac26f1b11464e68c1146d24ef6be3edeedda45dcc41252ea59f6b91f4ea",
+    "results\\review_revision\\cifar_static\\seed45\\mask26_logits.npz": "4203f6efddeca388e223ed69e7b3c5edb32170708cc09e2b007bf83a5c4c3680",
+    "results\\review_revision\\cifar_static\\seed45\\mask27_logits.npz": "b5258b765a36ff2a0d4daae3edd1412cccca53faaf2f0c0491e9c2373b9479cd",
+    "results\\review_revision\\cifar_static\\seed45\\mask28_logits.npz": "a1e0d85352a14f6152b6d0c4e2553ba230551639a08efaea6c80bcb145780b1a",
+    "results\\review_revision\\cifar_static\\seed45\\mask29_logits.npz": "c30a8c6010f9d2ab67db59fefacb7e6ada6032d4d752532b4b6896a3d792b778",
+    "results\\review_revision\\cifar_static\\seed45\\mask30_logits.npz": "90276b4d9ca987f7ad0a2638cb02e290d45e94b9731bff1d03b36b7c551dbe69",
+    "results\\review_revision\\cifar_static\\seed45\\mask31_logits.npz": "a4f3b4f7f8e0f8e18a4be49aa63896b3bdd7df3584d1c73f02d2bb1ab09c3021",
+    "results\\review_revision\\cifar_static\\seed45\\mask32_logits.npz": "0b7e472a605e9dd67b1d0a70f06de06b663c1536573a7173df5b87ffe3c01b7d",
+    "results\\review_revision\\cifar_static\\seed45\\mask33_logits.npz": "37c9f28170889d058a7a93a1e905bef16d7f8bdf3749e771185b463078f87966",
+    "results\\review_revision\\cifar_static\\seed45\\mask34_logits.npz": "5308497e79b12069dbdbf165170a3950c72b455619f972cf87199f360072515a",
+    "results\\review_revision\\cifar_static\\seed45\\mask35_logits.npz": "f9bc2ef0788df9f1d82cf73958e713948bb5262dab5799befc2afa70f8aae320",
+    "results\\review_revision\\cifar_static\\seed45\\mask36_logits.npz": "2f8b86206db4c798ec1cd2167a97ccb5c97081c8730dcc7da0eb2efa042fa9fb",
+    "results\\review_revision\\cifar_static\\seed45\\mask37_logits.npz": "4bcd8e5412078029a1631b2b6e32a2d81f05e8b9a23544415fc5b89dbe74a1f9",
+    "results\\review_revision\\cifar_static\\seed45\\mask38_logits.npz": "b204bc1c13403e93d415485f42901e7b6471dd3649fa796a1e2b8d9fbf4a4c55",
+    "results\\review_revision\\cifar_static\\seed45\\mask39_logits.npz": "27e2096c8cd8276ae559b02c6110947af09d2dad407268d24b61a3864e80e8e3",
+    "results\\review_revision\\cifar_static\\seed45\\mask40_logits.npz": "def359c1847e7bd0ab3bf25dcb466a02fa9682f8754babed27ff2207be55fbe6",
+    "results\\review_revision\\cifar_static\\seed45\\mask41_logits.npz": "25cedf6aa6d5cfe516a8ef6a0b782b4128178c389b6c49a13e0c2603aa3ee781",
+    "results\\review_revision\\cifar_static\\seed45\\mask42_logits.npz": "6fbe469da0d88d08b8c5a7b7dbd522ce1b8e0371e2cc5752b1bc23d7709752c3",
+    "results\\review_revision\\cifar_static\\seed45\\mask43_logits.npz": "8493c260dfbd7fecb816743ef97f28e8ef9f4b138fbc18b32a4c9aa6d620c2d7",
+    "results\\review_revision\\cifar_static\\seed45\\mask44_logits.npz": "335bdc99245addf6e603e86cc0ee7f37e97f32f3fb27e7a2ce805589a92e2345",
+    "results\\review_revision\\cifar_static\\seed45\\mask45_logits.npz": "451f03cf635564dcd2dc4d6e7082ce00c5f0ab9e76cb91d372081c4f048b1cb2",
+    "results\\review_revision\\cifar_static\\seed45\\mask46_logits.npz": "bc233d0329739309d8a9fc3f074e502b5f7589cf5e495d88531aa15ea6b2ef89",
+    "results\\review_revision\\cifar_static\\seed45\\mask47_logits.npz": "741c315e2886097a6cc9e45608b89ef5da5f48072a73d7f3df3d6915bc5a6551",
+    "results\\review_revision\\cifar_static\\seed45\\mask48_logits.npz": "763fa0e054795f7d67c46ac61ab330d6ba477963dbb9b677f1fd6adee9144aa2",
+    "results\\review_revision\\cifar_static\\seed45\\mask49_logits.npz": "9f2aae03a4b91fa46fbe0c02ff93c32c229f9e470c1cc61a415e3ad5ecd08a1f",
+    "results\\review_revision\\cifar_static\\seed45\\mask50_logits.npz": "407ac6993d8980d8b46ccefc057774e37030b9a11e2a2e2798e4fe9f8c80147e",
+    "results\\review_revision\\cifar_static\\seed45\\mask51_logits.npz": "c0c05891b5c338b8c561590c7029fd7097bd846014ec5aa681be147f2294d9a3",
+    "results\\review_revision\\cifar_static\\seed45\\mask52_logits.npz": "9c841555cf8b138ee578685f526b65637b75c8a3c128d1cf72e1ee81e7e34d80",
+    "results\\review_revision\\cifar_static\\seed45\\mask53_logits.npz": "9729d0d29e48844ed27c47acd9233fd11d5fb0f026ff4f4904e4b0772dc09fa1",
+    "results\\review_revision\\cifar_static\\seed45\\mask54_logits.npz": "be2ef99bf8d4657af2afa9aaf79822ad3dbb930929239ecf5ac0d517d95839ed",
+    "results\\review_revision\\cifar_static\\seed45\\mask55_logits.npz": "ecf4ae50623c9acaf2a17e8ccedc67368d4a5dade6578d4209cca307284e676c",
+    "results\\review_revision\\cifar_static\\seed45\\mask56_logits.npz": "4776fd38371b677949c0dc83c6bd88c6f1e050c27d7563a45398d3f5744ecfcb",
+    "results\\review_revision\\cifar_static\\seed45\\mask57_logits.npz": "0ce182b4a428228526d4cab468bb1bc13696a9772158bb4af22b92235acad7fc",
+    "results\\review_revision\\cifar_static\\seed45\\mask58_logits.npz": "074b5c7cf3268bc06bdc42d07411e5f1a64c761a2d04fdd5516a401835517b07",
+    "results\\review_revision\\cifar_static\\seed45\\mask59_logits.npz": "989423154a7a3bfce2d3aa7fa0d19e52351dcc5c822ac6c87ceeaff7415f2352",
+    "results\\review_revision\\cifar_static\\seed45\\mask60_logits.npz": "897b7df46d251a94075efa5dfb753f1aa384e9b5311e3d689a6be55f9b878c0c",
+    "results\\review_revision\\cifar_static\\seed45\\mask61_logits.npz": "fd92ac6b24289bc4795eeed3c6f9705d46e8e964f04a9b4747e40b2598f38f73",
+    "results\\review_revision\\cifar_static\\seed45\\mask62_logits.npz": "7dc20f84704c19f14bded6b222c3136704afda58668fae36a4e387eeea778c50",
+    "results\\review_revision\\cifar_static\\seed45\\mask63_logits.npz": "56c43b7ec260f8f3483c5d985b1941d94912f1e102dc3d2d5d644f81bda64599",
+    "results\\review_revision\\cifar_static\\seed46\\candidates.json": "6265a63be2e2ba692d529a7c5eb9f0d020f7fc8799143c2fe5e205433fd4a89f",
+    "results\\review_revision\\cifar_static\\seed46\\mask0_logits.npz": "41e86d70586f8c47746a2fd94a38a28b8b8b8464525d27e62ba07a4839fbb03e",
+    "results\\review_revision\\cifar_static\\seed46\\mask1_logits.npz": "8d50312dbd5d555a8ee2f98fd7579bc2dfeaf945aec2d8f65641b1bc8d2f773a",
+    "results\\review_revision\\cifar_static\\seed46\\mask2_logits.npz": "4a5b6370232bd874a635be2e4952ceb3a7561873182fe9b6de56146f46fcaee4",
+    "results\\review_revision\\cifar_static\\seed46\\mask3_logits.npz": "63014b8da0829eee97841d644b67f51ddecdab26ada57ed24b449fdd9281c44d",
+    "results\\review_revision\\cifar_static\\seed46\\mask4_logits.npz": "fbdb4b5a65a15d41ce9e599a84c1c62b18b17e161abd3c7801cf74fe3a0a5bab",
+    "results\\review_revision\\cifar_static\\seed46\\mask5_logits.npz": "4a0109ffa99f2c40813b1b6b393cacda77b353580de88931c2e2f0702c59ea7e",
+    "results\\review_revision\\cifar_static\\seed46\\mask6_logits.npz": "42543bdf115e79663df1c76b10cac1d5358e00d34d9a3781bddb772d8c5b8544",
+    "results\\review_revision\\cifar_static\\seed46\\mask7_logits.npz": "f11cfcaffc6b8661f6e8a076a6ec266771b263854252222bce1e7f7fea34b5aa",
+    "results\\review_revision\\cifar_static\\seed46\\mask8_logits.npz": "8b5e1bf96cc0bbef06a5c6c11397e8232f021b7e88751f386154db10e7e76d9c",
+    "results\\review_revision\\cifar_static\\seed46\\mask9_logits.npz": "7a594fd6a3aebd00c2b76a79fe77f5f7683434e26bd9ab108e77358b455605d9",
+    "results\\review_revision\\cifar_static\\seed46\\mask10_logits.npz": "164f793d05ebf7054092c5feed4520d0ae59b1cf2ad2a53f27f6ec4537692ae7",
+    "results\\review_revision\\cifar_static\\seed46\\mask11_logits.npz": "cfe756513107f876f2b03582d2f309c624792f48c4d24527c9915fd842054863",
+    "results\\review_revision\\cifar_static\\seed46\\mask12_logits.npz": "26322f5a49bfa42f7c7ee79ae5311ee38708c20aadc16ecc4e6e9b8d69061501",
+    "results\\review_revision\\cifar_static\\seed46\\mask13_logits.npz": "6b5f462fca88e62e7105156dceb2b0bf6dbd05fdb44cf5a59921c6403b5fd98c",
+    "results\\review_revision\\cifar_static\\seed46\\mask14_logits.npz": "665a93c76ea0f937da6783239e7a2ecb4222c8b4e4daaa63de6726b698992f88",
+    "results\\review_revision\\cifar_static\\seed46\\mask15_logits.npz": "936363f8fa81ffbac846f3f6fdd175051c5ea1c0a1ad821757050b127d5564d8",
+    "results\\review_revision\\cifar_static\\seed46\\mask16_logits.npz": "9799487d1ee897f57c1c3601a95a28563533b5892b70187966621aa5daadf4d9",
+    "results\\review_revision\\cifar_static\\seed46\\mask17_logits.npz": "eae3353683f16653e16eb9badee4d8f240a70657257eae103eb51159b79c8fa1",
+    "results\\review_revision\\cifar_static\\seed46\\mask18_logits.npz": "d92636c5ec7413e39c27486587524724bc834faea384988ffdd4fe138fa8fa11",
+    "results\\review_revision\\cifar_static\\seed46\\mask19_logits.npz": "eec08713b5494bffa4323a173bcc0b51db7cb2c7d78cae49e852f616d6f33ef4",
+    "results\\review_revision\\cifar_static\\seed46\\mask20_logits.npz": "68c45eb2282e8a93f8cbb29277841edf0a5b0abfc286f9baedf03e14a44cb996",
+    "results\\review_revision\\cifar_static\\seed46\\mask21_logits.npz": "51492d55130fbd651c7abf7a6e7032399f05be6688db0eba6cf9dcecac007a39",
+    "results\\review_revision\\cifar_static\\seed46\\mask22_logits.npz": "28a228437f672d127f15d4a39ea6226e1a874aeac54adc8243af02b192b3bb83",
+    "results\\review_revision\\cifar_static\\seed46\\mask23_logits.npz": "a5f5f1f8cca4e32ea8ad6e72c78d59fdb3d28546bd5ffc5cbe35399f1f1afeab",
+    "results\\review_revision\\cifar_static\\seed46\\mask24_logits.npz": "4d160a0218b9a37558439a05fdebe9993a192b5999cb84907f60cc8f748ef117",
+    "results\\review_revision\\cifar_static\\seed46\\mask25_logits.npz": "b20f0e14fa6da21a2265591b75c7de9e41ff3942dbb5fc9aa271734ce204016f",
+    "results\\review_revision\\cifar_static\\seed46\\mask26_logits.npz": "5a1e9928cc070ed67bcde7ba5649e9c8a6043ff821bf4a8ad5d374d1948804d0",
+    "results\\review_revision\\cifar_static\\seed46\\mask27_logits.npz": "a1fdfca807a6a12dd6e14877941f4d06cffee7f122eb90b48807c78564cf1e17",
+    "results\\review_revision\\cifar_static\\seed46\\mask28_logits.npz": "d41d3317ad2c25e63aaab08e0fd8692ee0b4f1f6f0864cd607ba0306d4475578",
+    "results\\review_revision\\cifar_static\\seed46\\mask29_logits.npz": "2758ff0eb2eb2b608d1069d8cbae30c38bc24d8c0759df448e6943a9b9225710",
+    "results\\review_revision\\cifar_static\\seed46\\mask30_logits.npz": "08e778d5a5ed39d05a9e0311798cdd0aa1d04d4a22b38770d761895f773602b9",
+    "results\\review_revision\\cifar_static\\seed46\\mask31_logits.npz": "3e182a89dc84296e89028621bb6ea5e0eb5a0f6d51cb7825b3ba8adc10575727",
+    "results\\review_revision\\cifar_static\\seed46\\mask32_logits.npz": "98d16d38f12d1ad3d63228be9d5e64ac9ceba695e05c52fb36d9805074a80e3c",
+    "results\\review_revision\\cifar_static\\seed46\\mask33_logits.npz": "4885b5406f14e1ffeb72f328caf5c7c4a4253ed7626844d15ff4db1ff9a9d6dd",
+    "results\\review_revision\\cifar_static\\seed46\\mask34_logits.npz": "d09d1db1113bb9bbe44e9206a18fcb2a87df6dd63cfc64118f711aec5be78e7a",
+    "results\\review_revision\\cifar_static\\seed46\\mask35_logits.npz": "c3f25a802c5e145d757aab007a901c2f06cf417acf0472fd8dcd70c54775e8f0",
+    "results\\review_revision\\cifar_static\\seed46\\mask36_logits.npz": "1a8b8eb4a65a188417d9755845627bbe96879ac9b34fcc7ede1c9347fa2198c3",
+    "results\\review_revision\\cifar_static\\seed46\\mask37_logits.npz": "ba6f1f454065aed53103e1c0c166f9b86cb7b4e9f75f198c1d41040de9ece69b",
+    "results\\review_revision\\cifar_static\\seed46\\mask38_logits.npz": "34bd541bb4867e487195bd408ff58a56cac888f3e0a3b50eeaef7f7eabeed6b1",
+    "results\\review_revision\\cifar_static\\seed46\\mask39_logits.npz": "dc4a2c883baf54a5b1b2d4d1eb26b17cf420968d9b882ae43438ece08dbccf67",
+    "results\\review_revision\\cifar_static\\seed46\\mask40_logits.npz": "ed91a7ab99b81c4db06ffbb5c108ad711c1d3d5fa179b5848c24cb3ecae8eea1",
+    "results\\review_revision\\cifar_static\\seed46\\mask41_logits.npz": "0e7ef2a35e7f361a7ca0bce68af861307a00359ed1609e12e1d49803daa68305",
+    "results\\review_revision\\cifar_static\\seed46\\mask42_logits.npz": "4b237d3842d878cfdfab670f6dae914a0a8e771a80bd196b8dd0868285d801b1",
+    "results\\review_revision\\cifar_static\\seed46\\mask43_logits.npz": "3bc1ecad4d0b44cdb14231f4deebbcc6cf63c148ba747d87c585445e865a3494",
+    "results\\review_revision\\cifar_static\\seed46\\mask44_logits.npz": "3ea14797a5633e62dfe0bcbffae6b0fc7c23762e66373bd052584bf3f734e056",
+    "results\\review_revision\\cifar_static\\seed46\\mask45_logits.npz": "0a1bf2c2cc541c3b08adfa90f46ab5197298aadbb5c19f865edf2c6a64bf613c",
+    "results\\review_revision\\cifar_static\\seed46\\mask46_logits.npz": "05c3c6a23b15ffb41018faacef59e94616fc7b4db1c43d3e8dff7ce76e0f7e72",
+    "results\\review_revision\\cifar_static\\seed46\\mask47_logits.npz": "d4106a4b3d622aa3359292a29fc32724f6b20733a32f251ed5890744136b16bf",
+    "results\\review_revision\\cifar_static\\seed46\\mask48_logits.npz": "dd3399281cce1aa22ce28d513f8a757606444dc04bb35f1cc0038bb8c0d35148",
+    "results\\review_revision\\cifar_static\\seed46\\mask49_logits.npz": "ed6c52de605b82789b7cb0cb6ea39fbf20252871442537a3c2d54dc3745b185e",
+    "results\\review_revision\\cifar_static\\seed46\\mask50_logits.npz": "dbce8d6e684a0fc1f7a120d4c182b11fd9ed0c2980af940541e6ca0de6b52874",
+    "results\\review_revision\\cifar_static\\seed46\\mask51_logits.npz": "9ce844612d35142076ac5d0c104161b8e56d2bb1acf2640d82f5adb0313e7ac3",
+    "results\\review_revision\\cifar_static\\seed46\\mask52_logits.npz": "630168b4ff1b12ee799222e9f63ed91ae86391e999d60705a9f99aee610a08b1",
+    "results\\review_revision\\cifar_static\\seed46\\mask53_logits.npz": "257d65e5c2c81b4271610c9f52b32d6469bb016d9b926298ab99afd14b99a5ce",
+    "results\\review_revision\\cifar_static\\seed46\\mask54_logits.npz": "2e52c7eac0e2daedfa96046c89fdb73d57f2ae8139d57435b84d6d5dbe9bcfb3",
+    "results\\review_revision\\cifar_static\\seed46\\mask55_logits.npz": "b0f9d8c8950f852f3afb1d13f978d0b7abbe7f459dceac57d9dcf222b9ddf900",
+    "results\\review_revision\\cifar_static\\seed46\\mask56_logits.npz": "62e1b1fc15a1b6f043d60fe91937912990db0fe18000a71c3328ae207f2fe205",
+    "results\\review_revision\\cifar_static\\seed46\\mask57_logits.npz": "84b8d54967b32c532ba67052d1d0e8bf2462ccdb0c8f1fb52fc6465601817d40",
+    "results\\review_revision\\cifar_static\\seed46\\mask58_logits.npz": "b69ffc5de75c80c3eed77ed7c66677fc7e8b0a010b78d98a913cdb30b451b99d",
+    "results\\review_revision\\cifar_static\\seed46\\mask59_logits.npz": "12ced11f37d939e9c5cb9b256f4b203373d937f2048448ac11ebdc63c6e8449a",
+    "results\\review_revision\\cifar_static\\seed46\\mask60_logits.npz": "7d9c1b712962afcf056315fbe3091b97a7dfcc75cf34539fbfcaa3a81af9320b",
+    "results\\review_revision\\cifar_static\\seed46\\mask61_logits.npz": "bf0ec4dfce478eadb492cfec1e65c2d79ae809e0782b5bf644cdbc7c4d423e16",
+    "results\\review_revision\\cifar_static\\seed46\\mask62_logits.npz": "40f39831ebc8739a14bfb4a40cb9f874f087caf9e8fcbc0e72712d18eff96da1",
+    "results\\review_revision\\cifar_static\\seed46\\mask63_logits.npz": "014058e306cd46923496e90e14dbb2afec87aabfa1d96ee11f493e2cf6c4617b"
+  },
+  "gate": {
+    "selection_frequency": 0.8,
+    "ece_gain": 0.001,
+    "max_accuracy_loss": 0.005,
+    "max_nll_increase": 0.005,
+    "repeats": 100,
+    "seed": 20261027,
+    "status": "exploratory_post_search_screen_not_general_utility_predictor"
+  },
+  "limitations": [
+    "Exploratory analysis; fixed CIFAR tests already observed previously",
+    "Five training seeds do not equal five independent settings",
+    "Seed-cluster percentile intervals unadjusted",
+    "No integer inference or MCU resource claims; random expectation requires exhaustive measured feasibility",
+    "Stability gate uses all candidate selection data and is a post-search screen; no search saving claimed"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "seed": 42,
+  "task": "CIFAR-10",
+  "backend": "fbgemm",
+  "torch": "2.6.0+cu124",
+  "device": "host CPU",
+  "quantized_operators": [
+    {
+      "name": "features.0",
+      "type": "<class 'torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.4.depthwise",
+      "type": "<class 'torch.ao.nn.quantized.modules.conv.Conv2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.4.pointwise",
+      "type": "<class 'torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.6.depthwise",
+      "type": "<class 'torch.ao.nn.quantized.modules.conv.Conv2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.6.pointwise",
+      "type": "<class 'torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.8.depthwise",
+      "type": "<class 'torch.ao.nn.quantized.modules.conv.Conv2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "features.8.pointwise",
+      "type": "<class 'torch.ao.nn.intrinsic.quantized.modules.conv_relu.ConvReLU2d'>",
+      "weight_dtype": "torch.qint8"
+    },
+    {
+      "name": "classifier",
+      "type": "<class 'torch.ao.nn.quantized.modules.linear.Linear'>",
+      "weight_dtype": "torch.qint8"
+    }
+  ],
+  "calibration_samples": 2000,
+  "results": {
+    "fp32": {
+      "script_archive_bytes": 183932,
+      "temperature": 1.282275624166531,
+      "raw": {
+        "accuracy": 0.7494,
+        "ece": 0.055736779750208645,
+        "nll": 0.7373973696789935,
+        "brier": 0.3490391901160568
+      },
+      "calibrated": {
+        "accuracy": 0.7494,
+        "ece": 0.009473119586103525,
+        "nll": 0.7137022917338256,
+        "brier": 0.3440546958543695
+      },
+      "serialized_reload_verified": true
+    },
+    "int8": {
+      "script_archive_bytes": 93998,
+      "temperature": 1.2811886319650112,
+      "raw": {
+        "accuracy": 0.7496,
+        "ece": 0.054582527027698086,
+        "nll": 0.7395761194505404,
+        "brier": 0.35007280857004364
+      },
+      "calibrated": {
+        "accuracy": 0.7496,
+        "ece": 0.011567661106568584,
+        "nll": 0.7158984083898587,
+        "brier": 0.3451123635330865
+      },
+      "serialized_reload_verified": true
+    }
+  },
+  "scope": "Auxiliary FX static INT8 control with fused BN and default observers; different from candidate fake quantization.",
+  "limitations": "No INT4 mixed execution, MCU Flash/SRAM, latency, energy, or equivalence claim."
+}

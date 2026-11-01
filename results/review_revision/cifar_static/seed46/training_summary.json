@@ -1,0 +1,39 @@
+{
+  "seed": 46,
+  "best_epoch": 16,
+  "epochs_run": 50,
+  "early_stopped": true,
+  "maximum_epochs_reached": false,
+  "convergence_claim": "requires_visual_and_cross_seed_review",
+  "python": "3.13.15",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.5.4",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "args": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "epochs": 100,
+    "min_epochs": 50,
+    "patience": 12,
+    "batch_size": 256,
+    "max_configs": 64,
+    "resume": true
+  },
+  "wall_seconds": 68.57023167610168,
+  "script_sha256": "30de625ab731a4b2e38f6082756481c43ed168c55f341403c34ddf2b0f07e8b2",
+  "training_script_sha256": "30de625ab731a4b2e38f6082756481c43ed168c55f341403c34ddf2b0f07e8b2",
+  "training_wall_seconds": 68.57023167610168,
+  "evaluation_protocol": "all_selection_outputs_then_frozen_decisions_then_test",
+  "prior_partial_exploratory_test_outputs": false,
+  "metrics_scoring": "stable_log_softmax_uncapped_NLL",
+  "frozen_decisions_sha256": "2aef9cd6c3ed0ebbcfd79c3a78c1b1bd61dae7481fc43920dfd4bef6334a96e1",
+  "candidate_count": 64,
+  "complete_candidate_space": true,
+  "total_wall_seconds": 93.34026551246643
+}

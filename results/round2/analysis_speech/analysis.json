@@ -1,0 +1,2580 @@
+{
+  "task": "speech",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "primary_tolerance": 0.01,
+  "budgets": [
+    1.0,
+    0.95,
+    0.9,
+    0.85,
+    0.8
+  ],
+  "coverage_counts": {
+    "multiple": 25
+  },
+  "residual_stability": {
+    "ts_nll": -0.07142857142857142,
+    "ts_brier": 0.07857142857142857,
+    "mix_0.5": -0.09545454545454546,
+    "ece": -0.05064935064935065
+  },
+  "policy_summary": {
+    "raw_nll": {
+      "cases": 25,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "ts_nll": {
+      "cases": 25,
+      "changed": 1,
+      "metrics": {
+        "accuracy": {
+          "mean": -7.512520868113715e-05,
+          "ci95": [
+            -0.00022537562604341144,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00037562604340568573,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 3.3777336859123764e-05,
+          "ci95": [
+            0.0,
+            0.00010133201057737129
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00016888668429561882,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 8.599007969272155e-05,
+          "ci95": [
+            0.0,
+            0.00025797023907816465
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0004299503984636077,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 7.05190754035323e-05,
+          "ci95": [
+            0.0,
+            0.00021155722621059693
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00035259537701766154,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "ts_brier": {
+      "cases": 25,
+      "changed": 9,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.00024207011686143697,
+          "ci95": [
+            -0.00037562604340569456,
+            0.0011018363939900057
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0018363939899833427,
+            "43": 0.0,
+            "44": -0.0006260434056761577,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00020400952642015633,
+          "ci95": [
+            0.0,
+            0.0005183361605035402
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.000234231046892322,
+            "43": 0.0,
+            "44": 0.0007858165852084598,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.00102840008906961,
+          "ci95": [
+            -0.0030301319544452634,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00013767078190891625,
+            "43": 0.0,
+            "44": -0.0050043296634391336,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.0003940546120135657,
+          "ci95": [
+            -0.0009633615187785872,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0005470057931552752,
+            "43": 0.0,
+            "44": -0.0014232672669125535,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "ece": {
+      "cases": 25,
+      "changed": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.0020200333889816417,
+          "ci95": [
+            -0.0035893155258764687,
+            -0.0007429048414023499
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0008764607679465853,
+            "43": -0.005008347245408995,
+            "44": -0.00025041736227044976,
+            "45": -0.001460767946577679,
+            "46": -0.0025041736227044975
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0017595492549820862,
+          "ci95": [
+            -0.00011113317664565208,
+            0.003700701620407829
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0015192301965246437,
+            "43": 0.005010200944150344,
+            "44": 0.0033733267894722,
+            "45": 0.0013047508209390601,
+            "46": 0.0006286979168734705
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0020085241343699247,
+          "ci95": [
+            -0.006392857188614517,
+            0.00201416530831966
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.004505557245187686,
+            "43": 0.002718001294280792,
+            "44": -0.010058909997388565,
+            "45": 0.0028309786765908784,
+            "46": -0.0010271334001450416
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0013459017068433421,
+          "ci95": [
+            -0.0006676293960419067,
+            0.0032749697474490835
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0035470461786945794,
+            "43": 0.001117079018304934,
+            "44": -0.0024343689076728237,
+            "45": 0.0004179135641143583,
+            "46": 0.004081838680775662
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_0.5": {
+      "cases": 25,
+      "changed": 3,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.00017529215358931706,
+          "ci95": [
+            -0.0003756260434056769,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00037562604340568573,
+            "43": 0.0,
+            "44": -0.0005008347245408995,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.000419743419465996,
+          "ci95": [
+            0.0,
+            0.0011916755846797405
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00016888668429561882,
+            "43": 0.0,
+            "44": 0.0019298304130343613,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0009952354631459002,
+          "ci95": [
+            -0.0032436766285158652,
+            0.00025797023907816465
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0004299503984636077,
+            "43": 0.0,
+            "44": -0.005406127714193109,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.00011342232512460359,
+          "ci95": [
+            -0.0005518242015844077,
+            0.00021155722621059693
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00035259537701766154,
+            "43": 0.0,
+            "44": -0.0009197070026406795,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "additive_task": {
+      "cases": 25,
+      "changed": 6,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0004590984974958312,
+          "ci95": [
+            0.0,
+            0.0011936560934891684
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0018363939899833427,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.00045909849749581344
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 6.645592356819665e-05,
+          "ci95": [
+            -0.0003385737784865414,
+            0.0004442491304342025
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.000234231046892322,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0007404152173903375,
+            "46": -0.0006423666464416763
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.00042296042452309116,
+          "ci95": [
+            -0.0013544199659820677,
+            0.00014060700517636084
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00013767078190891625,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.00028023526926357345,
+            "46": -0.002257366609970113
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.00022474019784228137,
+          "ci95": [
+            -0.0004899048023167229,
+            2.2991017367992583e-05
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0005470057931552752,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 5.747754341998146e-05,
+            "46": -0.0006341727394761132
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "pair_task": {
+      "cases": 25,
+      "changed": 5,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.00016694490818029982,
+          "ci95": [
+            -0.0005008347245408995,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": -0.0008347245409014992
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": -0.0004859609087193441,
+          "ci95": [
+            -0.0014578827261580323,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": -0.0024298045435967204
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0008284197862828746,
+          "ci95": [
+            -0.0024852593588486236,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": -0.004142098931414373
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.00010945962565250822,
+          "ci95": [
+            -0.00032837887695752466,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": -0.0005472981282625411
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "pair_cal": {
+      "cases": 25,
+      "changed": 3,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.00017529215358931706,
+          "ci95": [
+            -0.0003756260434056769,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00037562604340568573,
+            "43": 0.0,
+            "44": -0.0005008347245408995,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.000419743419465996,
+          "ci95": [
+            0.0,
+            0.0011916755846797405
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00016888668429561882,
+            "43": 0.0,
+            "44": 0.0019298304130343613,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0009952354631459002,
+          "ci95": [
+            -0.0032436766285158652,
+            0.00025797023907816465
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0004299503984636077,
+            "43": 0.0,
+            "44": -0.005406127714193109,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.00011342232512460359,
+          "ci95": [
+            -0.0005518242015844077,
+            0.00021155722621059693
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00035259537701766154,
+            "43": 0.0,
+            "44": -0.0009197070026406795,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "published_control": {
+      "cases": 25,
+      "changed": 20,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.001277128547579327,
+          "ci95": [
+            -0.004883138564273854,
+            0.001627712854757939
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0031719532554257412,
+            "43": -0.008055091819699567,
+            "44": 0.0,
+            "45": -0.0013772954924875292,
+            "46": -0.0001252086811352804
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0025878984378214036,
+          "ci95": [
+            0.00028752149082378754,
+            0.00488827538481902
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0051292653248219975,
+            "43": 0.006336298939650928,
+            "44": 0.0,
+            "45": 0.0015102483951492482,
+            "46": -3.632047051515541e-05
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.005375508607894468,
+          "ci95": [
+            0.0005206642848648002,
+            0.013103609238136318
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0035854267525393,
+            "43": 0.020644206479380766,
+            "44": 0.0,
+            "45": 0.0026924981907805456,
+            "46": -4.45883832282723e-05
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.00195430933660961,
+          "ci95": [
+            0.00037490922425484905,
+            0.003667005999473836
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0012836974138648704,
+            "43": 0.004923590364093,
+            "44": 0.0,
+            "45": 0.00029542435370468747,
+            "46": 0.003268834551385491
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "ece_cap": {
+      "cases": 25,
+      "changed": 5,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.00030050083472454414,
+          "ci95": [
+            -0.0009015025041736325,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0015025041736227208,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0006161284531322539,
+          "ci95": [
+            0.0,
+            0.001848385359396762
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0030806422656612696,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0020301746109773157,
+          "ci95": [
+            -0.006090523832931946,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.010150873054886577,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.0003763355439764182,
+          "ci95": [
+            -0.0011290066319292545,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.001881677719882091,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_0": {
+      "cases": 25,
+      "changed": 1,
+      "metrics": {
+        "accuracy": {
+          "mean": -7.512520868113715e-05,
+          "ci95": [
+            -0.00022537562604341144,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00037562604340568573,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 3.3777336859123764e-05,
+          "ci95": [
+            0.0,
+            0.00010133201057737129
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00016888668429561882,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 8.599007969272155e-05,
+          "ci95": [
+            0.0,
+            0.00025797023907816465
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0004299503984636077,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 7.05190754035323e-05,
+          "ci95": [
+            0.0,
+            0.00021155722621059693
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00035259537701766154,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_0.1": {
+      "cases": 25,
+      "changed": 1,
+      "metrics": {
+        "accuracy": {
+          "mean": -7.512520868113715e-05,
+          "ci95": [
+            -0.00022537562604341144,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.00037562604340568573,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 3.3777336859123764e-05,
+          "ci95": [
+            0.0,
+            0.00010133201057737129
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00016888668429561882,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 8.599007969272155e-05,
+          "ci95": [
+            0.0,
+            0.00025797023907816465
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0004299503984636077,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 7.05190754035323e-05,
+          "ci95": [
+            0.0,
+            0.00021155722621059693
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.00035259537701766154,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_1": {
+      "cases": 25,
+      "changed": 2,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.0001001669449081799,
+          "ci95": [
+            -0.00030050083472453975,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0005008347245408995,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00038596608260687225,
+          "ci95": [
+            0.0,
+            0.0011578982478206168
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0019298304130343613,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0010812255428386218,
+          "ci95": [
+            -0.0032436766285158652,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.005406127714193109,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.0001839414005281359,
+          "ci95": [
+            -0.0005518242015844077,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0009197070026406795,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_2": {
+      "cases": 25,
+      "changed": 2,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.0001001669449081799,
+          "ci95": [
+            -0.00030050083472453975,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0005008347245408995,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00038596608260687225,
+          "ci95": [
+            0.0,
+            0.0011578982478206168
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0019298304130343613,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0010812255428386218,
+          "ci95": [
+            -0.0032436766285158652,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.005406127714193109,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.0001839414005281359,
+          "ci95": [
+            -0.0005518242015844077,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0009197070026406795,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "mix_scaled": {
+      "cases": 25,
+      "changed": 2,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.0001001669449081799,
+          "ci95": [
+            -0.00030050083472453975,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0005008347245408995,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.00038596608260687225,
+          "ci95": [
+            0.0,
+            0.0011578982478206168
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0019298304130343613,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": -0.0010812255428386218,
+          "ci95": [
+            -0.0032436766285158652,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.005406127714193109,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": -0.0001839414005281359,
+          "ci95": [
+            -0.0005518242015844077,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": -0.0009197070026406795,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "stability_gate": {
+      "cases": 25,
+      "changed": 0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0,
+            "43": 0.0,
+            "44": 0.0,
+            "45": 0.0,
+            "46": 0.0
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    },
+    "random_expectation": {
+      "cases": 25,
+      "changed": null,
+      "metrics": {
+        "accuracy": {
+          "mean": -0.0041557659752633576,
+          "ci95": [
+            -0.0096561366488547,
+            0.0001813502105428454
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.001970732470784653,
+            "43": -0.013396346607335486,
+            "44": -0.0012615723174989046,
+            "45": -0.00720507263658896,
+            "46": -0.0008865707856780869
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "ece": {
+          "mean": 0.0003465362546795966,
+          "ci95": [
+            -0.002494887150109238,
+            0.003505953983601951
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0004920872921664619,
+            "43": 0.005861471477647271,
+            "44": 0.00043744277723440776,
+            "45": 0.0003447207299144481,
+            "46": -0.004418866419231682
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "nll": {
+          "mean": 0.011734642266603663,
+          "ci95": [
+            -0.001626286256735727,
+            0.027372284418420535
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": -0.0025272250784575067,
+            "43": 0.037512089769844305,
+            "44": -0.0012200874929126915,
+            "45": 0.02554524027548244,
+            "46": -0.0006368061409382398
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        },
+        "brier": {
+          "mean": 0.005607413688582436,
+          "ci95": [
+            0.0006659335296685609,
+            0.011154634571358643
+          ],
+          "seed_count": 5,
+          "cases": 25,
+          "per_seed": {
+            "42": 0.0011171159731587332,
+            "43": 0.014469262855478626,
+            "44": -0.00010698559505089023,
+            "45": 0.011248268317198596,
+            "46": 0.0013094068921271184
+          },
+          "estimand": "seed-equal paired difference conditional on policy feasibility"
+        }
+      },
+      "coverage": {
+        "42": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "43": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "44": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "45": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "46": [
+          1.0,
+          0.95,
+          0.9,
+          0.85,
+          0.8
+        ]
+      }
+    }
+  },
+  "source_hashes": {
+    "results\\round2\\speech_baseline\\allocation_scores.json": "269eaa64b315d4cd7ba1a326b083a4e05f929068627e136bb517c79e4fa365b5",
+    "results\\round2\\speech\\seed42\\candidates.json": "2803ad7f9dfd8649b2f201f548625a196908ca3c2c92a807decf80ed7160e99e",
+    "results\\round2\\speech\\seed42\\mask0_logits.npz": "aef0515b90dc06cca2bd137bad66138830909194a7934dcf961f90f5100e20ec",
+    "results\\round2\\speech\\seed42\\mask1_logits.npz": "7440dffca4327415d320bad4fbe4bdffcdb3d9cf597f89ca9971b639f4964292",
+    "results\\round2\\speech\\seed42\\mask2_logits.npz": "13965a0273dff7a40e3f55cba5c2824c33cc22dff78cb6f5296c92407a30f850",
+    "results\\round2\\speech\\seed42\\mask3_logits.npz": "f48054ac5da17f8739ebd2528dcd6284df29a8d7376989e21d2f7d0935b9b251",
+    "results\\round2\\speech\\seed42\\mask4_logits.npz": "5bbced47e875ceaefa795274d5cd0dbb56bb65dfcb6c86732a6250c1553e58c2",
+    "results\\round2\\speech\\seed42\\mask5_logits.npz": "1475636d063ecbda2e4c84369980b26551f51e5af6b911a71da77b7a83ccb6c7",
+    "results\\round2\\speech\\seed42\\mask6_logits.npz": "1fbb692a2344c0e2b8057d471f4f58a381860696d4c37747afb50a265b3ece91",
+    "results\\round2\\speech\\seed42\\mask7_logits.npz": "a3df1c225e642603306ceb358a31c0f3c487fc924709a3bd8a49264215147f19",
+    "results\\round2\\speech\\seed42\\mask8_logits.npz": "c0b19e3fc002186a65848687cb9901fb29b823c603d062ca443516755a99f205",
+    "results\\round2\\speech\\seed42\\mask9_logits.npz": "4b06f6eddae4b82f9b57f93f33513ac5d48fda63905b3b6a182abc98c3bb19ec",
+    "results\\round2\\speech\\seed42\\mask10_logits.npz": "b86695fd60cf6aa58128d753c403a7601dcb4bd3ef2a3ed570d479dab7bf5abf",
+    "results\\round2\\speech\\seed42\\mask11_logits.npz": "b7efdf26a6cce8a823955d5dca14228df6d6904e9f9ff075a0053b17f049d0db",
+    "results\\round2\\speech\\seed42\\mask12_logits.npz": "c5812881c065576230f72c182694e6bee93468a6dcf3ee11348bb299143c30b3",
+    "results\\round2\\speech\\seed42\\mask13_logits.npz": "4cbec52dd6c94aef330c08c83197e81120d423152ef393567852c748c953fead",
+    "results\\round2\\speech\\seed42\\mask14_logits.npz": "08577a62b99dc5022cc354a8987fc25790f89551396815cbd364d03f9bd16797",
+    "results\\round2\\speech\\seed42\\mask15_logits.npz": "469125e05e4f7a91c5cbd791b1007d2d57d432ce8678f265de0ffefc1bce7c1f",
+    "results\\round2\\speech\\seed42\\mask16_logits.npz": "e211a264d202d05c9dce77cdcb618930e1182669d9c179bcb95244b83adc605a",
+    "results\\round2\\speech\\seed42\\mask17_logits.npz": "79f8d4db8de23ac02afa9d49be8d0d2023e1af30e6f91e433f7582ad6f50959c",
+    "results\\round2\\speech\\seed42\\mask18_logits.npz": "dc6cf23ba40ba5cf155c6d7a64adb575d9529a983733246b219066814843dbc9",
+    "results\\round2\\speech\\seed42\\mask19_logits.npz": "01036b1327f9c4695d7414875a4044f13565544d82edc778c2aa08f1d3a4e358",
+    "results\\round2\\speech\\seed42\\mask20_logits.npz": "01f26593ae2dc5f9d39a37edd12cb5737264b8a2b870f36fcd47af923f0a3e87",
+    "results\\round2\\speech\\seed42\\mask21_logits.npz": "5b70f8e3f5f196f79e7e256f250729a08824eb7f29b17aac5569ae198df44112",
+    "results\\round2\\speech\\seed42\\mask22_logits.npz": "341e9c218929831b1a9d205e348ab16728e7a0d53c43bd8daaf0f78643a4de43",
+    "results\\round2\\speech\\seed42\\mask23_logits.npz": "54c8efd5f871305a4af65b06feea33b3f3983c82e7f2acdd396b86ef79fd33c1",
+    "results\\round2\\speech\\seed42\\mask24_logits.npz": "775b873e3cf224d87d5ba4ad6213ee9f8ca346409eca3fffaa04e4657542d3ec",
+    "results\\round2\\speech\\seed42\\mask25_logits.npz": "602061c7b25a8971619f23303f85b668a40fb1320a7c24e32958f045efc83ae3",
+    "results\\round2\\speech\\seed42\\mask26_logits.npz": "5b96bbb016fbd8649d9235f63be1ca73c216833adb983175ff83a951fe96cc9d",
+    "results\\round2\\speech\\seed42\\mask27_logits.npz": "d3a2ef0a5d23ce1eedf6d9f5fdf0bc120736e9832ac9d95ac6252b94af35cba5",
+    "results\\round2\\speech\\seed42\\mask28_logits.npz": "df2911466c25b14cea3e87a7f5cb8c7c08e278b14fda44f92285ce0f9f52e620",
+    "results\\round2\\speech\\seed42\\mask29_logits.npz": "858a1747509237d2f78eabf9dfedaab2e67a6fedc168f92f1697f1709330938d",
+    "results\\round2\\speech\\seed42\\mask30_logits.npz": "2be48e16e96da772b2f3d276d90cbc68618e2a5402365c4cd535067dafa40577",
+    "results\\round2\\speech\\seed42\\mask31_logits.npz": "acff2fd15c190e77c88b3572ad211cbe51f07279517dce2466140d7fffabd6f2",
+    "results\\round2\\speech\\seed42\\mask32_logits.npz": "257f672af148c23779f85d1ae2f84a31a4e98a9d068a6796b767db9f135a3e06",
+    "results\\round2\\speech\\seed42\\mask33_logits.npz": "efb4ecc6c78bf6dfff35604d3c8798d20a0497ad796f876e485b8efafd2b525c",
+    "results\\round2\\speech\\seed42\\mask34_logits.npz": "7bff8392352d224f1be2b7f2a0920d4f3f804b7e0502617e7ae4855e3c7c8930",
+    "results\\round2\\speech\\seed42\\mask35_logits.npz": "45cc1d7569ef05b029cd5482372859aaab97bf915e5613c7fcf4927db1f230df",
+    "results\\round2\\speech\\seed42\\mask36_logits.npz": "ee43bb0fd2657412188df4193e91c94a73b578d45e0a3a52d71931f983cfe335",
+    "results\\round2\\speech\\seed42\\mask37_logits.npz": "17a39877cf96c60d87310540674b0ed384e547b1079c89fc1b5825f7098022d0",
+    "results\\round2\\speech\\seed42\\mask38_logits.npz": "97a1e7c5adf4a38102034c9fa157ebbb3bbc924e083970e0e176ae01c62be5ad",
+    "results\\round2\\speech\\seed42\\mask39_logits.npz": "ef1e6c413ed4399e6496c5500f2fd7859d31f914ee83682d529d1da15ffd6251",
+    "results\\round2\\speech\\seed42\\mask40_logits.npz": "175e89249e37446c9186d066f76184de400d7f3fbd2c75c59d8a26637480c292",
+    "results\\round2\\speech\\seed42\\mask41_logits.npz": "55c1279086d6068466caff2a6d1ef4b3eae0475117a8edce54ab3b460f65e925",
+    "results\\round2\\speech\\seed42\\mask42_logits.npz": "c6f450f445272987b9ffaeeca6d5e9792998d3180b9f07739201571aa6288ea7",
+    "results\\round2\\speech\\seed42\\mask43_logits.npz": "aea69fda7fc67377084ae2c81cd321d380029743dff62d9d5c3ecf1333d4976d",
+    "results\\round2\\speech\\seed42\\mask44_logits.npz": "7053b1313bc194d9843d9784e04303180cc5c60f5a6d3404c80736d150099d58",
+    "results\\round2\\speech\\seed42\\mask45_logits.npz": "90bcb99936bb73c21685c5b631ce7773ea264711caf7bf192f7b7f6519885579",
+    "results\\round2\\speech\\seed42\\mask46_logits.npz": "30485980b232bdd7adf4c97d8c0ca1e1848ad57e6ab9b2291e1997325a87ffd8",
+    "results\\round2\\speech\\seed42\\mask47_logits.npz": "4dbf42ab93157c4a3477e3ff4717310c945caf18d069b32d33e6c4b263eba1ba",
+    "results\\round2\\speech\\seed42\\mask48_logits.npz": "3d2d79b28c6277ac7783afbf9379a731cae10e5d4a0af04ba66cb6fee8da66a1",
+    "results\\round2\\speech\\seed42\\mask49_logits.npz": "4b5ef6eb2506660344210ec1f889804ea723201bf5e94da9673847fb665630d7",
+    "results\\round2\\speech\\seed42\\mask50_logits.npz": "b64a499c57f19a5ce79510e5b1bc044c36dfb43ebbeb8a773823e010e09696ac",
+    "results\\round2\\speech\\seed42\\mask51_logits.npz": "8236cad6368df72c1af85f644949f26cd3abc02a1a9e9a55bb7697a5e34f8010",
+    "results\\round2\\speech\\seed42\\mask52_logits.npz": "fae9d99ac99d16f94c1865d78adc93855e270942381a4727b88e40b39f4da375",
+    "results\\round2\\speech\\seed42\\mask53_logits.npz": "a8ffc03c53817677606412d38525a97e2fb9026ac50c1e7b3a5d7a73352190b5",
+    "results\\round2\\speech\\seed42\\mask54_logits.npz": "cfc2c0c83b3be0791bbf8c626573ec13655299beda62df4da54903658605543f",
+    "results\\round2\\speech\\seed42\\mask55_logits.npz": "b8b8ac8fa5e5ea539447568a6bdb661781bc008f741f6719edd1f75495d665c0",
+    "results\\round2\\speech\\seed42\\mask56_logits.npz": "76a8d711bf66a40579c8e543800afeed0211e7e843fc4092d5376dcd19a6825b",
+    "results\\round2\\speech\\seed42\\mask57_logits.npz": "54c26e7b924d321ea4a489ecc703e4ad0b8954db9eca3c6b50de0bef81a59dca",
+    "results\\round2\\speech\\seed42\\mask58_logits.npz": "dc83f6321e5fad9fe48192072f37e06a62b484102bf6eb088ced492774002809",
+    "results\\round2\\speech\\seed42\\mask59_logits.npz": "e38624dd06665d924ae54ed72b35bf376d01d4db66f2f29135334e4bde69ba7e",
+    "results\\round2\\speech\\seed42\\mask60_logits.npz": "afef2e197cdd539dcad8155f2391963809b781e4604b4d1a1c4b321140f495c8",
+    "results\\round2\\speech\\seed42\\mask61_logits.npz": "5d650237baf8f0eace0cdd4d28c244354b5ae927f22fdb5b13f5c1e93c9cc21e",
+    "results\\round2\\speech\\seed42\\mask62_logits.npz": "6a74867728a7e42ca1437161c687b594638cdf41ce20358877a3b8af476470ae",
+    "results\\round2\\speech\\seed42\\mask63_logits.npz": "8faa3ecf439343d50888f27bd156295cb7c2edadb8eeaf49676f505829e52a6f",
+    "results\\round2\\speech\\seed42\\mask64_logits.npz": "af54fa064dd71f6ae0d9ce53f0fc2615c02ccb999b4edd618bd3f83d15b02c5a",
+    "results\\round2\\speech\\seed42\\mask65_logits.npz": "17296d462e66f9561981e5e2b5d1d27977eae78b09520eab955b3bed24a24b96",
+    "results\\round2\\speech\\seed42\\mask66_logits.npz": "452dc2770a1b890ef0a92dc8019d76e312fca262417b11124dd26e844ca0b1be",
+    "results\\round2\\speech\\seed42\\mask67_logits.npz": "e0180b8a5410331c77389fac0ff9f68c7a6aaff5539c5816b954df13ccdcb331",
+    "results\\round2\\speech\\seed42\\mask68_logits.npz": "e72387a1fa2b420e39dc15236cddee9768dfedcee693f63977b2c71adf561013",
+    "results\\round2\\speech\\seed42\\mask69_logits.npz": "6e0ea671d0f395ea43334b0e5d609ccc2685384b3f11f8768d6a78ae432c3cca",
+    "results\\round2\\speech\\seed42\\mask70_logits.npz": "6c1f8daefe0f7fccf2de9524c4d144e4c072227195d64a4322fd0bc4efe94285",
+    "results\\round2\\speech\\seed42\\mask71_logits.npz": "b405e24e225f7d6ca4f654c5a76b6922bafa880ac9a01b2bb657b0323fe66a2b",
+    "results\\round2\\speech\\seed42\\mask72_logits.npz": "fdaacf659feef769daf10a160103bd4173d6678067a22496f11dc6a6d3c64814",
+    "results\\round2\\speech\\seed42\\mask73_logits.npz": "00b5e1c2453bbd92fe19a082cb89267843b9abd73d947ebd71d77119ead95464",
+    "results\\round2\\speech\\seed42\\mask74_logits.npz": "9eec9006c96ee08a7498e72a0280ad189dd2520461baabb209658787e6d9a297",
+    "results\\round2\\speech\\seed42\\mask75_logits.npz": "204f4ebf7aae6dbd6f0c8c3d16a6f30bf6d1a32ebf6398b83e3f467a8489fcc9",
+    "results\\round2\\speech\\seed42\\mask76_logits.npz": "7d81a8a0b3130d836e370c7f369eb5a3b480599154e5c71b3b315088f686db46",
+    "results\\round2\\speech\\seed42\\mask77_logits.npz": "205b6019259d4b26d1e12bcf2b2b067732fc5e67356edd3ccb4eea955d9ace08",
+    "results\\round2\\speech\\seed42\\mask78_logits.npz": "0381ad4def8097fcf4312d532dac6a1f544499a2f1232be38b228b3d59fc0301",
+    "results\\round2\\speech\\seed42\\mask79_logits.npz": "221ae049174f6a7a7c338deccfa9b60d0883d47eb758d780515c35a830d687b3",
+    "results\\round2\\speech\\seed42\\mask80_logits.npz": "a645a9a73b7273adf467dcc017cf562a879d7e8474a57d23cb46a80d8bae82d6",
+    "results\\round2\\speech\\seed42\\mask81_logits.npz": "ea3ef13b95ee54c1420216440aa251075082409dd405ac169e7fc057b9896e3c",
+    "results\\round2\\speech\\seed42\\mask82_logits.npz": "888d12431505f633d7f20ff140023778ee2bf9b13343f3e142bac896c7ae0546",
+    "results\\round2\\speech\\seed42\\mask83_logits.npz": "2f6c572c841a02405d505dbd6a8594a909dbfc0c8c825113ceb6760dc7935181",
+    "results\\round2\\speech\\seed42\\mask84_logits.npz": "64ee0bfa5ab85f9229405f0fb0940b4932c92f733dde60341c8af79c50149ed2",
+    "results\\round2\\speech\\seed42\\mask85_logits.npz": "be0d85326409e182ebff46c58a58b4257fff866aadebc4c0df12d115cbc09e4c",
+    "results\\round2\\speech\\seed42\\mask86_logits.npz": "e31f2373c766700e0d782ac7cf3ec9e01b71abed0568cddcaed0ad5787baf66a",
+    "results\\round2\\speech\\seed42\\mask87_logits.npz": "f415c82423658dde900c4a58be906b210e0a98bb9f027e2176422e8d622c57a6",
+    "results\\round2\\speech\\seed42\\mask88_logits.npz": "2976d817d53c08a522ce1d4f1de724d2d9fcb2048640ffd549c86e6e11c9e4a4",
+    "results\\round2\\speech\\seed42\\mask89_logits.npz": "54d0f2803a59b893f78a9d33bd4461b28eded35c243c6b8faf7e491c03855c57",
+    "results\\round2\\speech\\seed42\\mask90_logits.npz": "eb09df63defdb600175a6182368bfe9a392ac05b22cc371933051007d111e2ff",
+    "results\\round2\\speech\\seed42\\mask91_logits.npz": "1ecf69795f02dbdc1563ee40e4ce24077903fb9a154f8d57222ddd337b268abd",
+    "results\\round2\\speech\\seed42\\mask92_logits.npz": "c3773a039bff496c4d747e01f16890bf0d69b2a79649f4c93c63555db0248faf",
+    "results\\round2\\speech\\seed42\\mask93_logits.npz": "6430f3299829e10d1a3c620148a2b9267065974efaaa375bfbe3382b869f04b4",
+    "results\\round2\\speech\\seed42\\mask94_logits.npz": "0c4937160dfc3330447626c9ce89b4012217868b4cce62e57baf7787bc87eba7",
+    "results\\round2\\speech\\seed42\\mask95_logits.npz": "32648fe83a4291dc931e2096bdd528d74ed106aa35b5436ef0557b696af61d52",
+    "results\\round2\\speech\\seed42\\mask96_logits.npz": "b4da9ebd49bbf2e5b60432debcd8ad72011946e2cf414d3a84cc875a003d9fec",
+    "results\\round2\\speech\\seed42\\mask97_logits.npz": "3533b553259ed6476ad7e15ce8443b77debec78408928cbc88373d4673c8abcd",
+    "results\\round2\\speech\\seed42\\mask98_logits.npz": "619e39c6a4833100e68b7a8cc2d60dea0acf8bdbaed0394f1399f3cf694dbdd5",
+    "results\\round2\\speech\\seed42\\mask99_logits.npz": "fba1adf445049d4d9f2dfd8e865ae4df8abde3f5e4a1aaa244d7b2843dbebe10",
+    "results\\round2\\speech\\seed42\\mask100_logits.npz": "589183993f410f1eedd16ba2ff645723de331c4698a503851144108834427938",
+    "results\\round2\\speech\\seed42\\mask101_logits.npz": "1f5e6d068f7b28ef2f2b687d3090344a8737a6f2cbd00b4f8cb49188256b8e4c",
+    "results\\round2\\speech\\seed42\\mask102_logits.npz": "09f1ce060d01e731cdc9988f17b6c0ef37125c563e690141712ef7a8b22134cc",
+    "results\\round2\\speech\\seed42\\mask103_logits.npz": "3881ad3e9e00942383c0e2c8826deed97bd86bfd6ae94304b0bcbadcf2cea0da",
+    "results\\round2\\speech\\seed42\\mask104_logits.npz": "b333f05bae83712111771c94cd2a427ead1154e2a2a98880b5bbe8fedcf7a4a8",
+    "results\\round2\\speech\\seed42\\mask105_logits.npz": "0c85f089872297d3fba4d9ac3324926b379b62ec460d4b6b6940dffaece6ea7c",
+    "results\\round2\\speech\\seed42\\mask106_logits.npz": "e4c9ac6fc6d22bb6be4158628a18fdc49cc1dd69f4ed04eff014e2f945c290a5",
+    "results\\round2\\speech\\seed42\\mask107_logits.npz": "9855b3f16385bfc60038bf29a742a3bc82aee112d05d41da026cb6590a4f3410",
+    "results\\round2\\speech\\seed42\\mask108_logits.npz": "b496a04a4e9ea86afbd14d45841078a51c87024d20d8afb9824e432a5e9fbc06",
+    "results\\round2\\speech\\seed42\\mask109_logits.npz": "ac74b36e4a816c291ae3aa12c8d21da6f26d524070d57a98092de4cdac71f0ac",
+    "results\\round2\\speech\\seed42\\mask110_logits.npz": "f5fadc1c14964407df93e9c4de334919763857ee9e7fba393ac05cdf1ec53ea8",
+    "results\\round2\\speech\\seed42\\mask111_logits.npz": "45e885b2c1c5b5ecf54b14319f04e49d338f769b11023b9f72a05c0220abbff5",
+    "results\\round2\\speech\\seed42\\mask112_logits.npz": "a854fb9c164b572eece44cde1ee47bc2b51cc821c13756fef613dac0c001f0f2",
+    "results\\round2\\speech\\seed42\\mask113_logits.npz": "e13af9b118a58b22f149eb7ddb2065ac4d89a941b730adb363d8e10747f7994e",
+    "results\\round2\\speech\\seed42\\mask114_logits.npz": "4f8a2c1f75737aa7465b579288486265be87e4022eae059e9e04b9dcf29ea55f",
+    "results\\round2\\speech\\seed42\\mask115_logits.npz": "5ce8fcba96f2da78b4ebfc96bc033b81f5eb8a59cbe2bffa23e8623aa7069260",
+    "results\\round2\\speech\\seed42\\mask116_logits.npz": "751caa10bd7c1fef760f51050edf18a132fc71940e6f2a646429c484521bd5ce",
+    "results\\round2\\speech\\seed42\\mask117_logits.npz": "dc0e44d3b4726a908e4296fde3847c31c4d63607a2d3b3e7dfa968a3c5e69f82",
+    "results\\round2\\speech\\seed42\\mask118_logits.npz": "e787b60376db81ddbbbd30a4547f558692e916606571e645e741ead219e82644",
+    "results\\round2\\speech\\seed42\\mask119_logits.npz": "1da789f7144725e87ecce78c6890252302f9663b5ab7f62ec93c4ec2e25dd528",
+    "results\\round2\\speech\\seed42\\mask120_logits.npz": "5ee2be02f00614e99202481089acbc8da9a0d47f78d59a7635cea54e011d9719",
+    "results\\round2\\speech\\seed42\\mask121_logits.npz": "4bf8385388baf428324bedd723b743fc67ae127080ba2c022bcf70f0ac0f09c0",
+    "results\\round2\\speech\\seed42\\mask122_logits.npz": "cbdb8fff2c06ac07d9ab55422c83051bc5b6919ef2cdddebd789f1b17f420abf",
+    "results\\round2\\speech\\seed42\\mask123_logits.npz": "aaec6f3b103be12e750d85419d7f3db6d3b0301158ef7016f1d3a32bbdc8b844",
+    "results\\round2\\speech\\seed42\\mask124_logits.npz": "0df51c71deb13dab855fe9f2e3b6c424a4469cc02e1bd07ffd437620c4f0bc54",
+    "results\\round2\\speech\\seed42\\mask125_logits.npz": "39d448c71c574a65a848c994febb271a3fe2065c1fb33d8ae1708d67aed276a8",
+    "results\\round2\\speech\\seed42\\mask126_logits.npz": "c09e87054bda8ebbc3d7b38b0fd9d8ebee683ee51be8a70aa95eb37586448bbd",
+    "results\\round2\\speech\\seed42\\mask127_logits.npz": "84695450064763a296726032a947c3e19c368fc898071ff320642082e08a8e64",
+    "results\\round2\\speech\\seed43\\candidates.json": "a60c141c8b05359e006fc47128d813edb0b7abea99e7e3410d3688d5700e71b8",
+    "results\\round2\\speech\\seed43\\mask0_logits.npz": "401a2f5ac44e5d250aff6f4140fd742793d8e9c8c3a4bcb6eee00685b66192e7",
+    "results\\round2\\speech\\seed43\\mask1_logits.npz": "9b6dda223eab3494c0d716c06ac00482c67892375473979d764050449d1dc265",
+    "results\\round2\\speech\\seed43\\mask2_logits.npz": "fedfc1a3775a9edf6c764dfae95ea65470c3292d6b4c58fd64b02f4e9a92c0f5",
+    "results\\round2\\speech\\seed43\\mask3_logits.npz": "066ae421d8253b0360a5b4e8961ef345c6ff60c5ef460439bc8a55570606e83a",
+    "results\\round2\\speech\\seed43\\mask4_logits.npz": "03f56a8ebebd9d991939311da8cf12cc653ce39b6037823c1ea5419de7ac5a06",
+    "results\\round2\\speech\\seed43\\mask5_logits.npz": "52489b3d2f56822d68726d54ab8aeeae5ac9320184272fae0f74a4f9c161a42f",
+    "results\\round2\\speech\\seed43\\mask6_logits.npz": "8baaffc8ecf02e1d276d093c14f0eb45693a0480f11e5283df7dc246ee5d13c4",
+    "results\\round2\\speech\\seed43\\mask7_logits.npz": "43f6fb3f87bd227fb4159fa5fbf0ca2e5402014e3b710fdcc06658af633385b7",
+    "results\\round2\\speech\\seed43\\mask8_logits.npz": "414faf70a96a4982ae11cd1d6b139429d508f2086c7c74b442d121d428362cc0",
+    "results\\round2\\speech\\seed43\\mask9_logits.npz": "553cbe46aab05b2afbf89ba3fdc5dcbeebad9cfd88b03135b5ad13568dd0c598",
+    "results\\round2\\speech\\seed43\\mask10_logits.npz": "ceadec9dc017f104f592563958e5f2f2ba2e32dd4b4daa52e1c5340efaa041f2",
+    "results\\round2\\speech\\seed43\\mask11_logits.npz": "28bf1268f006ee69b3c2bb526f49fa8254101a437a125739e31625544c31f166",
+    "results\\round2\\speech\\seed43\\mask12_logits.npz": "93f12f08cfac047b92bed4954dcc8bb39a7af2d8e4515205c2788df1b2bf1381",
+    "results\\round2\\speech\\seed43\\mask13_logits.npz": "bf929ad1433d7cd71cfd812f657624177aa2dfa54489d6ccb1d16531a88a1f0e",
+    "results\\round2\\speech\\seed43\\mask14_logits.npz": "c8d22bb282d895f70bc484f55a225bb4347406070b429dd8c188d33a05f8b7fa",
+    "results\\round2\\speech\\seed43\\mask15_logits.npz": "0978e251373d31f86909320194fa6a4a3d6db7f4d5a321dcd3d75605e99a3428",
+    "results\\round2\\speech\\seed43\\mask16_logits.npz": "5f54721a62f6252442c098ad00719698412f7b57beba71700c3433ccc9cf8492",
+    "results\\round2\\speech\\seed43\\mask17_logits.npz": "349dcaa214b5d2bd52ad9bdeb34969b7a66287f5e7be6301d82856b475b96659",
+    "results\\round2\\speech\\seed43\\mask18_logits.npz": "ef2f8733f61d384219b15476d28d74fd89e08a1e07f71dc8a0a7ba7fa4011b63",
+    "results\\round2\\speech\\seed43\\mask19_logits.npz": "293f29fd4390773a3b6d6c648bbe07e805f57865792f89aae0c70c7e22d5cc28",
+    "results\\round2\\speech\\seed43\\mask20_logits.npz": "0226a63ed100750307b2522995eb2ee6188aac085cda8d4c2486dc641b66ce7b",
+    "results\\round2\\speech\\seed43\\mask21_logits.npz": "f0a62034207740e8aad3f8e5b9f6b139091d8c7bef9f1ac5b0aeb057dfc728af",
+    "results\\round2\\speech\\seed43\\mask22_logits.npz": "950cebb5feeeb9528b61634be0f5e59c9f6bb7cd23db3977ba7349c10f434fa6",
+    "results\\round2\\speech\\seed43\\mask23_logits.npz": "2923ef8b05259f2706b585acd53831b51f088914777f57942a238b4e5d7bbb87",
+    "results\\round2\\speech\\seed43\\mask24_logits.npz": "efb6ea81d4f65663aafe8b82b2dfe90506697ab1575b99ff49fe7e723a65fd41",
+    "results\\round2\\speech\\seed43\\mask25_logits.npz": "f627e0b6e5759e7cf8c3a2e6747b45dc2e08dfcf209d1371abd11d5bc815d90f",
+    "results\\round2\\speech\\seed43\\mask26_logits.npz": "50c92d9772298c8a23490472d7ef2ce63774ff3494dc3ac8bed4df7fd29c77ac",
+    "results\\round2\\speech\\seed43\\mask27_logits.npz": "cb6ffde24462ffe37f43aac5e704ebaa16bbe6228022935e598c341e7f7abf37",
+    "results\\round2\\speech\\seed43\\mask28_logits.npz": "071a89e2613aa81b601d7018fa034594a8b5a7e3f5c900c64cc3188b93e481a7",
+    "results\\round2\\speech\\seed43\\mask29_logits.npz": "7c4b71e68c321fac4a60cbf742cd801e49dbec0bf2c67c403066d4738f776b95",
+    "results\\round2\\speech\\seed43\\mask30_logits.npz": "63ec474fd0ee3e4cbce96a1932669839a2113b1f07b6e1c33d850d21bc7f79d8",
+    "results\\round2\\speech\\seed43\\mask31_logits.npz": "c121d09d626c2939a553802e9e3b1355520dc2cb63460f3d53462a901cb62732",
+    "results\\round2\\speech\\seed43\\mask32_logits.npz": "f22934f4de325e6a5671b5790e25bf53caa97386752f0bc81487cdef4aeca06b",
+    "results\\round2\\speech\\seed43\\mask33_logits.npz": "084a932965fe11c5d485dc82202f21964adde6f21936a815b684c1d48a53fb72",
+    "results\\round2\\speech\\seed43\\mask34_logits.npz": "01203c1660577abed88a3202164319c9ea3a8f2463a2644e3613491a197ba61d",
+    "results\\round2\\speech\\seed43\\mask35_logits.npz": "7106123b06bbf5227d6531d494493cf2e70e7aa60da97a650c15f2e2e3a62cce",
+    "results\\round2\\speech\\seed43\\mask36_logits.npz": "fa0bb236668483ba5015b42fd2bb10e6fe085a00c5ca07d0f4871649e3fd3c98",
+    "results\\round2\\speech\\seed43\\mask37_logits.npz": "fb760374a21eca555c87c9ce1161a7a54863e9307a18d29622346740290da2ed",
+    "results\\round2\\speech\\seed43\\mask38_logits.npz": "28cd88626decb601516f9e55653e50c14f5c79aba5e7e54f013d77caa5c3d5ad",
+    "results\\round2\\speech\\seed43\\mask39_logits.npz": "66d14305eed705fd9844916ec752db9d58704969a4e570522d31ea84f991e7b8",
+    "results\\round2\\speech\\seed43\\mask40_logits.npz": "1fbb3f3992383eba285399a59d90cda592b3d9e5642107b6e9cadd5abb9ab716",
+    "results\\round2\\speech\\seed43\\mask41_logits.npz": "fedbee883e94715b43c992984ba0840589a00686668b04b212f3917afac99338",
+    "results\\round2\\speech\\seed43\\mask42_logits.npz": "c1f9d34b32b7a35a4d521194af6f8e0ef900ee3cc3eb6b56944e35211b495ddb",
+    "results\\round2\\speech\\seed43\\mask43_logits.npz": "961f5a7fe0c29b909d4f759d17ee81c5616d9b3f22760801213012973dc6f9ad",
+    "results\\round2\\speech\\seed43\\mask44_logits.npz": "374173cf1007fe9d2ca18b8d131b559048eae9277d7fb058fd9d7b50eee258e8",
+    "results\\round2\\speech\\seed43\\mask45_logits.npz": "7b92fcc76a5c1fd0f8a5745578e60274b0fe30070356d52202d67442826befd8",
+    "results\\round2\\speech\\seed43\\mask46_logits.npz": "49f0d494c502f7928185080109e55f1eb9c9537db174182dc831d87b1bfc2702",
+    "results\\round2\\speech\\seed43\\mask47_logits.npz": "4866a0391a6610be11dbf18e0bea68db795c9ac3a3b113f8a96621c1eac32350",
+    "results\\round2\\speech\\seed43\\mask48_logits.npz": "9b42b0cad1883fc380a03437ecada4be31c74dab88b067bcabb943a39954d89a",
+    "results\\round2\\speech\\seed43\\mask49_logits.npz": "d6e75df503b7184a70a1524618d8681d8a926a58c22b9793ba90869cff571148",
+    "results\\round2\\speech\\seed43\\mask50_logits.npz": "b797693fb9c8f22d531d4b47e51fa0d188d943675083dbfcccad8402c62589f4",
+    "results\\round2\\speech\\seed43\\mask51_logits.npz": "c538d595391309337c13316b8b6aef12e62e6477a0d519c281b17fd34ec4c917",
+    "results\\round2\\speech\\seed43\\mask52_logits.npz": "ad3dee70c144138875e2358dc13d49492076917cb235431e448ca115f16fa435",
+    "results\\round2\\speech\\seed43\\mask53_logits.npz": "8fec3e775694beae03e0fcf78f8ab2a3e7355fbbeab63a2a3a2763693c573d84",
+    "results\\round2\\speech\\seed43\\mask54_logits.npz": "8cbf5c415662536b64d1dd34af008e8a0ee593ebb1802491c7447f64ab4796fd",
+    "results\\round2\\speech\\seed43\\mask55_logits.npz": "8196882faa2ba2db992485677c5bbfa8de22361dd482a68a56057be56309121e",
+    "results\\round2\\speech\\seed43\\mask56_logits.npz": "7973a67f1eaf14d58451ccb8c900fa6e480cc73ba998b2227486fee118e4fcbd",
+    "results\\round2\\speech\\seed43\\mask57_logits.npz": "f6bebed4c45a49a35b3b60d9322ad992ddeceb3ecb19b68bfcfbbf2450f1f1c3",
+    "results\\round2\\speech\\seed43\\mask58_logits.npz": "4ede329ca11d0741562da305d1366aa0536c2b1ea3d7dca06cc9dbdebe9e0500",
+    "results\\round2\\speech\\seed43\\mask59_logits.npz": "8d8d7160e20db625e04d6d31afeeda13fb5bc4d68131890b7da619b63182221c",
+    "results\\round2\\speech\\seed43\\mask60_logits.npz": "97f8794ea12e74ebb2b7b464c366bee84d7b63aa958c970c9eae0af460f5bee3",
+    "results\\round2\\speech\\seed43\\mask61_logits.npz": "56e0718c028b506c38bd83d94fdf400256cd4382482b17389de1a5c99035b186",
+    "results\\round2\\speech\\seed43\\mask62_logits.npz": "34c82f992c6397e7a7981abe4b12726836bea77388287c80a983c773bf93ac59",
+    "results\\round2\\speech\\seed43\\mask63_logits.npz": "33a4d571a1b3bedbe0b5120030d53e1df9aebeb93675932c2f871de7750dec8f",
+    "results\\round2\\speech\\seed43\\mask64_logits.npz": "60aa8c7a48c7f01c8eb184486547b77c2ad5dab26718913c16186a4cb99a82d4",
+    "results\\round2\\speech\\seed43\\mask65_logits.npz": "9336493c9be9d77aa5c6bb015b9347a3c201b5cf3e2bace3670ed9ac51ea8638",
+    "results\\round2\\speech\\seed43\\mask66_logits.npz": "b955b36854fb701842ab75e6818d91d04c0531b132d28a2fe42dc8ed484a4089",
+    "results\\round2\\speech\\seed43\\mask67_logits.npz": "977acbb5609029f92268ebd4906e9c34d96b05a59a4a544a8f6d9a0a8b384e2e",
+    "results\\round2\\speech\\seed43\\mask68_logits.npz": "a97362b3998a0e0ed53eb9165b19e2bee6f72eed15b34d8b16e3524fad3bcd45",
+    "results\\round2\\speech\\seed43\\mask69_logits.npz": "cda4f339334c4ece09fc5e136f3e05ed2eec7c2f24c9ea220a09d680daf02d69",
+    "results\\round2\\speech\\seed43\\mask70_logits.npz": "e2e9269cf67dff23df56a9918900b1cf37077938c436e6b1cdde0e06332143f8",
+    "results\\round2\\speech\\seed43\\mask71_logits.npz": "c42e401c61924fe40cc048881b682db1b8db92f03f5ebb3f66d3c02de6650166",
+    "results\\round2\\speech\\seed43\\mask72_logits.npz": "66c58350d47544cdf18086504bf49031e1ff77b8997e05fbf23e283d9921dfb8",
+    "results\\round2\\speech\\seed43\\mask73_logits.npz": "2b4dd008fb5b4ac1be276f8361bbccf76cb26260cc598bcffb32e3aae88d91b4",
+    "results\\round2\\speech\\seed43\\mask74_logits.npz": "c861978f6b8933821a85cc3c341f77fb0c5c63d660a11f31ef9be31696de2682",
+    "results\\round2\\speech\\seed43\\mask75_logits.npz": "e2796cb59d9198c20ae9e4b618443b4f8243925d22362d400310dba983c0fa58",
+    "results\\round2\\speech\\seed43\\mask76_logits.npz": "24a1d7e3a07aec666240712126a922c5dfd9666af61a71f76d36a472a0e5c638",
+    "results\\round2\\speech\\seed43\\mask77_logits.npz": "9e8853bc9d716b58a0010c4d6b5fbdab758b3082ce3021196a56cb6806e71a0f",
+    "results\\round2\\speech\\seed43\\mask78_logits.npz": "24b877c35a9ac48e40d66d80b61fb51e100f2ce2ca7de9efd2e5028049b7c143",
+    "results\\round2\\speech\\seed43\\mask79_logits.npz": "b0ceb58de4ac4f64503374950ec4f551a45dbe7bf84e07942a1c296b633c9786",
+    "results\\round2\\speech\\seed43\\mask80_logits.npz": "70eab3aa0816515461d195a9404fafe7a32cf9e84eb057346cebaa8419513054",
+    "results\\round2\\speech\\seed43\\mask81_logits.npz": "1f4b34d5abf0802e9ce8919cf3a11ffb2d1b09b6873b3bacfe36bbe9cd4c646b",
+    "results\\round2\\speech\\seed43\\mask82_logits.npz": "8d537f5834af600282a288394aafffc80cd8b0d8d235d39ea06290081216e1d4",
+    "results\\round2\\speech\\seed43\\mask83_logits.npz": "6abf6837e8d35ac11677e5ba0eadb8875dc6c7b47e1fb126ce9ca2eef751907c",
+    "results\\round2\\speech\\seed43\\mask84_logits.npz": "34a359a4718f2a3e75b010d816656e4c92b513779e0f333a6e7edcf102ab38ce",
+    "results\\round2\\speech\\seed43\\mask85_logits.npz": "d3e8e711df1dcaa643faee101814e7027adeff0634dae95a2aeb2e56e40bc1be",
+    "results\\round2\\speech\\seed43\\mask86_logits.npz": "c89a6c9d3bd770a601c179ddc2e25f802050c77b241846bf70a96e8243208e6b",
+    "results\\round2\\speech\\seed43\\mask87_logits.npz": "7c97bbc7bf5d2d0f400ae1a26078a76b2aad28a3cd482842a8b6dcb26b979670",
+    "results\\round2\\speech\\seed43\\mask88_logits.npz": "14f9d040b61731dd2da94500e61840be49d6a2043b38c9b9b8827439469c12b3",
+    "results\\round2\\speech\\seed43\\mask89_logits.npz": "3e29d81ad5babe4aa044ad2308595bb748e409e9a47305905154187e44453d68",
+    "results\\round2\\speech\\seed43\\mask90_logits.npz": "4cab54c596a6f5b049d8c6d89abfc710a8886d2bc65157e17ce849108493a1fe",
+    "results\\round2\\speech\\seed43\\mask91_logits.npz": "63531e714631aca31b492465bb550922f5aaec8c9e058a689d6cdcaeb609a47b",
+    "results\\round2\\speech\\seed43\\mask92_logits.npz": "e7775e16dba5a225e8509379da0a13638d5c53a37b25d87eaef2590c4d034239",
+    "results\\round2\\speech\\seed43\\mask93_logits.npz": "0fb509e406503ef34fa8bc0c780eec8e2920cb6573bf41c3558c4aeaa2a86bc7",
+    "results\\round2\\speech\\seed43\\mask94_logits.npz": "35f48bf1d65a4b6b2edb7ecd246317395b9ee51ba4ee2392fcdc12a68ec47126",
+    "results\\round2\\speech\\seed43\\mask95_logits.npz": "2bd09cb046ec7507189a79061a5cdb728f37ecbb7b420833df29ce65eac9d72b",
+    "results\\round2\\speech\\seed43\\mask96_logits.npz": "e3af6ba2137a7ff9cde2c02a9689b84fcdaaee916208a15b7a8fecc3fa628f6b",
+    "results\\round2\\speech\\seed43\\mask97_logits.npz": "b710eedfd0094a1aaf73d368c3e8b170661a3121e89b0db59fb40b6469ee5969",
+    "results\\round2\\speech\\seed43\\mask98_logits.npz": "0889d93da08d31d76f05cb76b673e1d1004f98cda07cb980df12fc61c2f60a8d",
+    "results\\round2\\speech\\seed43\\mask99_logits.npz": "98d3d3a757711b46a70f5015c0319ebee61003511c4b5f094720a2aae9ccab75",
+    "results\\round2\\speech\\seed43\\mask100_logits.npz": "32024c2508191018c17e0c3b5f82458c33661b945e5c9a6913474d9d0dde7f0f",
+    "results\\round2\\speech\\seed43\\mask101_logits.npz": "2a15cb8b9bdf65dc4cb743f442221a19517708816b01aeada991f56a8bbe5e79",
+    "results\\round2\\speech\\seed43\\mask102_logits.npz": "f9ef995df49b116aa1cc80719b6e224c0d98969da1bd477fb169d4fca0e8787c",
+    "results\\round2\\speech\\seed43\\mask103_logits.npz": "0b693b6d73f1fe2688267033ef7a6b195985d8f3496cff9b4850270caa316c4f",
+    "results\\round2\\speech\\seed43\\mask104_logits.npz": "00a76f6c808c0594c12a6d73c77e3ecc505e8ed5ef94c6401d117f6f79659762",
+    "results\\round2\\speech\\seed43\\mask105_logits.npz": "78b42f641721505a998e6d368078d35e079b75477e21ac5e1a1d7a3850bd4f58",
+    "results\\round2\\speech\\seed43\\mask106_logits.npz": "aa95d96ca82915a7d212c15fb8978b30398fdb7ea3ac1a683fb722dc067283b3",
+    "results\\round2\\speech\\seed43\\mask107_logits.npz": "03625eabf2d462c71973721b1190056e2abfb90940cacb5abcf40afb8f1977b6",
+    "results\\round2\\speech\\seed43\\mask108_logits.npz": "dfcd56a9f84a83f280362d235c49457e6ff0bc2f39c7821acdd12ea6d83f9a06",
+    "results\\round2\\speech\\seed43\\mask109_logits.npz": "4c98f1ba5b6db64055e7b4cf0c8e52288393148da5fe3a7710d0f73ba620ad1d",
+    "results\\round2\\speech\\seed43\\mask110_logits.npz": "0a66aaca8169c6474cff8213bc7899ca7d5c2c8745b5cfa3918c9beea3aea488",
+    "results\\round2\\speech\\seed43\\mask111_logits.npz": "425e8fe039e7b01b97d3915385402cffe69801f613afccc401ad044a07144e5d",
+    "results\\round2\\speech\\seed43\\mask112_logits.npz": "ef4934f7bf7a3a40176c9f829c0c307e99fe12b5a417fcc0e3eda2c006f2d32b",
+    "results\\round2\\speech\\seed43\\mask113_logits.npz": "e8a60f42a5bd9511f7c9ceb802bcac7e3adc8a0bfeca9270e242533cfba44f78",
+    "results\\round2\\speech\\seed43\\mask114_logits.npz": "faf573e83ba03785aa958d7515f94399c17aa9534b6b0a55242d15e71c3e8468",
+    "results\\round2\\speech\\seed43\\mask115_logits.npz": "79569fae2c9c6f6ca5b501d070b4fd62a12ee96c455b77bd8fd97f0e0e6b4b3f",
+    "results\\round2\\speech\\seed43\\mask116_logits.npz": "daa59cf227ebe0d8d38a7b4e748020ed3e45d9d19b3aab2346cc1be61713833a",
+    "results\\round2\\speech\\seed43\\mask117_logits.npz": "8bcde550fd79329621c906b587742e5e1807348d9c0040c03fa9087bb08fa946",
+    "results\\round2\\speech\\seed43\\mask118_logits.npz": "abfbfe1d1910979f34c743c62d02ed3e6bb5f12fbdf77661817027e694dc47fc",
+    "results\\round2\\speech\\seed43\\mask119_logits.npz": "ea2720cf183a77acf5f1f34f23495e42f85e189a519ca95153791dd195d44a1f",
+    "results\\round2\\speech\\seed43\\mask120_logits.npz": "72d3e48850c4c9cf57203cb0bf8470a7e7f1c9d3cf1fca50fcac654012b4ac7a",
+    "results\\round2\\speech\\seed43\\mask121_logits.npz": "8a18b2c372a9e6e41a65fd46c2f7efb65e3164173c576f2a51ee955d7b878475",
+    "results\\round2\\speech\\seed43\\mask122_logits.npz": "f2da268aa8cef21563ac1f0a1a50448ff955bd752c8c237a033082fb04a9e62a",
+    "results\\round2\\speech\\seed43\\mask123_logits.npz": "7d81de3abbad52ae5f656276be56a55749fc75fee51d14f1e6cb473d305a7dfe",
+    "results\\round2\\speech\\seed43\\mask124_logits.npz": "d173df29d169dec4de3d495bbb23d92877e691e6b56dfe275f7daa736ed2c8c0",
+    "results\\round2\\speech\\seed43\\mask125_logits.npz": "9de7a66faf97b5430d5512722ef4385167043f750c31d134a6be1bce957eee2b",
+    "results\\round2\\speech\\seed43\\mask126_logits.npz": "c2705730dd876e705bc5a09edd31f254e92c9dc3734a90778e748dafdc589621",
+    "results\\round2\\speech\\seed43\\mask127_logits.npz": "f2b0f77c7a918041499f29affa690960b2f21b40e9f10062e0e8f050dc1296d6",
+    "results\\round2\\speech\\seed44\\candidates.json": "86613282327f060966f461d1d0de553d8e3a92fdc03bc033ed6d634c2e05933a",
+    "results\\round2\\speech\\seed44\\mask0_logits.npz": "ad849aae85c5d7e4e938c01daeb8d85682cb49e1cce3cfbe23d4d8555e053a57",
+    "results\\round2\\speech\\seed44\\mask1_logits.npz": "de4de2fe2bfd992a4a06830f413af9a5f70e044decaa465fe288bda19e822c52",
+    "results\\round2\\speech\\seed44\\mask2_logits.npz": "502c796c50f393d061accc4312b90e782584f7e6b888d6ab0aaad6612b4d5b5a",
+    "results\\round2\\speech\\seed44\\mask3_logits.npz": "5ddc63083ad09bbbde9baa59574e9a61fea4cd14c7f0853bab33108c8db6867b",
+    "results\\round2\\speech\\seed44\\mask4_logits.npz": "cff5f5cb5913930561e924bbc8aa6957f15c0f985325f691440392b7c871c9c2",
+    "results\\round2\\speech\\seed44\\mask5_logits.npz": "52eec5ff6c5f3ce47b673af16b4b125836c44e7c47134c70958f4b53ced52bad",
+    "results\\round2\\speech\\seed44\\mask6_logits.npz": "afdf60b0cbc0fdcbbd64b11ee6115b7e88714a4c1e3e9fabad1d5c2ae2881c39",
+    "results\\round2\\speech\\seed44\\mask7_logits.npz": "8e42fa839544da8479f300bfd3c2be0bcbddebb948a39f712643c9035d90b1cd",
+    "results\\round2\\speech\\seed44\\mask8_logits.npz": "f284220ec933cdc3c1e24cc11e025717f68d1636bd0bfba356acf10ae33a585c",
+    "results\\round2\\speech\\seed44\\mask9_logits.npz": "52b859dfb56c9061b95da31dcaff082bd8b8084a6bd8c832ed79e138c6a68658",
+    "results\\round2\\speech\\seed44\\mask10_logits.npz": "4a2d1af2561d07763835b55d7b898c00270c15588cce79fc314f134265e5230d",
+    "results\\round2\\speech\\seed44\\mask11_logits.npz": "352095e4bdf21b82e3f75c513207d9183683539fca6f78667c8d395bce5e4b5d",
+    "results\\round2\\speech\\seed44\\mask12_logits.npz": "601e5a485c7aa322fb952e760570c35ba70b9302efabee63e6931e858a6ceae6",
+    "results\\round2\\speech\\seed44\\mask13_logits.npz": "f0352e99cb454a1526bf8ba6560c337ea3d291f6f2d7b89489d5e11655609fdf",
+    "results\\round2\\speech\\seed44\\mask14_logits.npz": "85f184abe12778fce12813c075b8d06a914bf68c3533d313d4fafd4050b6c7c1",
+    "results\\round2\\speech\\seed44\\mask15_logits.npz": "a97332f013aa8be7dd20e0c5e330bdacb5e4b47b1ac89609074ac6f01bade0c2",
+    "results\\round2\\speech\\seed44\\mask16_logits.npz": "d9aa80390ddd9aa861c7b2b861c5d0a98a77f4e51e653c49e0aa240cde08848c",
+    "results\\round2\\speech\\seed44\\mask17_logits.npz": "19afea5e7e6f76daa619b2bc1253be4904539f2f47a1aeeee18a936b28f1d30f",
+    "results\\round2\\speech\\seed44\\mask18_logits.npz": "f99994511e06541b44cbfaf52fe5566ae9c0b45a1c0ec1216e9e2a2c391368d8",
+    "results\\round2\\speech\\seed44\\mask19_logits.npz": "0c76c2ed4b5fb286b88d6f07f496d2c1c085b347db6c3dd60fc28a8e2fa54527",
+    "results\\round2\\speech\\seed44\\mask20_logits.npz": "70672895c07df9debb037066c61f65e38af94ad5b4e7513dedcb187508fc842b",
+    "results\\round2\\speech\\seed44\\mask21_logits.npz": "7b94ec6e368c0bad43c16c361515fa8770a8a4c25574fc480ad5903b863d0adc",
+    "results\\round2\\speech\\seed44\\mask22_logits.npz": "7b5167051e3f3c1578f516f36a34945f17e23920dce3face241b66baf773deb8",
+    "results\\round2\\speech\\seed44\\mask23_logits.npz": "54be6ff6dc4a519e23d8b0389381aeb7292d796e3dddb8121458404c9fdbb838",
+    "results\\round2\\speech\\seed44\\mask24_logits.npz": "f857e2b9469dfee58d61f4d21351c84490c93118a7eba34020192ab8c49777a4",
+    "results\\round2\\speech\\seed44\\mask25_logits.npz": "b40ba69d623db9d723ac2886ca140bc9d5df6faef873e746bca4e08899c19347",
+    "results\\round2\\speech\\seed44\\mask26_logits.npz": "2a71d4a3a99cec3b8c5c90faeca9a575a8d5131ef74dc519075212e1cafef055",
+    "results\\round2\\speech\\seed44\\mask27_logits.npz": "2ed9e17a39d1aa5137746b8c1ac77fd7c3d04f9c2983f2baa2f292327d2a3dc1",
+    "results\\round2\\speech\\seed44\\mask28_logits.npz": "b592dc09d1d71d4279be30d8fc4ec8acf1156a8b5d3e90613706e8c805a04976",
+    "results\\round2\\speech\\seed44\\mask29_logits.npz": "c4ad1549395e7155b71a9b5562557f00d697ec96e1fafabe9b57562e31284821",
+    "results\\round2\\speech\\seed44\\mask30_logits.npz": "184230176bfd3b6a5e351eba748112c1f24d44c59dcc6866ceea817adc7d1182",
+    "results\\round2\\speech\\seed44\\mask31_logits.npz": "ad286ee1c6cf797fcdb364ce94d5c4f48307cf7c7cf677028873ff7c5b0a915b",
+    "results\\round2\\speech\\seed44\\mask32_logits.npz": "49907202ee1f2018563074e93dc45c15e4b702c9c13aab0301c3f4607d0e994d",
+    "results\\round2\\speech\\seed44\\mask33_logits.npz": "9daf12820ab235e6783365a55bd1a3dbe5ad8732e453dcb0be66df7ad58c3ea7",
+    "results\\round2\\speech\\seed44\\mask34_logits.npz": "752cedf7aa2996dc75a27caf73dd246a328cb263da4687c0ce751b90f58bd36e",
+    "results\\round2\\speech\\seed44\\mask35_logits.npz": "e4bd11cc2e6b45b67aede399ef9910235903feb0962aaf61c9871e3e159234da",
+    "results\\round2\\speech\\seed44\\mask36_logits.npz": "86ce74f25c979bb8393374a6384df278c735e52cf03c14e6e1ef77d7cbaa6045",
+    "results\\round2\\speech\\seed44\\mask37_logits.npz": "9a1547e323298cbaae262eb1e86b7ca2a2d558cf3dd072654885de0038cb7328",
+    "results\\round2\\speech\\seed44\\mask38_logits.npz": "f2ceb13a883e02d7153822948c5d5bb6b30a136762ee59c159e56dceabae403d",
+    "results\\round2\\speech\\seed44\\mask39_logits.npz": "cc527e8afe27d484e894743618308884b359937b4991de9207bb8a45768d528b",
+    "results\\round2\\speech\\seed44\\mask40_logits.npz": "8de448aa73b10eb5c028a2bcdb28c4169abaac6c663a4cc36de2886af439ca77",
+    "results\\round2\\speech\\seed44\\mask41_logits.npz": "0db9dd20f5a4443cc2f61529b54b2c8148debe7f391c7a930a9f8f93e7dea642",
+    "results\\round2\\speech\\seed44\\mask42_logits.npz": "811d71bd220c5fe457cd8f8f0400feaedec1b50251fffd5e505bdd6377d34472",
+    "results\\round2\\speech\\seed44\\mask43_logits.npz": "c27c6f0187676e401ed39c34f45af5f01c890ad262b6d8d601dbc132d883b187",
+    "results\\round2\\speech\\seed44\\mask44_logits.npz": "5befe6d6fb0038d253c5e36c765a5b6d1c2355f7b7c8b2d7f8d1b32936528af6",
+    "results\\round2\\speech\\seed44\\mask45_logits.npz": "3c59d27cc37e288f555e94c789f8c3a5133bca8f7c9ce515d7f9de7bf5de5d3e",
+    "results\\round2\\speech\\seed44\\mask46_logits.npz": "ac583b300d9e2acd4aa2674a805aad5552f9ba2f7accfe567a12e93a7b1f8c4b",
+    "results\\round2\\speech\\seed44\\mask47_logits.npz": "a0d5d6b41c33cc11ad349ca43ed7fdeb16625aba5f406d09a0afb07bc22297d5",
+    "results\\round2\\speech\\seed44\\mask48_logits.npz": "d0bdb3027ca861f10ad46c9b37027151be795873babd1903015f48d8ab617899",
+    "results\\round2\\speech\\seed44\\mask49_logits.npz": "3b94efcf5862366442ee578aa5238a2f7ebebb862fd7c83c72e5ccb1d8ad0d17",
+    "results\\round2\\speech\\seed44\\mask50_logits.npz": "85dc8f710c19733bb25fa9f962047f2a40977ecfec703c0871ee227166d436ef",
+    "results\\round2\\speech\\seed44\\mask51_logits.npz": "69e0103f15167f6dbbfbbac7110f4e4739835f590a3444f2246ed1e9c6a20215",
+    "results\\round2\\speech\\seed44\\mask52_logits.npz": "991f93eb21ca17bed44b8d8a8724e77c577d9df63de5d929488023c06fc82b8d",
+    "results\\round2\\speech\\seed44\\mask53_logits.npz": "4baf0bae9c0d52a7750d4899d281296dd6d8de083cbfb3d842f48aea4361124f",
+    "results\\round2\\speech\\seed44\\mask54_logits.npz": "4936e6fc4276b78ba1bf39b9dea6d8a180b3ef0fbb24fc55e0de689225b061e3",
+    "results\\round2\\speech\\seed44\\mask55_logits.npz": "99e8e2bd61d501ac997b286865d6c798ceb8a4e70817a77a02bae4d1f4bd56aa",
+    "results\\round2\\speech\\seed44\\mask56_logits.npz": "bb4aee5115759d3ea4add69c08ae8e337bb1d72e9422d0f05551f97296ae4211",
+    "results\\round2\\speech\\seed44\\mask57_logits.npz": "b73028cf566a4c59c0164f08a1892f0f857f408bfc26481f6833a06edcec3287",
+    "results\\round2\\speech\\seed44\\mask58_logits.npz": "ad4ef201c31b93bcd2023f3a1d732afde2e259da76a23aacde45e182f8e01aa1",
+    "results\\round2\\speech\\seed44\\mask59_logits.npz": "2540f9b9c5881a3810d00cdf2f19f0256db96924d4aad44909ebcf9d11993185",
+    "results\\round2\\speech\\seed44\\mask60_logits.npz": "bebe575dce246451c845ff27e70c0ce3ca038fc4e9139ec85f762b723d1062b1",
+    "results\\round2\\speech\\seed44\\mask61_logits.npz": "53e450d35dbd92280f1a0a980ff743faf5845500f4d29f82432e499b21741e2c",
+    "results\\round2\\speech\\seed44\\mask62_logits.npz": "9972ea693671425b4b6261ce74a99e236c2270e65f82984ed53d40c96f47dd0a",
+    "results\\round2\\speech\\seed44\\mask63_logits.npz": "1b1af9cd99e3f431752efbe63077cebc4ff44640523d45653ca142fa6e4f5cbb",
+    "results\\round2\\speech\\seed44\\mask64_logits.npz": "bd7b282e5bf24722519df9c7753e9696aeb3942b908e354a6786c7833a864374",
+    "results\\round2\\speech\\seed44\\mask65_logits.npz": "0b7658c2aecdfcd914fb06d67a850f285ad4d12941d6b64c820100aade81fca8",
+    "results\\round2\\speech\\seed44\\mask66_logits.npz": "e82b05b83c169a9b9581deeebb4773aa5fe3e06e811ad1f0a4cdf9896aaef2f1",
+    "results\\round2\\speech\\seed44\\mask67_logits.npz": "3ab41c1493f902d4df6c0384ee137fbba6276c0845f5bdd8b30f68b0dda14bd6",
+    "results\\round2\\speech\\seed44\\mask68_logits.npz": "ad976eaaac04f93b8d40755627efb92ca6862145222011a6ddf66adb56962f2e",
+    "results\\round2\\speech\\seed44\\mask69_logits.npz": "9a77df27a0658ea2123fef7f2185f86d06614823de7185fc38a0be56de58aaa9",
+    "results\\round2\\speech\\seed44\\mask70_logits.npz": "dcd8f8fd2d9edb5a338fb591166ad1b8565a634a70a1e8b1654e667a4c68b6e2",
+    "results\\round2\\speech\\seed44\\mask71_logits.npz": "e17f20ac4d68509c3757923151d2fe5ce870f3241fee0f3dcc716aadde58facd",
+    "results\\round2\\speech\\seed44\\mask72_logits.npz": "5ed95697cb66c59dff9b480a4cbeb2a4fcb84d326e915ca98ceb93ed3983051c",
+    "results\\round2\\speech\\seed44\\mask73_logits.npz": "c4945cfcd89e53ce71971529662f023126b5cff9d6d4c2b9afa28d208eba7d46",
+    "results\\round2\\speech\\seed44\\mask74_logits.npz": "f518127e840ac1eff03a2829fa1245e44cf89db955a70bbcaf7cdb24f190c700",
+    "results\\round2\\speech\\seed44\\mask75_logits.npz": "42f457f3ca652b73511fd947be95caa254cbf394ea907afa2ac7dc1f306f53e6",
+    "results\\round2\\speech\\seed44\\mask76_logits.npz": "9ecaca6d490e861df1f4f9576dcb63b5cd7036ca38c95f9f8e53b9a119e87659",
+    "results\\round2\\speech\\seed44\\mask77_logits.npz": "0d5583a1e3b2d22a7caf6b73e5805386f419261eb7f6a588bb1aebd6eacf1434",
+    "results\\round2\\speech\\seed44\\mask78_logits.npz": "ad88d82208738f2dbca8b1c1beb2c1e7a302c3b5582b831dada8bd7b8d84a603",
+    "results\\round2\\speech\\seed44\\mask79_logits.npz": "dd36e3c71d774cdfb97803f50dc460c7d7c1cdfaed5146ef7bcf9bd2d97a81ad",
+    "results\\round2\\speech\\seed44\\mask80_logits.npz": "723d6013f20a7f5599ce0bcc1665e7908efeab4d5080ecc37b18004f10ff0afe",
+    "results\\round2\\speech\\seed44\\mask81_logits.npz": "86f7147400fc70d1edbb190660d3b8d8e57644c2deb56a2af1f8c4dee64d92ca",
+    "results\\round2\\speech\\seed44\\mask82_logits.npz": "2caf03898ebb0cb3e5d11964559c7b64dfc3d1339ee64fe175216b2e16dac7dd",
+    "results\\round2\\speech\\seed44\\mask83_logits.npz": "2cde6ba72b2762662bbb3d7f69ceabec624be16f8e829b680c37c640a93356e8",
+    "results\\round2\\speech\\seed44\\mask84_logits.npz": "5e1980a088c80f0d5f2236e3140d2f4e89be668a27c85109e1745d69b92f555d",
+    "results\\round2\\speech\\seed44\\mask85_logits.npz": "7ab7466251c32e0cd9f0f267d25026e40d6cd6df1b701b9a0b08363a4f5e6c55",
+    "results\\round2\\speech\\seed44\\mask86_logits.npz": "03f06c0d75c7d889027f2d124b279ad9cd1ee3e7d1d0a862025ebf00de09d8f2",
+    "results\\round2\\speech\\seed44\\mask87_logits.npz": "f76a12fba5117cc0f14580c029a0de0ef2c8fbb75155fb7e30abcebac77b6b45",
+    "results\\round2\\speech\\seed44\\mask88_logits.npz": "4bd91c0e40f743fb7871015e8371f328509bad2af88232f37ae3a68294082a60",
+    "results\\round2\\speech\\seed44\\mask89_logits.npz": "c84f1c0cc7c75009e25b9151647b6af09374ba73f470c822c3b9e5e78dd2d342",
+    "results\\round2\\speech\\seed44\\mask90_logits.npz": "30de875a2ca2badd77c6a42f12f5e780fac77546952d618bed88b0a8117ab444",
+    "results\\round2\\speech\\seed44\\mask91_logits.npz": "fd61b9d603cc6d552aac4db27e408c5e3c17e247b8764483f3cc19e4adc29a1f",
+    "results\\round2\\speech\\seed44\\mask92_logits.npz": "81e37100333abb89b475b1374ee9aa3489ead7b603bec1f9bf5eec6139709c17",
+    "results\\round2\\speech\\seed44\\mask93_logits.npz": "eba0e58e35da1d4685f9b89d30d817710dae710e71546ef5f6bbd2e847cc8b49",
+    "results\\round2\\speech\\seed44\\mask94_logits.npz": "503f164ece7f1e634aea45f089128c6489a83bb18bee45a375370585f2047ba3",
+    "results\\round2\\speech\\seed44\\mask95_logits.npz": "84f10d7d2143b8a64c07fe6c783e289545c33aa8890f9c8f606f5112453cf515",
+    "results\\round2\\speech\\seed44\\mask96_logits.npz": "887ec99c8fc21d2c2bd698414442ea871fc17d4cdb449f45e242ee16cce5d123",
+    "results\\round2\\speech\\seed44\\mask97_logits.npz": "5835a61159d242ba46dbdee42c1edbc74e3671e42d8159ccad7634af9c817c9b",
+    "results\\round2\\speech\\seed44\\mask98_logits.npz": "588491cede609352cdb3f18e4e1c4f7d996ec07070d31538b36d2c84e7cb2af0",
+    "results\\round2\\speech\\seed44\\mask99_logits.npz": "401171ee2f0674c323ea2cf2ddfd93bb0a37bc3d79b41662724e9021e888a1d6",
+    "results\\round2\\speech\\seed44\\mask100_logits.npz": "c8166f8c3ab14ec3801f5adfbffe21e918c01a658fb450772358ee5a4946ac02",
+    "results\\round2\\speech\\seed44\\mask101_logits.npz": "46d6b1bd6709b198921e0e5db990c7ae05720abc49b1bfb9f2c6c0440105d737",
+    "results\\round2\\speech\\seed44\\mask102_logits.npz": "dc5305ec4744438291d5f61d6fd88f8b36e0ff1d1d3364498b961d9ce5abf7f9",
+    "results\\round2\\speech\\seed44\\mask103_logits.npz": "09c93686f0cdb6b0c9994b4cf59d56e5e02167d16bfa47a21a0be6fc52155edb",
+    "results\\round2\\speech\\seed44\\mask104_logits.npz": "146cad3acfb8dce2b289ac40bdc2418a0dbecb1abd64e22248ea3898029f5706",
+    "results\\round2\\speech\\seed44\\mask105_logits.npz": "cb9b326ee26ac56c7d94a9237e26eae150060cac341d0f6b54059c7b6c6f2fc0",
+    "results\\round2\\speech\\seed44\\mask106_logits.npz": "b1ebd31e778df6d6fbc88a5aa032ac57e13cfce73527aa7449150719f0e1d633",
+    "results\\round2\\speech\\seed44\\mask107_logits.npz": "6d7bc0d433c6c1ad5af2ac56787c903d927067f67b5cb0c0116b63e25fa7bfd9",
+    "results\\round2\\speech\\seed44\\mask108_logits.npz": "55a2468c5bb21a425dcdeaaab6f598110723816aa9c611cb1722d70b3d0abb36",
+    "results\\round2\\speech\\seed44\\mask109_logits.npz": "7ab5a2c796ca35120cf72be4909749c3c7c2c9e4d953ed83f7dd33b380d95e31",
+    "results\\round2\\speech\\seed44\\mask110_logits.npz": "b9f0bc6398f9a305bb6ba277eaeaccbbfe96b0e4be29905a7f6646972ad77e13",
+    "results\\round2\\speech\\seed44\\mask111_logits.npz": "dea0b4a465495f909f4951b26bea637e433561f675fd959413f1613c21e75f71",
+    "results\\round2\\speech\\seed44\\mask112_logits.npz": "b88564158f481d2b21a396e9fa352d8421d4475eeed8476bce1319b580628521",
+    "results\\round2\\speech\\seed44\\mask113_logits.npz": "dceb2224d52640246ee4c5a1baf632afab5cd6919d85b0f917d15774e00290af",
+    "results\\round2\\speech\\seed44\\mask114_logits.npz": "53682baac3bffb17cc03c955bcdb588df0216c85cb7cd1086e50125b99937456",
+    "results\\round2\\speech\\seed44\\mask115_logits.npz": "bea4182a5743479420b36eb2bb79875aead4eaa41af90be455081098b50c5a5e",
+    "results\\round2\\speech\\seed44\\mask116_logits.npz": "5c592e05f4ed1e6786aa3c4be6a8fd0df516a36b981fbaeb2e3c9c6127e91a0a",
+    "results\\round2\\speech\\seed44\\mask117_logits.npz": "437ecbc88046a0c6f261ce3f9b0dae75a0431a85ae2e3239ed8ff22f4509656a",
+    "results\\round2\\speech\\seed44\\mask118_logits.npz": "31afdecbd13c6693595ac084d0efacf1df51bf857ed6e8cc10832b7ef9247ade",
+    "results\\round2\\speech\\seed44\\mask119_logits.npz": "1f09893c31a472aaf3d60e940a49c6eb72d29313af14036b0872fd14c02f6517",
+    "results\\round2\\speech\\seed44\\mask120_logits.npz": "646ae233cf99752c73d20582ff0cf3289d320c13d91805caed8b829dedfedca1",
+    "results\\round2\\speech\\seed44\\mask121_logits.npz": "7055b7ee96e02d2f6a6b128758742382668328cb67f97b153b183a844da7a109",
+    "results\\round2\\speech\\seed44\\mask122_logits.npz": "16d2fd2c15cc962746b33cae8a13e4cf3d35d2a5ed0ffc36052952c4ead064f2",
+    "results\\round2\\speech\\seed44\\mask123_logits.npz": "e6f02a66f9d0b6c46f4337c68a9a71812d25f443c0837fba56d2852ce3a15a15",
+    "results\\round2\\speech\\seed44\\mask124_logits.npz": "d5e1e516f7e2a6173fd00ab00841f0834a35c04477975680beceaf0e6e507dcd",
+    "results\\round2\\speech\\seed44\\mask125_logits.npz": "01214feab3f9593ce259a3cc40fe121b3105415bb7ca2fa38735f64b28e7fef9",
+    "results\\round2\\speech\\seed44\\mask126_logits.npz": "7534f249af5e133ef28e3c227a97d44af62d518963bf59bee1a510b70327c88a",
+    "results\\round2\\speech\\seed44\\mask127_logits.npz": "e215a9288373a2b84afef84893288f29b955987ebcca77bdac3564aad1f0261f",
+    "results\\round2\\speech\\seed45\\candidates.json": "99cbacacf9080ac795a23eae123f28b97bbe36b0996ec50bb3ddbfbd0b724a18",
+    "results\\round2\\speech\\seed45\\mask0_logits.npz": "25911edfecfcc0ebd74bd99906162b4aa5a294381d48b9a937565c3ce08be609",
+    "results\\round2\\speech\\seed45\\mask1_logits.npz": "c6f389c09d20dfb33e51d9decd9a0c93fe77277d32844fdd9670c44ee8d032fe",
+    "results\\round2\\speech\\seed45\\mask2_logits.npz": "536497db319d367a6be18d23585bf2ea7e69be59d70ff94a57edc311db81d048",
+    "results\\round2\\speech\\seed45\\mask3_logits.npz": "4da4b798a21e23ed15476b32a53ef008e385d9cf5583296e78338a0bc89a85d1",
+    "results\\round2\\speech\\seed45\\mask4_logits.npz": "8a6b63dc97ca6832abb5361da2686dfb2c3242e71a2bdbb734242f2098d7313c",
+    "results\\round2\\speech\\seed45\\mask5_logits.npz": "becdd8f300a9e199b58945851a487b60db1ea0547161ae78658bf779cf5ad3e6",
+    "results\\round2\\speech\\seed45\\mask6_logits.npz": "3267920475a3184713d6e87bcf9ce72138dcd6816a3b1ae5abc9c8e588eb2a57",
+    "results\\round2\\speech\\seed45\\mask7_logits.npz": "424fa585558dd2ae69a71af91e48a6ed059ba8115bc7cd5a5ce712d204d3b34d",
+    "results\\round2\\speech\\seed45\\mask8_logits.npz": "f606f1fa6a4e1b179f68be6830ad38f14e25f5e496022bec0ef87257de608c42",
+    "results\\round2\\speech\\seed45\\mask9_logits.npz": "54b2ceb9c08041ebbc4b8857327eab1a69d021b9268af645bd450441a71b6386",
+    "results\\round2\\speech\\seed45\\mask10_logits.npz": "947b46c58d338f3ee00041e86323680122ac4ba574331e0a7a3cf7960e80c74f",
+    "results\\round2\\speech\\seed45\\mask11_logits.npz": "a4bbd4759cb73828f7110e1441e3dfc6612563b6055d11246d0a93bcc972e2f3",
+    "results\\round2\\speech\\seed45\\mask12_logits.npz": "e13c24dd5e533e5bdd2efa11f816756780952efbda81e4f97abded906426f005",
+    "results\\round2\\speech\\seed45\\mask13_logits.npz": "b5f672f7f3abd0c3ba3b4fbad2b72ee62a21e1de3e82695fbaa70641c69bf8fa",
+    "results\\round2\\speech\\seed45\\mask14_logits.npz": "831d0fae0d3dd8410899392016a46c9a624c17195c1fd5ffb15732a09d4a4937",
+    "results\\round2\\speech\\seed45\\mask15_logits.npz": "eb806b166d2ddaf13c0bab3cf537358aefa944bd38b3c167d567027d637c0e3f",
+    "results\\round2\\speech\\seed45\\mask16_logits.npz": "5bc22077cef580ab6c9025ebecb42ad0262194be0246bbd41ed60b9f2e2d7f63",
+    "results\\round2\\speech\\seed45\\mask17_logits.npz": "88ab3695f25da6a840e71048cd50c2a14bd7f2a944000dc6615b690394d62646",
+    "results\\round2\\speech\\seed45\\mask18_logits.npz": "2c250f85990719aa9a3c3b46873e6b2deeb1e36ed816d5d42b9176cee3f4fcef",
+    "results\\round2\\speech\\seed45\\mask19_logits.npz": "0124790f7d457e15e80bb3c39c859a0809d364069d3158ee9ca3903e69ecd7eb",
+    "results\\round2\\speech\\seed45\\mask20_logits.npz": "c1379d1ee2aebd5e9d055c2fc25c6d04ab2a8e434ad685255ac065c1a5c8e098",
+    "results\\round2\\speech\\seed45\\mask21_logits.npz": "87ba5595389546dea860ccec113df3184c4269fd4412d908f2419f5065fcc338",
+    "results\\round2\\speech\\seed45\\mask22_logits.npz": "f053eaffdf7fe02177ab1ce8eebbd075138a9c293fbe09700b489f4c4f8e2dfc",
+    "results\\round2\\speech\\seed45\\mask23_logits.npz": "7632b175fa6d447695da150f9e28808e78f8622a07609b214c84bca4f0f31fec",
+    "results\\round2\\speech\\seed45\\mask24_logits.npz": "6082cf26ad7a60f611e7935244627c24b51d270c3719a4ccb0448ae3d1afe51b",
+    "results\\round2\\speech\\seed45\\mask25_logits.npz": "0690cb6520d1a90a835941771c07633811ce3230bcab6152d9c3c51e106d65b3",
+    "results\\round2\\speech\\seed45\\mask26_logits.npz": "626875b8e340441654d2990487060f8767c53fee737c5d472416a7d1abb57505",
+    "results\\round2\\speech\\seed45\\mask27_logits.npz": "37a3d13f2f8a43648ce9341081c5aa6c55ae085d2d7447be78c632ce52d1accd",
+    "results\\round2\\speech\\seed45\\mask28_logits.npz": "1cd2fc39978c6e578c65217530f5052ae1e94f2d50d93b0ce6bad6790e3c0a8e",
+    "results\\round2\\speech\\seed45\\mask29_logits.npz": "3b3b2efcaba44c37163ce789d3f62ce4c7a6b689a55b074ea035c559d0c0dc81",
+    "results\\round2\\speech\\seed45\\mask30_logits.npz": "ce17c81e1d15be57b61d8a86451d431b7f0c8da682272f882c97fcda337453c4",
+    "results\\round2\\speech\\seed45\\mask31_logits.npz": "c138674bf87d03a6aea58bfa4714600bc56ecd1ae27d0cced416530dc7a01030",
+    "results\\round2\\speech\\seed45\\mask32_logits.npz": "afd2b6ced1c5af8ccc8bbd9fc416f564cf26a8a832e316f0ac566761da4c7e86",
+    "results\\round2\\speech\\seed45\\mask33_logits.npz": "c508edc7339e640f2bf547996c0f8d3403d4df01044915b7cbc7f55024fbeaf1",
+    "results\\round2\\speech\\seed45\\mask34_logits.npz": "7a931b6d9848b719ef80ab8b332874298f2211ce7dcc1dd136a0d7bd593af965",
+    "results\\round2\\speech\\seed45\\mask35_logits.npz": "9d2f295932acb212957167fea3e8292a625dcaae8620e7788ba475a4002e3adb",
+    "results\\round2\\speech\\seed45\\mask36_logits.npz": "642b9299a9c5d1b40e4129e16532ccf39767ebe4f66dc28aeea55fa7cd68ea7f",
+    "results\\round2\\speech\\seed45\\mask37_logits.npz": "38f63d201e8422abfd0e3e75905f0134aa18a891e5cd179e78579e15922dcf0e",
+    "results\\round2\\speech\\seed45\\mask38_logits.npz": "962b4ba49cf6c6374adae279f924f7ebd0e102453f3af98da4110bed92753678",
+    "results\\round2\\speech\\seed45\\mask39_logits.npz": "a701efa05564402fc1fd6936ad236e582e7109001f7f1b802a1d7ec566e9799c",
+    "results\\round2\\speech\\seed45\\mask40_logits.npz": "72631740f5485298101b33c1fc2bba7cd42e009267dc4a9276ff72de99a6c9dc",
+    "results\\round2\\speech\\seed45\\mask41_logits.npz": "95a89c1782ff236c0c5ae4df5da3fe93da904c59300c7ca2ea20ec872e1e00d4",
+    "results\\round2\\speech\\seed45\\mask42_logits.npz": "11a053317bf50c634c9cf894f1bc1d8a50bc438611ac16479e7e7984bc1683df",
+    "results\\round2\\speech\\seed45\\mask43_logits.npz": "3dc78443de705ed96fe403e8ee9c2f039400a4a964a64b7b88c1a1860c6bd85d",
+    "results\\round2\\speech\\seed45\\mask44_logits.npz": "2c55c60289d191f0e06ad0e4115473e90383e40703ccdde7c911f77f0b37eee9",
+    "results\\round2\\speech\\seed45\\mask45_logits.npz": "5557604ce583477c066766d9304ebda815c19137262108a6dbf6cafcf4f79d90",
+    "results\\round2\\speech\\seed45\\mask46_logits.npz": "c33c257c3bcf4e11e9cd4d8e1b5f0b7ace58c0705f67b9c4bd7ee60fdac2587f",
+    "results\\round2\\speech\\seed45\\mask47_logits.npz": "d01b46495f4343af7581ec8846d00a7e3f7ea8d385ea23f243381935d1eae8e2",
+    "results\\round2\\speech\\seed45\\mask48_logits.npz": "cc33171104a8ac6c3a25d570d1a0e5e76129d98d6f9135e405da0a707380d5eb",
+    "results\\round2\\speech\\seed45\\mask49_logits.npz": "2037c35a4872dc3b0c500f4834823cebb535aad37d3b46aa2d33c2f1d9bcd3c9",
+    "results\\round2\\speech\\seed45\\mask50_logits.npz": "e3cc5f3731143cad58d06faf25e7823f2a4b9c07ab8f0259af4b62a6cfd34c17",
+    "results\\round2\\speech\\seed45\\mask51_logits.npz": "cbfde2107e173bfe4df8ade00f6c4d2ecc353c9ac497536108b58686c7168faa",
+    "results\\round2\\speech\\seed45\\mask52_logits.npz": "5f6c9ac80a68647122f93cce1861134f82f5b8f5fe2c29ea2c753b712bb7fc0f",
+    "results\\round2\\speech\\seed45\\mask53_logits.npz": "f0e247c58c2d083e22ca890e9ccfcded6b9c8062e4486bc1d320724f6d1013ce",
+    "results\\round2\\speech\\seed45\\mask54_logits.npz": "0d76e1e313738260208c5f187e0522bc3367f0bcc3f8e8682b2aaf7ef97e2520",
+    "results\\round2\\speech\\seed45\\mask55_logits.npz": "378840050ba59fabfe2d73e4f5531eec36bc0dd6acb4d05dee5805709a173678",
+    "results\\round2\\speech\\seed45\\mask56_logits.npz": "dc9aadf69d8a7cd54d8683d4d249e88fe5b7010b26b169a39fda88d1fe647ab8",
+    "results\\round2\\speech\\seed45\\mask57_logits.npz": "42c4d48bd9c6d7aa21accae4e0c661af8a32f9985fb01ab6b3846cb658d4fc86",
+    "results\\round2\\speech\\seed45\\mask58_logits.npz": "a33c7986985317e5f2d03f899855adbc85ff4fb15e90ed2abaeaefe6ce40e2c3",
+    "results\\round2\\speech\\seed45\\mask59_logits.npz": "cc3544883f84065a73535644a40136103e225582f5882d884e153cef259257cc",
+    "results\\round2\\speech\\seed45\\mask60_logits.npz": "9c4af792feda4e0a884a905d9bbccab85e96aac6ad9c5bb9eea8b25a444424fa",
+    "results\\round2\\speech\\seed45\\mask61_logits.npz": "7b645f8b28c79a9f929dd8e4c864d1a96d80a399b8e7724a29b87f587b7510ce",
+    "results\\round2\\speech\\seed45\\mask62_logits.npz": "3771ee1b2648cb3cf8f6d3a14265cc0c0e748875dd822b418f2caf76a539f27d",
+    "results\\round2\\speech\\seed45\\mask63_logits.npz": "f1fa9636a45677031ea4703f4273c94f2a60bd24e13a7dee6e23b17cc2136e23",
+    "results\\round2\\speech\\seed45\\mask64_logits.npz": "d2d33c4e65f8a634e7a20bdd27ced635342d317f7be16e47999cee356d3310cc",
+    "results\\round2\\speech\\seed45\\mask65_logits.npz": "213f92954509c5284e5e244aad1708b704fc4e71925ed9a337aad701bf63b3ef",
+    "results\\round2\\speech\\seed45\\mask66_logits.npz": "55c5b2dea332fa63cc015f5c846e3e3ae78404cbfef33e694f1bb276770716d2",
+    "results\\round2\\speech\\seed45\\mask67_logits.npz": "6f0390698d5d7934249569a97b28a73936e5e96d7e4ab88c7ba09bdabc895693",
+    "results\\round2\\speech\\seed45\\mask68_logits.npz": "b1156c3e3b5b572a94f982316deba8d684b0e70293812c592bb37a57f9a644bb",
+    "results\\round2\\speech\\seed45\\mask69_logits.npz": "2c670a4af2e7ebab8473f44bd2e62c2b8caeeb2a083f1e44836104ca288fe417",
+    "results\\round2\\speech\\seed45\\mask70_logits.npz": "2e1be4976291c549c8bfef762cb126a78f3e0f577c6e30329d817c185f5c6e79",
+    "results\\round2\\speech\\seed45\\mask71_logits.npz": "b4b817ddc7d630294674f9aaffb2a4adc96e61b633f5777bf77e1c13d209c287",
+    "results\\round2\\speech\\seed45\\mask72_logits.npz": "045b48acefd6cdaa5b5c88787c34e6ad70f1a225227efbc4f16e15dd9af27949",
+    "results\\round2\\speech\\seed45\\mask73_logits.npz": "f678720039108fe57bffecddf9a677ff83988ad75e35ae387db2b47ccc5caf6d",
+    "results\\round2\\speech\\seed45\\mask74_logits.npz": "cdd811980ebce0b9f5733e3f3981e6b02e4d17d4d99ab423f9fdbfe91abfb3a4",
+    "results\\round2\\speech\\seed45\\mask75_logits.npz": "76d1419925dfb179b7708985f467cd097f6a65fc2007376f68c59dfb4ee8bcf3",
+    "results\\round2\\speech\\seed45\\mask76_logits.npz": "11347dfb76c339d8a3f8e921ca3bcabc41c4ab8af4f62c65feef0d64db892da6",
+    "results\\round2\\speech\\seed45\\mask77_logits.npz": "3766680c01fe7b02ae9971f9002296acde95ee5ae1c11475acf5743dd531f708",
+    "results\\round2\\speech\\seed45\\mask78_logits.npz": "a0366a23ea377653dd1196befac50f795f32e432572635424627808fa9b5bf8b",
+    "results\\round2\\speech\\seed45\\mask79_logits.npz": "4d8947357958233df91ad35a369dce9463c6181517d47ce4e7d5d4006116f4dd",
+    "results\\round2\\speech\\seed45\\mask80_logits.npz": "8319ebad6a36d96d022b16a11794856052b35482f9b183a383565445dc494a35",
+    "results\\round2\\speech\\seed45\\mask81_logits.npz": "170dce7537f5ba822857f69ef321a2eb01b9d9a750a869ae5c7881c22ad4af20",
+    "results\\round2\\speech\\seed45\\mask82_logits.npz": "53acdc6cac81f13bc35314be88af9252208a5ef0056c250519c0fbd6713c6d1e",
+    "results\\round2\\speech\\seed45\\mask83_logits.npz": "c18b2896654b8fe1d8e5c1137598fb21b3eeba7047a886bf9ffa480a4980aab3",
+    "results\\round2\\speech\\seed45\\mask84_logits.npz": "e57e6cf8bd1c1f1ab92a901871f07409c981c06aafbbcf6f2f676b0bb9b396ec",
+    "results\\round2\\speech\\seed45\\mask85_logits.npz": "6250b5b1e8ae7b873a9e4f31d3a047939fe1e4ed91c801e805512fb46c4a716e",
+    "results\\round2\\speech\\seed45\\mask86_logits.npz": "2638558a34724ee5419fc9d0cf610853810e3414596f8573b6c8d87f2219bf51",
+    "results\\round2\\speech\\seed45\\mask87_logits.npz": "9a552212fbf80ec1a38b44e3b651c2b738cc66e177e9678877d719efea6478ff",
+    "results\\round2\\speech\\seed45\\mask88_logits.npz": "efa889fa71c9b172b9239b409a2fbac45b141bfe3e29ffbf7dfe03b6b5dfbbbb",
+    "results\\round2\\speech\\seed45\\mask89_logits.npz": "229bfe90e8249970fe2e76f16a63616eb3ee73e01b9c5ec4424df4939319c598",
+    "results\\round2\\speech\\seed45\\mask90_logits.npz": "a70ded17cc3b2d6935674306e2f2c5557a1e8ce78db8eb93a4de2005a31873c0",
+    "results\\round2\\speech\\seed45\\mask91_logits.npz": "5d7be0155d75c145590c720df57baeb7dc7a368b9937adb83a8c3bc98d2816e0",
+    "results\\round2\\speech\\seed45\\mask92_logits.npz": "48e3a95a6d07f1238774621e5847e2f510d209a212edeebcf06035ff7bf30754",
+    "results\\round2\\speech\\seed45\\mask93_logits.npz": "0c2011c135c3724355e02ae0e2d299ac92a789e9aca1a31c51db32ea42120754",
+    "results\\round2\\speech\\seed45\\mask94_logits.npz": "83790d87293c85a3d14a178e1ecf05f376b15c6a1ac91c83425c49df98319e68",
+    "results\\round2\\speech\\seed45\\mask95_logits.npz": "4c2048d15d6d43f2b1669fb4a6be297fcf0a0e8c013736ad5b816771da05f8da",
+    "results\\round2\\speech\\seed45\\mask96_logits.npz": "53794d3f49f13dd213b10f4ddff9166a75792d86c977d5fe6f981cebb741bb27",
+    "results\\round2\\speech\\seed45\\mask97_logits.npz": "fb9e5af590a9b7bfe3dff3b5b7f3959883cb67a86d6f3d96a9b11f464c27df0c",
+    "results\\round2\\speech\\seed45\\mask98_logits.npz": "e8491ec88e01270afff399961cd4c96902022726f8a6a2ed196a8af4b25d3346",
+    "results\\round2\\speech\\seed45\\mask99_logits.npz": "283e74eb4279184f7d544c90197b3f3795c8db540bf3aaed5cff798bd7ea9cc8",
+    "results\\round2\\speech\\seed45\\mask100_logits.npz": "8acbe8d02acfdbbb97f7158173f48152e449773bb0af098a7a6aaf295e99a4f4",
+    "results\\round2\\speech\\seed45\\mask101_logits.npz": "3c3326c09abb9a1054c8c926710e6111fd7de078fd0c199d7a98b998f21e9ff4",
+    "results\\round2\\speech\\seed45\\mask102_logits.npz": "777f958e5fcf89fb74ab5446a5b4db27ccd7a34ce08a81d5a66d8a69e95e9e15",
+    "results\\round2\\speech\\seed45\\mask103_logits.npz": "42dd48dea2a4e972d7d685b7c9362a1bc865eb761f79fb977bee607406ce7d49",
+    "results\\round2\\speech\\seed45\\mask104_logits.npz": "7a505f7644b866632573228f3868f4e43e4098ee3129639b523a2bb69b9b853f",
+    "results\\round2\\speech\\seed45\\mask105_logits.npz": "ce8bcc4248e8fdcc1b58a03f12b4fdd5941b97be4c7d7e9dfb5fc6e2f409d1b9",
+    "results\\round2\\speech\\seed45\\mask106_logits.npz": "677d7bc8651f7b3d40e9e5f8bd630ea0419b525f35605293496da5235e71a08b",
+    "results\\round2\\speech\\seed45\\mask107_logits.npz": "b7ed867268eedbbfd2ef432a74ab2e1bb79900d28605db93e08bc3f80c4e12d2",
+    "results\\round2\\speech\\seed45\\mask108_logits.npz": "5dbf2a095c76c2ce83dd7d3d102d042f2c1539f2a845c46188451e950b8ce6fb",
+    "results\\round2\\speech\\seed45\\mask109_logits.npz": "edf327bb423b1374bc65365bc5132a2034cf326fc8c890877706038fb11eb455",
+    "results\\round2\\speech\\seed45\\mask110_logits.npz": "72abc0af7a11142b59df237afbc6969ed5c0377469dd66c869058183f9061ffe",
+    "results\\round2\\speech\\seed45\\mask111_logits.npz": "1cc81f8dfbecc15466256746e8276d2e4d67a182cb6daaf3613c725765d918aa",
+    "results\\round2\\speech\\seed45\\mask112_logits.npz": "a0b14e4e9cb3c0e76ac5ae18f17ed9eb47b2f42454476e58e50a2d88c3f6b38b",
+    "results\\round2\\speech\\seed45\\mask113_logits.npz": "bb4fff117429ee6a0bca499b193d9ca84c769ded5d2d9756902ecf1f3e63d70e",
+    "results\\round2\\speech\\seed45\\mask114_logits.npz": "cf449977b3b00a3bae9b53777e8beb9d59e47278750edad98f4902936e7b49ff",
+    "results\\round2\\speech\\seed45\\mask115_logits.npz": "47b7ebed71eb78f4561cdad2490a40bb6705fcaa7d5474012d8552eb9f09b2af",
+    "results\\round2\\speech\\seed45\\mask116_logits.npz": "48a650209383055f609314cbafa8197a97457a033dcdbb1f3bc5feb412feb59f",
+    "results\\round2\\speech\\seed45\\mask117_logits.npz": "81b4e7282e89a9430bc24849541861d2f0a79501ad04756ac0692b898d8c6f91",
+    "results\\round2\\speech\\seed45\\mask118_logits.npz": "7889b9300985dfa5cddafe583dea164234dabfd59e4720e436de4b9d55103e52",
+    "results\\round2\\speech\\seed45\\mask119_logits.npz": "2b772e4b62bd50148be8faa4be515db84e8aab6b44c9cafdf4ddd5c106f8c077",
+    "results\\round2\\speech\\seed45\\mask120_logits.npz": "d64425f145a36c57627fffeb833acbc17f4690fe376444bacb1cbf8edaf97a3d",
+    "results\\round2\\speech\\seed45\\mask121_logits.npz": "7fe9e3b248de56a20649c762fcb0259793faeffd4b08129b6659ad608a99a8bd",
+    "results\\round2\\speech\\seed45\\mask122_logits.npz": "9df7e7ed5218c3d4ea1e30e3e3b9b0655f52eebde366d86c048ba6eba91d6eef",
+    "results\\round2\\speech\\seed45\\mask123_logits.npz": "39a7d5e44ade016089edde8046ab48c63033ea6e12260f79f7c7d43081fe1eac",
+    "results\\round2\\speech\\seed45\\mask124_logits.npz": "d15a3ed6565b444c3d7108b9969048c11fbca53ed796f8f9ebd703f477c6d11d",
+    "results\\round2\\speech\\seed45\\mask125_logits.npz": "9a6a4589526638ae40372e62f88cae3f69ca11bddcd02b01fb525ac49282ef0f",
+    "results\\round2\\speech\\seed45\\mask126_logits.npz": "75476fbf1e1ff8d7c72f8dc1b0e0333afe691ee81e2389b1856649d44c43bcfe",
+    "results\\round2\\speech\\seed45\\mask127_logits.npz": "5d6aabfa8f108d5efd8eb9c68e1c1a5e36702f2ccf16e881238fee6427d317dd",
+    "results\\round2\\speech\\seed46\\candidates.json": "e1a72643bdd08ebaf15e6f711c6c47e7bcee627d9ebaca58c229b1590b62684d",
+    "results\\round2\\speech\\seed46\\mask0_logits.npz": "2b4319aa38df5825f73a44b7a2896b624c7136c49dacd0ac829cf01bf90d577e",
+    "results\\round2\\speech\\seed46\\mask1_logits.npz": "ff8b8ea220707484f8ad86bd4af04af07e5be0528e4a8caf0f113a9d18d5cf9e",
+    "results\\round2\\speech\\seed46\\mask2_logits.npz": "601a45d8efd99bf3465af12718da5bf88281aee123c63b17ec42588490d55cf3",
+    "results\\round2\\speech\\seed46\\mask3_logits.npz": "46582741a158b4b8fce0a500aaec6e81a5be116613108f95d20635ab6e171d17",
+    "results\\round2\\speech\\seed46\\mask4_logits.npz": "ea0ea11f0646f9c196492fe19bb0bede7452260ec511a3b667fa978977dc6aea",
+    "results\\round2\\speech\\seed46\\mask5_logits.npz": "ff0b81236839108f5c433cdea85ec62e29f60c6a82c53b89c91c9cb9e4cfa218",
+    "results\\round2\\speech\\seed46\\mask6_logits.npz": "10005be20cabbeabed1d8c281de8494bd3d73b043598573835a5de40a4beefef",
+    "results\\round2\\speech\\seed46\\mask7_logits.npz": "860828d44355ce703169731055f0f6a652065a3ec138890238cdad03e7bf7525",
+    "results\\round2\\speech\\seed46\\mask8_logits.npz": "682423d564971aa82f25b50310057fb43f015cac56f2ac5df1a5072e9a04ebe0",
+    "results\\round2\\speech\\seed46\\mask9_logits.npz": "e06359aaecdc4a983c9d3b89280d61ca5c63baafb8130c943fcd32134edc8495",
+    "results\\round2\\speech\\seed46\\mask10_logits.npz": "f1f5800560ef97cc8da8583baa26493c12b33c6b7911912f9995691637b09051",
+    "results\\round2\\speech\\seed46\\mask11_logits.npz": "77a2207342d0446f79f1b25aaa5a182362b1ffc9fbd504f2df34f31fa05a3fef",
+    "results\\round2\\speech\\seed46\\mask12_logits.npz": "6122bae91e18ed2bb0ce5f11192d608406450580a83bdc818423997aaa5c0b71",
+    "results\\round2\\speech\\seed46\\mask13_logits.npz": "93ce3eace90b307b73e5469331c63e8932cd110f1c725d0a7b57c6460eea75b2",
+    "results\\round2\\speech\\seed46\\mask14_logits.npz": "f1f1534bbddc7fa62497fc5c046b5b506910aa7959313e6bbac6a89a31ab7dc9",
+    "results\\round2\\speech\\seed46\\mask15_logits.npz": "1645e7f3248b572bfc2ecf68534e7a661553ef9f77a420c2755e87e1368d816e",
+    "results\\round2\\speech\\seed46\\mask16_logits.npz": "a3d82d278a1ccd67273a378888cf234f59014bddab0c1beb032622a596d00287",
+    "results\\round2\\speech\\seed46\\mask17_logits.npz": "2225c2c1abc6e4097a4b73ebee695c649789001db969760366a8200e536d6893",
+    "results\\round2\\speech\\seed46\\mask18_logits.npz": "5fed1d76e8238c043f1449a8a40367b89bf3e45f51028298087ca831e7ee1730",
+    "results\\round2\\speech\\seed46\\mask19_logits.npz": "36eb4da62deaf4bcb695f4dc1627ecf54aaa50029f89596d8390f2eabca96219",
+    "results\\round2\\speech\\seed46\\mask20_logits.npz": "642175c5b6d3aaf52ba360da529fd90a58c0f1d8b204169bd45453d7318a974a",
+    "results\\round2\\speech\\seed46\\mask21_logits.npz": "4b085f82ad3697c27144bf35c87343f0abe73319538973a150b3035c6715137e",
+    "results\\round2\\speech\\seed46\\mask22_logits.npz": "a5de675dbf3470679498d35e964c98a36ed7b9ddfbe7c9edba75671ec2fe4800",
+    "results\\round2\\speech\\seed46\\mask23_logits.npz": "546709b8774864756f935e879590ea5ab6772a84b2c06373d9c870d3f5b33e43",
+    "results\\round2\\speech\\seed46\\mask24_logits.npz": "de0d9a181491e72b756bd6285dd2e693cfc4f02fd8475b5237c9c9f1361a8dad",
+    "results\\round2\\speech\\seed46\\mask25_logits.npz": "e00a3c357a2dd849637252564bf5bf93ff6911460ac6f67c7497146782e14c38",
+    "results\\round2\\speech\\seed46\\mask26_logits.npz": "a4e6bc0845bdc2dc553bec2558072a385aa0af7d28ce57803f59e564661041dd",
+    "results\\round2\\speech\\seed46\\mask27_logits.npz": "a9dcf0c8fbb8ab3845d2a7688e55ac22474ef5059fba9fdbcc809788e457629e",
+    "results\\round2\\speech\\seed46\\mask28_logits.npz": "25b4249d263ffee2092104651d23b5bfadb053c6ae669c55f2050d56bcb2d7d6",
+    "results\\round2\\speech\\seed46\\mask29_logits.npz": "a55668732270d84e446fcf6edd544f575f49f18450dae00ee2a0c19abc03cc6f",
+    "results\\round2\\speech\\seed46\\mask30_logits.npz": "acc9cf0591c25f6962631c53c7438ad403d9a5f83cecd45f1d6a64a24c930808",
+    "results\\round2\\speech\\seed46\\mask31_logits.npz": "c72d314f833762d843a077cfe2dfd729680f220896bd8bf6c60bd944a0c6816d",
+    "results\\round2\\speech\\seed46\\mask32_logits.npz": "b959b24f8b3edcc93e1efd0574f223b7b95f7bd58661c0140b24f3749f696763",
+    "results\\round2\\speech\\seed46\\mask33_logits.npz": "1df3a74325772e4d80a90d01f4030a24140de732ef657ebf5c7ff5372cfd7b84",
+    "results\\round2\\speech\\seed46\\mask34_logits.npz": "535cd85633604502ab8d1a2f16df54e36cb6e9665b14d18e2edadece7c2fc5fc",
+    "results\\round2\\speech\\seed46\\mask35_logits.npz": "e98c701fe3800d65d206c24b3ae215b9aa17c077eb5a264db0fd87fa2cce0103",
+    "results\\round2\\speech\\seed46\\mask36_logits.npz": "fffe4d8d11d4d68724d76ae08cd47a45437b79b9ea4cbe526bab48fab956a5c6",
+    "results\\round2\\speech\\seed46\\mask37_logits.npz": "38fc23e4e208774c52cdf6bc7b4c33b18108ccae940b119811a5dcad4214629e",
+    "results\\round2\\speech\\seed46\\mask38_logits.npz": "ddeef14b938ca73fda57d66c2230071c845f40f4434444103a221a22296d6ae3",
+    "results\\round2\\speech\\seed46\\mask39_logits.npz": "3d1efdb4f87d40dfd9349d2f8fd87dad3895970ad1748423165bb4e57de0f7a7",
+    "results\\round2\\speech\\seed46\\mask40_logits.npz": "70476290aa2f159bf4d95da2017471adeb743809801f252c6a52b7dba11a3e07",
+    "results\\round2\\speech\\seed46\\mask41_logits.npz": "89e5a580df964efccfce54746647b7fc5be9abac0ef42c98be3bfbd93e1c52ea",
+    "results\\round2\\speech\\seed46\\mask42_logits.npz": "bb33ae82935046d48947156775ea5dafc8b3a94dff647c01624deb4889b38470",
+    "results\\round2\\speech\\seed46\\mask43_logits.npz": "63e1a1194bac4206e5df3e6d9380b80a1e7fc1098ce762f61948d682cf7d203b",
+    "results\\round2\\speech\\seed46\\mask44_logits.npz": "f524d60c7f0af9380d8d1ccc28ba78cd7a71df8919962ebe4e1f6a54aa000c6e",
+    "results\\round2\\speech\\seed46\\mask45_logits.npz": "7bdeffe7b4548c5d11369747c442e6f1adcd7d3aef45ebbb391d16663290a8a6",
+    "results\\round2\\speech\\seed46\\mask46_logits.npz": "4b195286c7950c2ea9fa904178e0140c7868fa1b83075c2b3590ce77b730dc94",
+    "results\\round2\\speech\\seed46\\mask47_logits.npz": "171fc55dbeb424139fa2d8d88b0f1a6fdcb1f0fee9100bc9973aaa14b7c593b7",
+    "results\\round2\\speech\\seed46\\mask48_logits.npz": "dc66b9a5627bf306e7c8e6f58e03e5726a70340c67be756250a80bc641cebb28",
+    "results\\round2\\speech\\seed46\\mask49_logits.npz": "7532321fb13478128b7eeec01dc42a2095b04f059683c80c6999b903d6a1e7c4",
+    "results\\round2\\speech\\seed46\\mask50_logits.npz": "c65733538e91b3e045b8681d7ab2c9e75290a69b063d766ae98b61098dca382d",
+    "results\\round2\\speech\\seed46\\mask51_logits.npz": "222a201a142651285c77c968ebe745879b8d8b441034e8e33c5eec47aa7bb3fb",
+    "results\\round2\\speech\\seed46\\mask52_logits.npz": "36a53fb3bc5c0eb5a9b124ea6f8d298a85fa05fa776e0f26fbad34dcb49b7680",
+    "results\\round2\\speech\\seed46\\mask53_logits.npz": "2f798625331f1ce29dd8661613782425c30b220ed382fedb57097dbcb4744075",
+    "results\\round2\\speech\\seed46\\mask54_logits.npz": "fb411dd474cf973dc10c92be292f4d14d732ba0e2361aabb40332f3d8f08ad5d",
+    "results\\round2\\speech\\seed46\\mask55_logits.npz": "ae70860a1d9e3d9c94a05b5627026b9f5a01d88165cd6062f1acad148c783ae3",
+    "results\\round2\\speech\\seed46\\mask56_logits.npz": "7354a18306b0dff669b2fb29ec5f85548949ad557a6f46c5ba67e3562c2b1a2f",
+    "results\\round2\\speech\\seed46\\mask57_logits.npz": "c3e734fe8e371c4dab472f294e838267a002dcb5f408a62df442d1d3b8b3b70a",
+    "results\\round2\\speech\\seed46\\mask58_logits.npz": "c67f9102f02821c5e00bebed379b4a460da2032856d4a216c81f391363953330",
+    "results\\round2\\speech\\seed46\\mask59_logits.npz": "00611cf509f202b6e50b449b12206b1cbcd662ce535a9f18e48e7b977508bcdc",
+    "results\\round2\\speech\\seed46\\mask60_logits.npz": "3c3e21930fd115bc6f8b1167b5d18f152ddba0c1d5f27b9293982d4629dad0f1",
+    "results\\round2\\speech\\seed46\\mask61_logits.npz": "c3ac1d1e15e4fe76cfd7340b3bd2a4a9d3019bdf59c4543ef169f3e36633ed29",
+    "results\\round2\\speech\\seed46\\mask62_logits.npz": "685e5be6bc2e60f8b7916451fb44b53f9aa906b795f8a7bca9828457000a6b92",
+    "results\\round2\\speech\\seed46\\mask63_logits.npz": "b5be7388fc1266a49e1ed641bf0d822bb0a18074bb6310c567c854d9b989e9db",
+    "results\\round2\\speech\\seed46\\mask64_logits.npz": "52c3245316ba092f19e9835cbe32fbd81464065a45b814af3ce2e8cd20d9250a",
+    "results\\round2\\speech\\seed46\\mask65_logits.npz": "3aab1b7a4e0343173ed5b028ede16f8b1a3ccd0d338f45aaf775be5b7ec1d8b0",
+    "results\\round2\\speech\\seed46\\mask66_logits.npz": "ce62654ca071f368eec43566164a944dc16db3a6a262fe9b08b18110af285f37",
+    "results\\round2\\speech\\seed46\\mask67_logits.npz": "bf5d2fb0c09bd44b7993ab724b0f6298df53096c206d65a7f657029116304b14",
+    "results\\round2\\speech\\seed46\\mask68_logits.npz": "f5902566d032c1237ef0e1cdfadeeed0d47d8d486d7f5089eb623474c0502740",
+    "results\\round2\\speech\\seed46\\mask69_logits.npz": "b47ee5131a73c8c5bcaf43daf3f9d62ff1d51d864022bf7dcd420c9f903424ec",
+    "results\\round2\\speech\\seed46\\mask70_logits.npz": "dc2ed2b0fac8df19669be43c9537fed204de3edb64db6f6bc879ce7d9c9c1837",
+    "results\\round2\\speech\\seed46\\mask71_logits.npz": "a71bd5a27dea730a7af1a132baf5a42a37f65ba1a197dc889183043c93948836",
+    "results\\round2\\speech\\seed46\\mask72_logits.npz": "26b3d42e8fbf0cfb52fd0b9cfe6c6328ba151b28fdd2094c215c0a0fb27bb1fe",
+    "results\\round2\\speech\\seed46\\mask73_logits.npz": "bdd3dc400dd1fd12a9c24486e7cd6c9535ea962e93fc40628f2bb6ca82b73e72",
+    "results\\round2\\speech\\seed46\\mask74_logits.npz": "55f5ae8804a68eae48b88ec499a61d12a2eb97193bda73fda20f0082647a1537",
+    "results\\round2\\speech\\seed46\\mask75_logits.npz": "05a4ec552330820fc0c1990f8722a4e08350903af8d0a48b4ef8032cb7b144bb",
+    "results\\round2\\speech\\seed46\\mask76_logits.npz": "12edd310971479b0d5196139c3eeea97b64e67b82eb74d0cd0cb196ad83671ac",
+    "results\\round2\\speech\\seed46\\mask77_logits.npz": "c7c3b9983e199dbfefdc683bfe7d5819e66b5e29a09304e8d882bfcad618bcc1",
+    "results\\round2\\speech\\seed46\\mask78_logits.npz": "cbdb9cab3a0a4c425482c6565268bb5571c9b35bcbf92ed39f998c32cb069e89",
+    "results\\round2\\speech\\seed46\\mask79_logits.npz": "e6681387c29ffdd1c69054e5815c7f25bf5c25092491ddabfa44643bc8ef6c1c",
+    "results\\round2\\speech\\seed46\\mask80_logits.npz": "7ecddfde70bd8f25f30f652be72ac8fd447688fedd4d748e4d21e81acc6e297c",
+    "results\\round2\\speech\\seed46\\mask81_logits.npz": "a43c951c4996dc0920c3fbaf7e130bde4b81f8807a1acf01f93e3cf7fc598c9f",
+    "results\\round2\\speech\\seed46\\mask82_logits.npz": "82026078cbf04873e8cd39ebde9e83aa111486bfe28fb4144352f19769fe02f6",
+    "results\\round2\\speech\\seed46\\mask83_logits.npz": "cc2709eb94ef0b70ed8fb3c29ac2d0b14d54af9e6c1ab5b60e34e4c8a36305eb",
+    "results\\round2\\speech\\seed46\\mask84_logits.npz": "ef1d6c1f0387874dd6d854ea7e05390104712d46fe4fe981377b70bff132995d",
+    "results\\round2\\speech\\seed46\\mask85_logits.npz": "56c351eebaabcbe076e521b0133cee12f5776fd9da80bad166b362e5161121ff",
+    "results\\round2\\speech\\seed46\\mask86_logits.npz": "9725942a94e9eb0810e25e3b58edfeac2ac69812c91835c6ea05528fab4201fe",
+    "results\\round2\\speech\\seed46\\mask87_logits.npz": "aff7ad3f1f8c8993739e419efb49ede6400e4a06ab7d7e038fe326a16306b383",
+    "results\\round2\\speech\\seed46\\mask88_logits.npz": "27fa9e99291fc5c11183b4d0609721dce9a52b2d8ee4ace93860c8487b133999",
+    "results\\round2\\speech\\seed46\\mask89_logits.npz": "28bb3ac3963d275e1dbdd6769de2646c2169c36b6036e237937f0d1414c8c7e6",
+    "results\\round2\\speech\\seed46\\mask90_logits.npz": "4cdc885397023f0ba925edf2fa159ef8809df4914303db438f1d2f6354aca8ba",
+    "results\\round2\\speech\\seed46\\mask91_logits.npz": "aabd092f2672b424c35d6c9d35016f685f9c2854156645a4ca8ab858b0927f93",
+    "results\\round2\\speech\\seed46\\mask92_logits.npz": "6c248e7b603e1b2521e0edae9ae916ad31b10bb2bc0a2587a17c04b4b4d4816b",
+    "results\\round2\\speech\\seed46\\mask93_logits.npz": "a5529b33fd34988d2b81aff4777799e8ff6367faa62d47c337ad95c29f24607b",
+    "results\\round2\\speech\\seed46\\mask94_logits.npz": "9aa4a9a448c0d3f78d9bd06f2f57d10c90b1b45fb3b3ac229c55470d8790059f",
+    "results\\round2\\speech\\seed46\\mask95_logits.npz": "9998d87d6654a8a2472802c2e313e71affc8cf04081a188c56cc093f0063bb9d",
+    "results\\round2\\speech\\seed46\\mask96_logits.npz": "ded24fd9778ec93c404243051d028f830f234d9a06e58694d8a3a3126568986f",
+    "results\\round2\\speech\\seed46\\mask97_logits.npz": "e6cf3609532fa9c4e3def7f70dd327956bbafd944682d359b5e1319abab1280c",
+    "results\\round2\\speech\\seed46\\mask98_logits.npz": "1ea6df03ba1f296ad0280637d06c77aa899138258c1ac23d2ac4f8c17c45a4f2",
+    "results\\round2\\speech\\seed46\\mask99_logits.npz": "f0bf402273fe9e3a165e833188b6939ff891b5dfffed5b265451e0d915fdd25a",
+    "results\\round2\\speech\\seed46\\mask100_logits.npz": "a3b4905a4871e5da8ca809b2fd6dcef25cfafb0d45c648974f3b7186e473ca0d",
+    "results\\round2\\speech\\seed46\\mask101_logits.npz": "d55912bd3be352b0cb56af3a3677b476253a1f34323632f3069bc565f08b3ec2",
+    "results\\round2\\speech\\seed46\\mask102_logits.npz": "b3750102d8ef1cf7498932aa11061bb9ab0392a49e46a3b78fb0fb447e33c70f",
+    "results\\round2\\speech\\seed46\\mask103_logits.npz": "83c4621c7756acd38600284039ff5139910494262731cbd5d0d69d22b4c1ab2e",
+    "results\\round2\\speech\\seed46\\mask104_logits.npz": "ae2810f7ab7bb4d98266ad19b1fb44837a81445f66869a0230dee1350b17172c",
+    "results\\round2\\speech\\seed46\\mask105_logits.npz": "99e46ddaf1d3f362ae2e1d5baa99d925e4114bf4a73cfa3a54ddc43402e8319f",
+    "results\\round2\\speech\\seed46\\mask106_logits.npz": "5deb3f27362724cbc9cfdf71a07a823adf48f56f9bd5a128203755211d8060ac",
+    "results\\round2\\speech\\seed46\\mask107_logits.npz": "8b6050ea5dc0835ef6344af072f08eccf9ef0893f6215fead3348f5140a3eae6",
+    "results\\round2\\speech\\seed46\\mask108_logits.npz": "0e6c30411dd7428de298cf2e18d57554d51b89692482da9fcc1ba72a96e85c49",
+    "results\\round2\\speech\\seed46\\mask109_logits.npz": "26a41afdbbff8beecc33e61710db275cc6c0df8e757535871af450565eaae41a",
+    "results\\round2\\speech\\seed46\\mask110_logits.npz": "30b9b1e4e80e90f3ae46f74b4dfab22088b626f958596f50f060d9884f59a657",
+    "results\\round2\\speech\\seed46\\mask111_logits.npz": "4485166f7293f2ca41f3e852b070d0b8b40e5683da163230f605041e2cc070b2",
+    "results\\round2\\speech\\seed46\\mask112_logits.npz": "d5a687d796f7dcb628cb42790c8f111ad0a8bfb124c9b5623f54e7146d86b641",
+    "results\\round2\\speech\\seed46\\mask113_logits.npz": "d91957e084af445960b63a56e0e9f0a648c90a9e6da1e2db15b6b25a9f8738c0",
+    "results\\round2\\speech\\seed46\\mask114_logits.npz": "5eea90e87c04eadbae4fd6eb43b4643b0052e9975b406ef0dc1cd4e2375b12e4",
+    "results\\round2\\speech\\seed46\\mask115_logits.npz": "ec7de83c8693bbcedeeabfa27d46199844456825684698577087190c44742882",
+    "results\\round2\\speech\\seed46\\mask116_logits.npz": "045ee8d94077088579d14f685b2b131ba45471fc9975955d5165e548ed7dffea",
+    "results\\round2\\speech\\seed46\\mask117_logits.npz": "97f169dbe820b723c5a290246b541a8aef27c89b6d0bff4700d348d23b372af1",
+    "results\\round2\\speech\\seed46\\mask118_logits.npz": "d717d2a18844dcf15da910d34a5ea5afad4f5b71c749aa3800ab0e877deead6f",
+    "results\\round2\\speech\\seed46\\mask119_logits.npz": "e2b40a6500ba4e32099fb6105a5feebdd521078d1586f48ea3020ad830007b8e",
+    "results\\round2\\speech\\seed46\\mask120_logits.npz": "b2bb16c3748716317beb5b857f073ddde5eefa40658d7f439d49004452d32976",
+    "results\\round2\\speech\\seed46\\mask121_logits.npz": "8e0c4b6953e258674001d037c2c1ca1dd7d5d8a6b5caa0a79049dd4e25efa44d",
+    "results\\round2\\speech\\seed46\\mask122_logits.npz": "11bde378f09a20df9a33e577fe446f94a8660fcb666b95937276cb847c078041",
+    "results\\round2\\speech\\seed46\\mask123_logits.npz": "01a71e2735c37ee6526100bda9b7740f0f98159667d9fc8a631a3160cc8440fa",
+    "results\\round2\\speech\\seed46\\mask124_logits.npz": "f4e878b1e62d368f67528f89b35b10172f6992f6cd7318294a0505b2ef66ba9c",
+    "results\\round2\\speech\\seed46\\mask125_logits.npz": "3f63b740e409c2a6feb5159cc878663438ff8174e3c10458169bbe81d9b353e4",
+    "results\\round2\\speech\\seed46\\mask126_logits.npz": "18ea04c40b7daac45aac25714e9065fd6d604985248a3d59a5957c1bd5340f9e",
+    "results\\round2\\speech\\seed46\\mask127_logits.npz": "be596f4dc5bd7dbf3606d1275dd57f579e525fd5b951f149ad262a58a6540af4"
+  },
+  "gate": {
+    "selection_frequency": 0.8,
+    "ece_gain": 0.001,
+    "max_accuracy_loss": 0.005,
+    "max_nll_increase": 0.005,
+    "repeats": 100,
+    "seed": 20261027,
+    "status": "exploratory_post_search_screen_not_general_utility_predictor"
+  },
+  "limitations": [
+    "Exploratory analysis; fixed CIFAR tests already observed previously",
+    "Five training seeds do not equal five independent settings",
+    "Seed-cluster percentile intervals unadjusted",
+    "No integer inference or MCU resource claims; random expectation requires exhaustive measured feasibility",
+    "Stability gate uses all candidate selection data and is a post-search screen; no search saving claimed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "selection_frequency": 0.8,
+  "ece_gain": 0.001,
+  "max_accuracy_loss": 0.005,
+  "max_nll_increase": 0.005,
+  "repeats": 100,
+  "seed": 20261027,
+  "status": "exploratory_post_search_screen_not_general_utility_predictor"
+}

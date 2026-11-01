@@ -1,0 +1,5 @@
+# Capture / inspect prebuilt STM32 firmware. Re-export also needs the existing
+# PyTorch environment documented in requirements-round2.txt.
+numpy==2.5.4
+pyserial==3.5
+pyelftools==0.32

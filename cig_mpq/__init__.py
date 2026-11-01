@@ -1,0 +1,2 @@
+"""CIG-MPQ research prototype."""
+

@@ -1,0 +1,180 @@
+{
+  "protocol": "STM32F103 source-disjoint-speech auxiliary integer smoke v1",
+  "valid_runs": [
+    {
+      "mask": 0,
+      "aliases": [
+        "uniform_w8"
+      ],
+      "folder": "hardware/mask0_20261101T091108959952Z",
+      "model_sha256": "ce4c8449f227d3614eddb79b29672c04003657ce4a5196d8920aced093386232",
+      "firmware_sha256": "aa35316f88df7a5358336174f2c14001ed49a7e890c79e956b31fe047468d749",
+      "measured_inferences": 24,
+      "warmup_inferences": 1,
+      "unique_quantization_examples": 8,
+      "all_12_logits_exact": true,
+      "all_raw_frame_crc_verified": true,
+      "flash_readback_verified": true,
+      "source_snapshot_saved_at_capture": true,
+      "clock_hz": 72000000,
+      "flash_image_bytes": 42360,
+      "static_ram_bytes": 16536,
+      "max_observed_stack_bytes": 420,
+      "observed_sram_bytes": 16956,
+      "latency_ms": {
+        "mean": 1850.4343038194445,
+        "median": 1850.4343472222224,
+        "p95": 1850.4399722222222
+      },
+      "debug_identity": {
+        "sha256": "aa35316f88df7a5358336174f2c14001ed49a7e890c79e956b31fe047468d749",
+        "device_id": 537093136,
+        "flash_capacity_kib": 64,
+        "cpuid": 1092600369
+      }
+    },
+    {
+      "mask": 34,
+      "aliases": [
+        "archived_task"
+      ],
+      "folder": "hardware/mask34_20261101T090934186914Z",
+      "model_sha256": "63e095ca58b0651042f3dd84ab7f08776dcbae414ac0ab7e8ec39dc7d618d0e1",
+      "firmware_sha256": "bdbf8412883c76e958bb9c39530dd2dc090b7e1cf059649ea41461304ba1e6c5",
+      "measured_inferences": 24,
+      "warmup_inferences": 1,
+      "unique_quantization_examples": 8,
+      "all_12_logits_exact": true,
+      "all_raw_frame_crc_verified": true,
+      "flash_readback_verified": true,
+      "source_snapshot_saved_at_capture": false,
+      "clock_hz": 72000000,
+      "flash_image_bytes": 41496,
+      "static_ram_bytes": 16536,
+      "max_observed_stack_bytes": 420,
+      "observed_sram_bytes": 16956,
+      "latency_ms": {
+        "mean": 1854.6357065972222,
+        "median": 1854.6359652777778,
+        "p95": 1854.6418888888888
+      },
+      "debug_identity": {
+        "sha256": "bdbf8412883c76e958bb9c39530dd2dc090b7e1cf059649ea41461304ba1e6c5",
+        "device_id": 537093136,
+        "flash_capacity_kib": 64,
+        "cpuid": 1092600369
+      }
+    },
+    {
+      "mask": 2,
+      "aliases": [
+        "archived_cal"
+      ],
+      "folder": "hardware/mask2_20261101T091206016267Z",
+      "model_sha256": "0ebe90463cc7905865f7682168dd517e599f253f30fe20fc761dde5ad49f08f1",
+      "firmware_sha256": "6ab87bdbb502baa7efa697062fbbebe368beb85a02df3d6059c0a775aee6276a",
+      "measured_inferences": 24,
+      "warmup_inferences": 1,
+      "unique_quantization_examples": 8,
+      "all_12_logits_exact": true,
+      "all_raw_frame_crc_verified": true,
+      "flash_readback_verified": true,
+      "source_snapshot_saved_at_capture": true,
+      "clock_hz": 72000000,
+      "flash_image_bytes": 42072,
+      "static_ram_bytes": 16536,
+      "max_observed_stack_bytes": 420,
+      "observed_sram_bytes": 16956,
+      "latency_ms": {
+        "mean": 1853.6690555555554,
+        "median": 1853.669388888889,
+        "p95": 1853.6749027777778
+      },
+      "debug_identity": {
+        "sha256": "6ab87bdbb502baa7efa697062fbbebe368beb85a02df3d6059c0a775aee6276a",
+        "device_id": 537093136,
+        "flash_capacity_kib": 64,
+        "cpuid": 1092600369
+      }
+    },
+    {
+      "mask": 35,
+      "aliases": [
+        "archived_ece"
+      ],
+      "folder": "hardware/mask35_20261101T091303051907Z",
+      "model_sha256": "26b59c41b037b62fdee9ba5dba9f6692a9e2d72c0f0d329c7878f4b79912c6a0",
+      "firmware_sha256": "ecdce0aa3c1ff246452c1882b2ef26a8bbee8decf7eb2b3028025ec9fb52bf68",
+      "measured_inferences": 24,
+      "warmup_inferences": 1,
+      "unique_quantization_examples": 8,
+      "all_12_logits_exact": true,
+      "all_raw_frame_crc_verified": true,
+      "flash_readback_verified": true,
+      "source_snapshot_saved_at_capture": true,
+      "clock_hz": 72000000,
+      "flash_image_bytes": 41208,
+      "static_ram_bytes": 16536,
+      "max_observed_stack_bytes": 420,
+      "observed_sram_bytes": 16956,
+      "latency_ms": {
+        "mean": 1868.8699444444446,
+        "median": 1868.8702430555554,
+        "p95": 1868.8785138888888
+      },
+      "debug_identity": {
+        "sha256": "ecdce0aa3c1ff246452c1882b2ef26a8bbee8decf7eb2b3028025ec9fb52bf68",
+        "device_id": 537093136,
+        "flash_capacity_kib": 64,
+        "cpuid": 1092600369
+      }
+    },
+    {
+      "mask": 127,
+      "aliases": [
+        "candidate_w4"
+      ],
+      "folder": "hardware/mask127_20261101T091957441690Z",
+      "model_sha256": "5db49434e4f2c8b30b1728ef76249d75f20bd7c169f4901cf8d2f1a8ffaad557",
+      "firmware_sha256": "0f014cbde2d6b9bc9053d29a5e0997cdd4c9ecfd53793875f5ae2b5f0a4d6241",
+      "measured_inferences": 24,
+      "warmup_inferences": 1,
+      "unique_quantization_examples": 8,
+      "all_12_logits_exact": true,
+      "all_raw_frame_crc_verified": true,
+      "flash_readback_verified": true,
+      "source_snapshot_saved_at_capture": true,
+      "clock_hz": 72000000,
+      "flash_image_bytes": 26584,
+      "static_ram_bytes": 16536,
+      "max_observed_stack_bytes": 420,
+      "observed_sram_bytes": 16956,
+      "latency_ms": {
+        "mean": 1923.9636805555556,
+        "median": 1923.9637361111113,
+        "p95": 1923.9733611111112
+      },
+      "debug_identity": {
+        "sha256": "0f014cbde2d6b9bc9053d29a5e0997cdd4c9ecfd53793875f5ae2b5f0a4d6241",
+        "device_id": 537093136,
+        "flash_capacity_kib": 64,
+        "cpuid": 1092600369
+      }
+    }
+  ],
+  "failed_runs_retained": [
+    {
+      "folder": "mask34_20261101T090816638216Z",
+      "state": "failed",
+      "error": "ValueError('device identity/capacity does not match STM32F103 medium-density target')"
+    }
+  ],
+  "total_measured_inferences": 120,
+  "limitations": [
+    "One physical board, one training seed, eight quantization-role examples.",
+    "Repeated examples characterize engineering timing and parity, not independent predictive performance.",
+    "Nominal firmware clock, no externally measured oscillator frequency; PC computes MFCC.",
+    "Folded-BN fixed-point backend differs from original fake quantization; policies not reoptimized.",
+    "No test-set accuracy/NLL/ECE, mixed-precision utility, energy or multi-board generalization claim."
+  ]
+}
